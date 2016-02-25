@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import re
 import os
 import urllib2
@@ -10,11 +8,11 @@ import csv
 from selenium import webdriver
 import math
 
-os.chdir('C:\Users\Besitzer\Tresor\john.locker\Mega\Python working directory\whoscored scraping') 
+#os.chdir(path to working directory) 
                 
 def get_content(url):
     opener = urllib2.build_opener()
-    opener.addheaders = [('User-agent', 'Mozilla/5.0')] #user agent as in twitter example
+    opener.addheaders = [('User-agent', 'Mozilla/5.0')]
     resource = opener.open(url)
     html = resource.read()
     resource.close() 
@@ -383,7 +381,7 @@ seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336',
 path = 'player_stats.csv'
 phantomscrape = True
 phantomscrapeTables = True
-phantomjs_path = r'C:\Users\Besitzer\phantomjs.exe'
+phantomjs_path = r'location of phantom.exe'
 allMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
              'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
