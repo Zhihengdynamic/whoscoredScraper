@@ -5,6 +5,7 @@ Created on Wed Mar 02 10:38:30 2016
 @author:  Jonathan Klaiber
 """
 import re
+from bs4 import BeautifulSoup
 #import urllib2
 
 def get_match_ids(soup):
@@ -15,6 +16,18 @@ def get_match_ids(soup):
     for match in matches:
         matchIds.append(re.findall("Matches/(.*?)/MatchReport", str(match))[0])
     return matchIds
+        
+def extract_value(table, string):
+    find = re.findall('"' + string + '">(.*?)<' , str(table))
+    return str(find).strip('[]').replace('\\t', '').replace("'", "")
+
+def extract_teams(entry):
+    output = []
+    allEntries = entry.findAll("a", {"class": "team-link "})
+    for teams in allEntries:
+        output.append(teams.contents[0])
+    return output
+    
     
 #def get_button_title(soup, side = 'right'):
 #    matchButton = soup.findAll("div", {"id": "date-controller"})[0].findAll("a", {"href": "#"})
@@ -32,7 +45,3 @@ def get_match_ids(soup):
 #    html = resource.read()
 #    resource.close() 
 #    return html
-    
-def extract_value(table, string):
-    find = re.findall('"' + string + '">(.*?)<' , str(table))
-    return str(find).strip('[]').replace('\\t', '').replace("'", "")

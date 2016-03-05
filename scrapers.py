@@ -12,6 +12,8 @@ from random import randint
 import time
 from bs4 import BeautifulSoup
 
+
+
 # internal moduels
 from python_helpers import merge_dicts
 from scraper_helpers import extract_value
@@ -212,8 +214,8 @@ def scrape_single_match(season, match_url, matchdayIdentifier, phantom = True):
     
     match_data = []
     for player in homeDic + awayDic:
-        player['matchdayIdentifier'] = matchdayIdentifier
-        player['matchIdentifier'] = matchdayIdentifier + "_" + homeTeam + '-' + awayTeam
+        player['matchdayIdentifier'] = matchdayIdentifier + "_" + homeTeam + '-' + awayTeam
+        player['matchIdentifier'] = match_url.split('Matches/')[1]
         player['score'] = score
         player['date'] = date
         player['season'] = season

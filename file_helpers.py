@@ -16,7 +16,7 @@ def write_to_disk(data, name, rowwise = False):
     text_file.close()
 
 def open_from_disk(name):
-    filename = name + ".txt"
+    filename = name + '.txt'
     output = []
     if os.path.isfile(filename):
         with open(filename, 'rb') as openfile:
@@ -56,4 +56,23 @@ def write_to_csv(path, data, append = False):
             for row in outputDic:
                 writer.writerow(row)
     out_file.close()
+    
+def open_from_csv(filename, firstrowHeader = True, path = './'):
+    output= []
+    headerRow = True
+    with open(path + filename + '.csv', 'rb') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if row == []:
+                continue
+            if firstrowHeader:
+                if headerRow:
+                    headers = row
+                    headerRow = False
+                else:                    
+                    output.append(dict(zip(headers, row)))
+            else:
+                output.append(row)               
+    return output
+    
     

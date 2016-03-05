@@ -27,20 +27,20 @@ from scrapers import scrape_matchday
 #----------------------------------------------------------------------
 
 # Main
-#seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336',
-#            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/3863',
-#            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/3424',
-#            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2949',
-#            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2520',
-#            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/1903']
-seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336']
+
+seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336',
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/3863',
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/3424',
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2949',
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2520',
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/1903']
+#seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336']
             
 path = 'player_stats.csv'
 phantomscrape = True
 phantomscrapeTables = True
 allMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
              'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-
 
 
 sync_lists('scrapedDates', 'matchIdsSaved')
@@ -184,4 +184,3 @@ for seed_url in seed_urls:
     endseason = time.time()
     print 'Scraping of season '+ years[0] + '-' + years[1] +' took ' + str(round((endseason - startseason) / 60, 2)) + " minutes."
     browser.quit()
-
