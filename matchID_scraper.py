@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 03 13:54:15 2016
 
-@author: Besitzer
+@author: JK
 """
 
 # Exernal modules
@@ -13,7 +13,6 @@ from selenium import webdriver
 
 # change wd
 
-os.chdir('C:/Users/Besitzer/Tresor/john.locker/Mega/UGent Statistical Data Analysis/master thesis/repository') 
 # import local functions
 from file_helpers import write_to_disk
 from file_helpers import open_from_disk

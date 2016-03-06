@@ -2,7 +2,7 @@
 """
 Created on Wed Mar 02 10:38:30 2016
 
-@author:  Jonathan Klaiber
+@author:  JK
 """
 import re
 from bs4 import BeautifulSoup

@@ -2,7 +2,7 @@
 """
 Created on Wed Mar 02 10:40:03 2016
 
-@author: Jonathan Klaiber
+@author: JK
 """
 
 from file_helpers import open_from_disk

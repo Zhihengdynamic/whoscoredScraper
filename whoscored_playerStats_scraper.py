@@ -1,7 +1,7 @@
 """
 Created on Wed Mar 02 10:46:23 2016
 
-@author: Jonathan Klaiber
+@author: JK
 """
 # Exernal modules
 import os
