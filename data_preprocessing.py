@@ -7,8 +7,6 @@ Created on Wed Mar 02 17:23:35 2016
 
 import os
 # change we
-
-
 from file_helpers import open_from_csv
 from file_helpers import open_from_disk
 from file_helpers import write_to_csv
@@ -53,7 +51,7 @@ game_parameters = ['bigError',
 specialCases = []
 for entry in data:
     # set substitution players game time to zero
-    entry['Substituted'] = False
+    entry['substituted'] = False
     if entry['Position'] == 'Sub':
         if entry['rating'] == '-':
             check = True
@@ -68,8 +66,19 @@ for entry in data:
             if check:
                 entry['playedMinutes'] = '0'
         else:
-            entry['Substituted'] = True
-       
+            entry['substituted'] = True
+    if entry['result'] == 'win':
+        entry['pointsWon'] = 3
+    elif entry['result'] == 'defeat':
+        entry['pointsWon'] = 0
+    else:
+        entry['pointsWon'] = 1
+    # give player entries consistent names
+    # which means to make first letter a small letter
+    for key in entry:
+        if key[0].isupper():
+           entry[key[0].lower() + key[1:]] = entry.pop(key) 
+    
 
 matchID = open_from_disk('matchIdTeamLink')
 
@@ -130,7 +139,7 @@ for entry in data:
     info = info[0]
     entry['matchID'] = info['id']
     entry['matchday'] = info['matchday']
-    entry['ReMatchID'] = info['reMatch ID']
+    entry['reMatchID'] = info['reMatch ID']
     entry['date'] = info['date']
     del entry['matchdayIdentifier']
     del entry['matchIdentifier']
@@ -154,11 +163,36 @@ for ID in matchIDS:
     match = search_entry('matchID', ID, data)
     numberPlayers.append(len(match) / float(2))
     minutes = [dic['playedMinutes'] for dic in match 
-            if dic['Position'] != 'Sub']
+            if dic['position'] != 'Sub']
     subPlayers = [dic for dic in match 
             if dic['playedMinutes'] != str(int(np.median(map(int, minutes))))]
     for player in subPlayers:
-        player['Substituted'] = True
+        player['substituted'] = True
         
+# correct names of teams
+teams = [entry["team"] for entry in data]
+uniqueTeams = list(set(teams))
+
+for entry in data:
+    if entry['team'] == 'Leverkusen':
+        entry['team'] = 'Bayer Leverkusen'
+    if entry['team'] == 'Bayern':
+        entry['team'] = 'Bayern Munich'
+    if entry['team'] == 'Mainz 05':
+        entry['team'] = 'Mainz'
+    if entry['team'] == 'Hamburger SV':
+        entry['team'] = 'Hamburg'
+    if entry['team'] == 'VfB Stuttgart':
+        entry['team'] = 'Stuttgart'
+    if entry['team'] == 'Hannover 96':
+        entry['team'] = 'Hannover'
+    if entry['team'] == 'Schalke 04':
+        entry['team'] = 'Schalke'
+        
+# check if team names are unquie now
+teamsNew = [entry["team"] for entry in data]
+uniqueTeamsNew = list(set(teamsNew))
+uniqueTeamsNew.sort()
+
 dataSorted = sorted(data, key=lambda entry: entry['date'])
 write_to_csv('player_stats_validated.csv', dataSorted, append = False)
