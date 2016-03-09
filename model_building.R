@@ -47,7 +47,7 @@ I2 <- function(data) {
         ratio <- currentData$playedMinutes[i] / totalMinutes
         # product of ratio and points for game is the I2
         pointsI2 <- points * ratio
-        matchDF <- rbind(matchDF, data.frame(name = name, points = pointsI2,
+        matchDF <- rbind(matchDF, data.frame(name = name, pointsI2 = pointsI2,
                                              stringsAsFactors = FALSE))
       }
     }
@@ -59,8 +59,8 @@ I2 <- function(data) {
       } else {
         # update points of player
         nameIndex <- which(outputDF$name == matchDF$name[j])
-        outputDF$points[nameIndex] <- (outputDF$points[nameIndex] 
-                                        + matchDF$points[j])
+        outputDF$pointsI2[nameIndex] <- (outputDF$pointsI2[nameIndex] 
+                                        + matchDF$pointsI2[j])
       }
     }
     # montiors progress
@@ -73,7 +73,7 @@ I2 <- function(data) {
 #example
 season2014 <- I2(data)
 #quick check
-View(season2014[order(season2014$points, decreasing = TRUE), ])
+View(season2014[order(season2014$pointsI2, decreasing = TRUE), ])
 
 
 
@@ -92,7 +92,7 @@ View(season2014[order(season2014$points, decreasing = TRUE), ])
 # are more ties in the premier league than in the Bundesliga)
 gamePointAverage <- mean(data$pointsWon)
 
-I3 <- function(data) {
+I3 <- function(data, gamePointAverage) {
   matches <- unique(data$matchID)
   outputDF <- data.frame()
   p <- 1
@@ -156,12 +156,88 @@ I3 <- function(data) {
   for(k in 1:dim(outputDF)[1]) {
     totalMins <- subset(teamDF, team == outputDF$team[k])$totalMinutes
     outputDF$ratio[k] <- outputDF$minutes[k] / totalMins
-    outputDF$points[k] <-  (outputDF$minutes[k] / totalMins) * gamePointAverage
+    outputDF$pointsI3[k] <-  (outputDF$minutes[k] / 
+                                totalMins) * gamePointAverage
   }
   return(outputDF)
 }
 
 #example
-season2014I3 <- I3(data)
+season2014I3 <- I3(data, gamePointAverage)
 #quick check
-View(season2014I3[order(season2014I3$points, decreasing = TRUE), ])
+View(season2014I3[order(season2014I3$pointsI3, decreasing = TRUE), ])
+
+
+#Subindex 4: Goal-Scoring Index
+
+# Description:
+# The points awarded to a player in a
+# match for goals, I4, is then simply the points per goal
+# multiplied by the number of goals.
+
+# compute points per goal (over all seasons)
+totalPoints <- 0
+totalGoals <- 0
+for(id in unique(data$matchID)) {
+  score <- data[data$matchID == id,]$score[1]
+  points <- data[data$matchID == id,]$pointsWon[1]
+  # split the score and add all goals scored
+  totalGoals <- totalGoals + sum(as.numeric(unlist(strsplit(score, ' : '))))
+  # in case of a tie, each team earns 1 point (2 together) and
+  # else it was a win/defeat, thus one team receives 3 points
+  if(points == 1) {
+    totalPoints <- totalPoints + 2
+  } else {
+    totalPoints <- totalPoints + 3
+  }
+  Progressor(which(id == unique(data$matchID)), length(unique(data$matchID)))
+}
+
+# Points per goal
+pointsPerGoal <- totalPoints / totalGoals
+
+I4 <- function(data, pointsPerGoal) {
+  # select players that scored more than 0 goals
+  goalScorerDF <- subset(data[, c('name', 'goalScored')], goalScored > 0)
+  # aggregate goals per player
+  outputDF <- aggregate(goalScored ~ name, sum, data = goalScorerDF)
+  # select players with goal = 0 and add to data.frame
+  names <- outputDF[, "name"]
+  namesOthers <- unique(subset(data, !(name %in% names))[, "name"])
+  outputDF <- rbind(outputDF, 
+                    data.frame(name = namesOthers, 
+                               goalScored = rep(0, length(namesOthers))))
+  # points for I4 are the scored gload times points per goal
+  outputDF[, "pointsI4"] <- outputDF[, "goalScored"] * pointsPerGoal
+  return(outputDF)
+}
+#example
+season2014I4 <- I4(data, pointsPerGoal)
+#quick check
+View(season2014I4[order(season2014I4$pointsI4, decreasing = TRUE), ])
+
+#Subindex 4: Goal-Scoring Index
+
+# Description:
+# Analogous to the goals-scored index, each player who
+# provides an assist gets pointsPerGoal for that assist.
+
+I5 <- function(data, pointsPerGoal) {
+  # select players that had more than 0 assists
+  assistDF <- subset(data[, c('name', 'assists')], assists > 0)
+  # aggregate goals per player
+  outputDF <- aggregate(assists ~ name, sum, data = assistDF)
+  # select players with goal = 0 and add to data.frame
+  names <- outputDF[, "name"]
+  namesOthers <- unique(subset(data, !(name %in% names))[, "name"])
+  outputDF <- rbind(outputDF, 
+                    data.frame(name = namesOthers, 
+                               assists = rep(0, length(namesOthers))))
+  # points for I4 are the scored gload times points per goal
+  outputDF[, "pointsI5"] <- outputDF[, "assists"] * pointsPerGoal
+  return(outputDF)
+}
+#example
+season2014I5 <- I5(data, pointsPerGoal)
+#quick check
+View(season2014I5[order(season2014I5$pointsI5, decreasing = TRUE), ])
