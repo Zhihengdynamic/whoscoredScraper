@@ -6,8 +6,7 @@ Created on Wed Mar 02 17:23:35 2016
 """
 
 import os
-os.chdir('C:/Users/Besitzer/Tresor/john.locker/Mega/UGent Statistical Data Analysis/master thesis/repository') 
-# change we
+
 from file_helpers import open_from_csv
 from file_helpers import open_from_disk
 from file_helpers import write_to_csv
