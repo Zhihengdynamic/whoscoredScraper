@@ -6,6 +6,7 @@ Created on Wed Mar 02 17:23:35 2016
 """
 
 import os
+os.chdir('C:/Users/Besitzer/Tresor/john.locker/Mega/UGent Statistical Data Analysis/master thesis/repository') 
 # change we
 from file_helpers import open_from_csv
 from file_helpers import open_from_disk
@@ -162,12 +163,120 @@ numberPlayers = []
 for ID in matchIDS:
     match = search_entry('matchID', ID, data)
     numberPlayers.append(len(match) / float(2))
+
+    # compute saves
+    onTargetHome = 0
+    onTargetAway = 0
+    clearanceHome = 0
+    clearanceAway = 0
+    goalsHome = 0
+    goalsAway = 0
+    for player in match:
+        if player['position'] != 'GK':
+            player['saves'] = '0'
+            player['savesAccuracy'] = '0'
+            if player['pitch'] == "home":
+                onTargetHome += int(player['shotOnTarget'])
+                clearanceHome += int(player['bigClearance'])
+                goalsHome += int(player['goalScored'])
+            else:
+                onTargetAway += int(player['shotOnTarget'])
+                clearanceAway += int(player['bigClearance'])
+                goalsAway += int(player['goalScored'])
+                
+    goaliHome = [player for player in match if player["position"] == 'GK' 
+                    and player['pitch'] == 'home'][0]
+     
+    # saves of home goali are claculated by shot on target of opponent
+    # minus saves on the line of the defense minus shots that were not saved(goals)              
+    goaliHome['saves'] = onTargetAway - clearanceHome - goalsAway
+    
+    if (onTargetAway - clearanceHome) > 0:
+        goaliHome['savesAccuracy'] = 100 - (goalsAway / float(onTargetAway 
+                                            - clearanceHome) * 100)
+    else:
+        goaliHome['savesAccuracy'] = 100
+    
+    goaliAway = [player for player in match if player["position"] == 'GK' 
+                    and player['pitch'] == 'away'][0]
+                    
+    goaliAway['saves'] = onTargetHome - clearanceAway - goalsHome
+    
+    if (onTargetHome - clearanceAway) > 0:
+        goaliAway['savesAccuracy'] = 100 - (goalsHome / float(onTargetHome
+                                            - clearanceAway) * 100)
+    else:
+        goaliAway['savesAccuracy'] = 100
+     
+    
     minutes = [dic['playedMinutes'] for dic in match 
             if dic['position'] != 'Sub']
+    fullMinutes = int(np.median(map(int, minutes)))        
     subPlayers = [dic for dic in match 
-            if dic['playedMinutes'] != str(int(np.median(map(int, minutes))))]
+            if dic['playedMinutes'] != str(fullMinutes) 
+            and dic['playedMinutes'] != '0']
     for player in subPlayers:
         player['substituted'] = True
+    
+    # calculate saves of goalis that have been substituted
+    if goaliHome['substituted'] or goaliHome['redCard'] == 'True':
+        # all saves
+        savesTotal = goaliHome['saves']
+        goaliMinShare = int(goaliHome['playedMinutes']) / float(fullMinutes)
+        goaliHome['saves'] = goaliMinShare * savesTotal
+        # find substitute of goali
+        goaliSub = [dic for dic in match 
+            if dic['playedMinutes'] == str(fullMinutes 
+            - int(goaliHome['playedMinutes']) )  and
+            dic['position'] == 'Sub']
+        if len(goaliSub) != 1:
+            names = []
+            for goali in goaliSub:
+                names.append(goali['name'])
+            for name in names:
+                for pos in search_entry('name', name, data):
+                    if pos == 'GK':
+                        goaliSub = goaliSub[names.index(name)]
+                        break
+                if len(goaliSub) == 1:
+                    break
+            # if no other goali was found, just take the first entry
+            if len(goaliSub) != 1:
+                goaliSub = goaliSub[0]
+        else:
+            goaliSub = goaliSub[0]
+        goaliSub['saves'] = (1 - goaliMinShare) * savesTotal
+        goaliSub['savesAccuracy'] = goaliHome['savesAccuracy']
+        
+    if goaliAway['substituted'] or goaliAway['redCard'] == 'True':
+        # all saves
+        savesTotal = goaliAway['saves']
+        goaliMinShare = int(goaliAway['playedMinutes']) / float(fullMinutes)
+        goaliAway['saves'] = goaliMinShare * savesTotal
+        # find substitute of goali
+        goaliSub = [dic for dic in match 
+            if dic['playedMinutes'] == str(fullMinutes 
+            - int(goaliAway['playedMinutes'])) and
+            dic['position'] == 'Sub']
+        if len(goaliSub) != 1:
+            names = []
+            for goali in goaliSub:
+                names.append(goali['name'])
+            for name in names:
+                for pos in search_entry('name', name, data):
+                    if pos == 'GK':
+                        goaliSub = goaliSub[names.index(name)]
+                        break
+                if len(goaliSub) == 1:
+                    break
+            # if no other goali was found, just take the first entry
+            if len(goaliSub) != 1:
+                goaliSub = goaliSub[0]
+        else:
+            goaliSub = goaliSub[0]
+        goaliSub['saves'] = (1 - goaliMinShare) * savesTotal
+        goaliSub['savesAccuracy'] = goaliAway['savesAccuracy']
+        
         
 # correct names of teams
 teams = [entry["team"] for entry in data]

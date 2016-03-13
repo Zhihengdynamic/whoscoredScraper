@@ -41,6 +41,10 @@ phantomscrape = True
 phantomscrapeTables = True
 allMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
              'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+             
+             
+# TO DO:
+# log time of red card
 
 
 sync_lists('scrapedDates', 'matchIdsSaved')

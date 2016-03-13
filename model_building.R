@@ -7,7 +7,12 @@ set.seed(123)
 #internal functions
 source('Progressor.R')
 
-data <- read.csv('player_stats_validated.csv', encoding = 'UTF-8', 
+# get path to repository
+path <- unlist(read.table('repPath.txt'))
+
+# load data from repository
+data <- read.csv(file.path(path, 'player_stats_validated.csv'), 
+                 encoding = 'UTF-8', 
                  stringsAsFactors = FALSE)
 
 data <- subset(data, season == '2014-2015')
