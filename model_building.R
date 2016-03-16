@@ -7,6 +7,9 @@ set.seed(123)
 #internal functions
 source('Progressor.R')
 
+# View indices
+viewIndices <- FALSE
+
 # get path to repository
 path <- unlist(read.table('repPath.txt'))
 
@@ -78,8 +81,9 @@ I2 <- function(data) {
 #example
 season2014 <- I2(data)
 #quick check
-View(season2014[order(season2014$pointsI2, decreasing = TRUE), ])
-
+if(viewIndices) {
+  View(season2014[order(season2014$pointsI2, decreasing = TRUE), ])
+}
 
 
 #Subindex 3: Appearance Index
@@ -170,8 +174,9 @@ I3 <- function(data, gamePointAverage) {
 #example
 season2014I3 <- I3(data, gamePointAverage)
 #quick check
-View(season2014I3[order(season2014I3$pointsI3, decreasing = TRUE), ])
-
+if(viewIndices) {
+  View(season2014I3[order(season2014I3$pointsI3, decreasing = TRUE), ])
+}
 
 #Subindex 4: Goal-Scoring Index
 
@@ -219,9 +224,10 @@ I4 <- function(data, pointsPerGoal) {
 #example
 season2014I4 <- I4(data, pointsPerGoal)
 #quick check
-View(season2014I4[order(season2014I4$pointsI4, decreasing = TRUE), ])
-
-#Subindex 4: Goal-Scoring Index
+if(viewIndices) {
+  View(season2014I4[order(season2014I4$pointsI4, decreasing = TRUE), ])
+}
+#Subindex 5: Assist Index
 
 # Description:
 # Analogous to the goals-scored index, each player who
@@ -245,4 +251,64 @@ I5 <- function(data, pointsPerGoal) {
 #example
 season2014I5 <- I5(data, pointsPerGoal)
 #quick check
-View(season2014I5[order(season2014I5$pointsI5, decreasing = TRUE), ])
+if(viewIndices) {
+  View(season2014I5[order(season2014I5$pointsI5, decreasing = TRUE), ])
+}
+#Subindex 6: Clean-Sheets Index
+
+# Description:
+# The clean-sheet index awards points for not receiving a goal. 
+# The points given for a clean sheet are weighted by the players that 
+# have the biggest impact on a clean sheet
+
+# To maintain the balance of the overall index, we take
+# the total points awarded for clean sheets to be equal
+# to the total points for assists.
+
+totalAssists <- sum(data$assists)
+
+totalCleanSheets <- 0
+for(ID in unique(data$matchID)) {
+  if(as.logical(subset(data, matchID == ID 
+                       & pitch == 'home')[1,'cleanSheet'])) {
+    totalCleanSheets <- totalCleanSheets + 1
+  }
+  if(as.logical(subset(data, matchID == ID 
+                       & pitch == 'away')[1,'cleanSheet'])) {
+    totalCleanSheets <- totalCleanSheets + 1
+  }
+  # monitor progress
+  Progressor(which(ID == unique(data$matchID)), length(unique(data$matchID)))
+}
+
+pointsPerCleanSheet <- (pointsPerGoal * totalAssists) / totalCleanSheets
+
+# We now need to divide these
+# points among the entire team that achieved the clean
+# sheet; thus, the points for the clean sheet are not
+# awarded to a single player.
+
+defensiveActions <- c('shotBlocked', 
+                      "clearanceTotal", 
+                      'tackleWonTotal',
+                      'interceptionAll',
+                      'saves')
+
+# the extended version not according to the article but
+# with additional defensive actions that are available from the data
+# the offsides given could be also considered but should be distributed
+# evenly amoung the clean sheet team
+defensiveActionsExtended <- c('shotBlocked', 
+                          "clearanceTotal", 
+                          'tackleWonTotal',
+                          'interceptionAll',
+                          'saves', 
+                          'dispossessed',
+                          "duelAerialWon")
+
+# compute weights for clean sheet
+# for(i in 1:length(data)) {
+#   
+# }
+
+

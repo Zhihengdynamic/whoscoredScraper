@@ -6,6 +6,11 @@ Created on Wed Mar 02 17:23:35 2016
 """
 
 import os
+with open('python-wd.txt', 'r') as f:
+    wdPath = f.read()
+f.closed
+
+os.chdir(wdPath)
 
 from file_helpers import open_from_csv
 from file_helpers import open_from_disk
@@ -162,6 +167,16 @@ numberPlayers = []
 for ID in matchIDS:
     match = search_entry('matchID', ID, data)
     numberPlayers.append(len(match) / float(2))
+    
+    # clean sheet    
+    score = match[0]['score'].split(' : ')
+    
+    homeCleanSheet = False
+    awayCleanSheet = False
+    if score[0] == '0':
+        homeCleanSheet = True
+    if score[1] == '0':
+        awayCleanSheet = True
 
     # compute saves
     onTargetHome = 0
@@ -171,6 +186,11 @@ for ID in matchIDS:
     goalsHome = 0
     goalsAway = 0
     for player in match:
+        # clean sheet
+        if player['pitch'] == 'home':
+            player['cleanSheet'] = homeCleanSheet
+        else:
+            player['cleanSheet'] = awayCleanSheet
         if player['position'] != 'GK':
             player['saves'] = '0'
             player['savesAccuracy'] = '0'
