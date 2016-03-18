@@ -79,10 +79,10 @@ I2 <- function(data) {
 }
 
 #example
-season2014 <- I2(data)
+season2014I2 <- I2(data)
 #quick check
 if(viewIndices) {
-  View(season2014[order(season2014$pointsI2, decreasing = TRUE), ])
+  View(season2014I2[order(season2014I2$pointsI2, decreasing = TRUE), ])
 }
 
 
@@ -254,6 +254,10 @@ season2014I5 <- I5(data, pointsPerGoal)
 if(viewIndices) {
   View(season2014I5[order(season2014I5$pointsI5, decreasing = TRUE), ])
 }
+
+
+
+
 #Subindex 6: Clean-Sheets Index
 
 # Description:
@@ -306,9 +310,144 @@ defensiveActionsExtended <- c('shotBlocked',
                           'dispossessed',
                           "duelAerialWon")
 
+# different player positions divided into defense, midfield and attack
+defense <- c('DC', 'DR', 'DL', "DMC", 'DMR', 'DML')
+midfield <- c('MR', 'MC', 'ML','AMC', 'AMR', 'AML')
+attack <- c('FW', "FWR", 'FWL')
+
 # compute weights for clean sheet
-# for(i in 1:length(data)) {
-#   
-# }
+totalGoali <- 0
+totalDefense <- 0
+totalMidfield <- 0
+totalAttack <- 0
+totalSub <- 0
+
+# substitute player are not taken into account because
+# there is no information on which position they took oven
+# when they entered the game (this does not matter for the clena sheet weights)
+
+for(i in 1:dim(data)[1]) {
+  player <- data[i,]
+  playerActions <- 0
+  for(stat in defensiveActions) {
+    playerActions <- playerActions + as.numeric(player[, stat])
+  }
+  if(player$position == 'GK') {
+    totalGoali <- totalGoali + playerActions
+  } else if (player$position %in% defense) {
+    totalDefense <- totalDefense + playerActions
+  } else if (player$position %in% midfield) {
+    totalMidfield <- totalMidfield + playerActions
+  } else if (player$position %in% attack) {
+    totalAttack <- totalAttack + playerActions
+  } else {
+    totalSub <- totalSub + playerActions
+  }
+  Progressor(i, dim(data)[1])
+}
+
+# The proportion of total defensive actions made
+# per position (based on four defenders, four midfielders, two strikers
+# and one goal keeper per team);
+
+# when we calculate the distribution of positions among player, we get
+# a value of 0.99 for goali, 5.17 for defense, 3.41 for mid and 1.43 for striker
+# for an improved version of the index, this allocation numbers can be used
+
+totalWeight <- (totalGoali + totalDefense + totalMidfield + totalAttack)
+
+weightGK <- totalGoali / totalWeight
+weightDef <- totalDefense / 4 / totalWeight
+weightMid <-  totalMidfield / 4 / totalWeight
+weightAtt <- totalAttack / 2 / totalWeight
+
+# allocation according to real distribution
+# weightGK <- totalGoali / totalWeight / 0.99
+# weightDef <- totalDefense / totalWeight / 5.17
+# weightMid <-  totalMidfield / totalWeight / 3.41
+# weightAtt <- totalAttack / totalWeight / 1.43
+
+# calculate probability of sub to play on a certain position
+
+# goalis and substitutes are not taken into account because
+# goalis get almost never subsituted
+positions <- table(data$position)
+positions <- positions[!(names(positions) %in% c('GK', 'Sub'))]
+playerProp <- prop.table(positions)
+
+defProp <- sum(playerProp[names(playerProp) %in% defense])
+midProp <- sum(playerProp[names(playerProp) %in% midfield])
+attProp <- sum(playerProp[names(playerProp) %in% attack])
+
+# put all weights and proportions together to insert them into I6 function
+weights <- list(weightGK = weightGK, 
+                weightDef = weightDef, 
+                weightMid = weightMid,
+                weightAtt = weightAtt,
+                defProp = defProp,
+                midProp = midProp,
+                attProp = attProp)
+
+I6 <- function(data, pointsPerCleanSheet, weights) {
+  with(weights, {
+    # every player receives zero points at beginning
+    outputDF <- data.frame(name = unique(data$name), pointsI6 = 0)
+    for(ID in unique(data$matchID)) {
+      homeTeam <- subset(data, matchID == ID 
+                         & pitch == 'home')
+      awayTeam <- subset(data, matchID == ID 
+                         & pitch == 'away')
+      # players that should receive points put into receivePoints df
+      receivePoints <- data.frame()
+      if(as.logical(homeTeam[1,'cleanSheet'])) {
+          receivePoints <- rbind(receivePoints, homeTeam)
+      }
+      if(as.logical(awayTeam[1,'cleanSheet'])) {
+        receivePoints <- rbind(receivePoints, awayTeam)
+      }
+      # if there are players that should receive points,
+      # allocate points according to weights
+      if(nrow(receivePoints) > 0) {
+        for(i in 1:dim(receivePoints)[1]) {
+          player <- receivePoints[i,]
+          if(player$position == 'GK') {
+            points <- weightGK * pointsPerCleanSheet
+          } else if (player$position %in% defense) {
+            points <- weightDef * pointsPerCleanSheet
+          } else if (player$position %in% midfield) {
+            points <- weightMid * pointsPerCleanSheet
+          } else if (player$position %in% attack) {
+            points <- weightAtt * pointsPerCleanSheet
+          } else {
+            # else if player is substitute, we draw 
+            # the sub position from distribution of positions
+            points <- sample(c(weightDef, 
+                               weightMid, 
+                               weightAtt),
+                             size = 1,
+                             prob = c(defProp,
+                                      midProp,
+                                      attProp)) * pointsPerCleanSheet
+          }
+          # update points of player
+          nameIndex <- which(outputDF$name == player$name)
+          outputDF$pointsI6[nameIndex] <- (outputDF$pointsI6[nameIndex] 
+                                            + points)
+        }
+      }
+      # monitor progress
+      Progressor(which(ID == unique(data$matchID)), length(unique(data$matchID)))
+    }
+    return(outputDF)
+  })
+}
+
+#example
+season2014I6 <- I6(data, pointsPerCleanSheet, weights)
+#quick check
+if(viewIndices) {
+  View(season2014I6[order(season2014I6$pointsI6, decreasing = TRUE), ])
+}
+
 
 
