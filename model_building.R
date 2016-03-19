@@ -20,9 +20,311 @@ data <- read.csv(file.path(path, 'player_stats_validated.csv'),
 
 data <- subset(data, season == '2014-2015')
 
+data$saves <- as.numeric(data$saves)
+data$yellowCard <- as.logical(data$yellowCard)
+data$redCard <- as.logical(data$redCard)
+
 # Develop the different sub indices
 
 #Subindex 1: Modelling Match Outcome
+
+matches <- unique(data$matchID)
+aggregatedDF <- data.frame()
+aggregatedDFex <- data.frame()
+
+# prob of home goal given shot by home team (shot effectiveness)
+# in PPI this is constant per team in season 
+# for a extended (beter) version, it should be also dependent on home/away effect
+teams <- unique(data$team)
+
+# data should contain only one season
+shotEffectDF <- data.frame()
+for(team in teams) {
+  goalsHome <- sum(data$goalScored[data$team == team & data$pitch == 'home'])
+  goalsAway <- sum(data$goalScored[data$team == team & data$pitch == 'away'])
+  shotsHome <- sum(data$shotsTotal[data$team == team & data$pitch == 'home'])
+  shotsAway <- sum(data$shotsTotal[data$team == team & data$pitch == 'away'])
+  shotEffect <- (goalsHome + goalsAway) / (shotsHome + shotsAway)
+  shotEffectDF <- rbind(shotEffectDF, data.frame(team = team, 
+                                                 shotEffect = shotEffect,
+                                                 goalsHome = goalsHome,
+                                                 goalsAway = goalsAway,
+                                                 shotsHome = shotsHome,
+                                                 shotsAway = shotsAway,
+                                                 stringsAsFactors = FALSE))
+}
+View(shotEffectDF)
+
+
+for(match in matches) {
+  matchDat <- subset(data, matchID == match)
+  
+  teams <- paste0(c(matchDat$team[matchDat$pitch == 'home'][1], 
+                    matchDat$team[matchDat$pitch == 'away'][1]),
+                  collapse = ' - ')
+  hShots <- sum(matchDat$shotsTotal[matchDat$pitch == 'home'])
+  aShots <- sum(matchDat$shotsTotal[matchDat$pitch == 'away'])
+  hCross <- sum(matchDat$passCrossTotal[matchDat$pitch == 'home'])
+  aCross <- sum(matchDat$passCrossTotal[matchDat$pitch == 'away'])
+  hDribbels <- sum(matchDat$dribbleWon [matchDat$pitch == 'home'])
+  aDribbels <- sum(matchDat$dribbleWon [matchDat$pitch == 'away'])
+  hPass <- sum(matchDat$totalPasses[matchDat$pitch == 'home'])
+  aPass <- sum(matchDat$totalPasses[matchDat$pitch == 'away'])
+  hInterc <- sum(matchDat$interceptionAll[matchDat$pitch == 'home'])
+  aInterc <- sum(matchDat$interceptionAll[matchDat$pitch == 'away'])
+  hYellow <- sum( matchDat$yellowCard[matchDat$pitch == 'home'])
+  aYellow <- sum( matchDat$yellowCard[matchDat$pitch == 'away'])
+  hRed <- sum( matchDat$redCard[matchDat$pitch == 'home'])
+  aRed <- sum( matchDat$redCard[matchDat$pitch == 'away'])
+  # takles won should be replaced by tackles won/ tackles lost ratio
+  hTackle <- sum( matchDat$tackleWonTotal[matchDat$pitch == 'home'])
+  aTackle <- sum( matchDat$tackleWonTotal[matchDat$pitch == 'away'])
+  hCleared <- sum( matchDat$clearanceTotal[matchDat$pitch == 'home'])
+  aCleared <- sum( matchDat$clearanceTotal[matchDat$pitch == 'away'])
+  # extended team stats
+  hBigError <- sum( matchDat$bigError[matchDat$pitch == 'home'])
+  aBigError <- sum( matchDat$bigError[matchDat$pitch == 'away'])
+  hDispo <- sum( matchDat$dispossessed[matchDat$pitch == 'home'])
+  aDispo <- sum( matchDat$dispossessed[matchDat$pitch == 'away'])
+  hDuelWon <- sum( matchDat$duelAerialWon[matchDat$pitch == 'home'])
+  aDuelWon <- sum( matchDat$duelAerialWon[matchDat$pitch == 'away'])  
+  hKeyPass <- sum( matchDat$keyPassTotal[matchDat$pitch == 'home'])
+  aKeyPass <- sum( matchDat$keyPassTotal[matchDat$pitch == 'away']) 
+  hPassLong <- sum( matchDat$passLongBallTotal[matchDat$pitch == 'home'])
+  aPassLong <- sum( matchDat$passLongBallTotal[matchDat$pitch == 'away'])
+  hPassThrough <- sum( matchDat$passThroughBallTotal[matchDat$pitch == 'home'])
+  aPassThrough <- sum( matchDat$passThroughBallTotal[matchDat$pitch == 'away']) 
+  hTouches <- sum( matchDat$touches[matchDat$pitch == 'home'])
+  aTouches <- sum( matchDat$touches[matchDat$pitch == 'away'])
+  hTurnover <- sum( matchDat$turnover[matchDat$pitch == 'home'])
+  aTurnover <- sum( matchDat$turnover[matchDat$pitch == 'away'])
+  
+  matchDF <- data.frame(matchID = match,
+                        teams = teams,
+                        hShots = hShots,
+                        aShots = aShots,
+                        hCross = hCross,
+                        aCross = aCross,
+                        hDribbels = hDribbels,
+                        aDribbels = aDribbels,
+                        hPass = hPass,
+                        aPass = aPass,
+                        hInterc = hInterc,
+                        aInterc = aInterc,
+                        hYellow = hYellow,
+                        aYellow = aYellow,
+                        hRed = hRed,
+                        aRed = aRed,
+                        hTackle = hTackle,
+                        aTackle = aTackle,
+                        hCleared = hCleared,
+                        aCleared = aCleared)
+  
+  matchDFex <- cbind(matchDF, data.frame(hBigError = hBigError,
+                                         aBigError = aBigError,
+                                         hDispo = hDispo,
+                                         aDispo = aDispo,
+                                         hDuelWon = hDuelWon,
+                                         aDuelWon = aDuelWon,
+                                         hKeyPass = hKeyPass,
+                                         aKeyPass = aKeyPass,
+                                         hPassLong = hPassLong,
+                                         aPassLong = aPassLong,
+                                         hPassThrough = hPassThrough,
+                                         aPassThrough = aPassThrough,
+                                         hTouches = hTouches,
+                                         aTouches = aTouches,
+                                         hTurnover = hTurnover,
+                                         aTurnover = aTurnover))
+
+  aggregatedDF <- rbind(aggregatedDF, matchDF)
+  aggregatedDFex <- rbind(aggregatedDFex, matchDFex)
+  
+  # monitor progress
+  Progressor(which(match == matches), length(matches))      
+}
+  
+View(aggregatedDF)
+
+# check correlation
+# get panel.cor function
+
+source(file.path(path, 'helperFunctions/panel.cor.R'))
+
+# inspecting scatter matrix and correlations
+pairs(aggregatedDF[, c('hShots', 'hCross',
+                       'hDribbels', 'hPass',
+                       'aInterc', 'aYellow',
+                       'aRed', 'aTackle',
+                       'aCleared')], upper.panel = panel.cor)
+
+
+# expected shots as OLS
+expHs <- lm(hShots ~ hCross + 
+            hDribbels + 
+            hPass + 
+            aInterc +
+            aYellow +
+            aRed +
+            aTackle +
+            aCleared, 
+          data = aggregatedDF)
+summary(expHs)
+
+# expected shots as OLS
+expAs <- lm(aShots ~ aCross + 
+              aDribbels + 
+              aPass + 
+              hInterc +
+              hYellow +
+              hRed +
+              hTackle +
+              hCleared, 
+            data = aggregatedDF)
+summary(expAs)
+
+
+
+# expected shots as OLS extended version
+
+# inspecting scatter matrix and correlations
+pairs(aggregatedDFex[, c('hShots', 'hCross',
+                       'hDribbels', 'hPass',
+                       'aInterc', 'aYellow',
+                       'aRed', 'aTackle',
+                       'aCleared', "aBigError",
+                       'aDispo', 'hDuelWon',
+                       'hKeyPass', 'hPassLong',
+                       'hPassThrough', 'hTouches',
+                       'hTurnover')], upper.panel = panel.cor)
+
+fitEx <- lm(hShots ~ hCross + 
+            hDribbels + 
+            hPass + 
+            aInterc +
+            aYellow +
+            aRed +
+            aTackle +
+            aCleared +
+            aBigError +
+            aDispo +
+            hDuelWon +
+            hKeyPass +
+            hPassLong +
+            hPassThrough +
+            hTouches +
+            hTurnover, 
+          data = aggregatedDFex)
+summary(fitEx)
+
+# key Pass and big errors are two stats that could be taken
+# into account
+
+# select best model
+
+sel <- regsubsets(hShots ~ hCross + 
+              hDribbels + 
+              hPass + 
+              aInterc +
+              aYellow +
+              aRed +
+              aTackle +
+              aCleared +
+              aBigError +
+              aDispo +
+              hDuelWon +
+              hKeyPass +
+              hPassLong +
+              hPassThrough +
+              hTouches +
+              hTurnover, 
+            data = aggregatedDFex)
+summary(sel)
+
+# fit model with log-link
+
+fit.glm <- glm(hShots ~ hCross + 
+                  hDribbels + 
+                  hPass + 
+                  aInterc +
+                  aYellow +
+                  aRed +
+                  aTackle +
+                  aCleared, 
+                data = aggregatedDF,
+                family = poisson)
+
+summary(fit.glm)
+
+# goodness of fit
+anova(fit.glm, test="Chisq")
+diff <- (fit.glm$null.deviance - fit.glm$deviance)
+df.diff <- (fit.glm$df.null - fit.glm$df.residual)
+1 - pchisq(diff, df.diff)
+
+# coefficients
+exp(fit.glm$coefficients)
+
+hist(predict(fit.glm, type="response"))
+
+
+
+fit.glm.ex <- glm(hShots ~ hCross + 
+              hDribbels + 
+              hPass + 
+              aInterc +
+              aYellow +
+              aRed +
+              aTackle +
+              aCleared +
+              aBigError +
+              aDispo +
+              hDuelWon +
+              hKeyPass +
+              hPassLong +
+              hPassThrough +
+              hTouches +
+              hTurnover, 
+            data = aggregatedDFex,
+            family = poisson)
+summary(fit.glm.ex )
+
+# goodness of fit
+diff <- (fit.glm.ex$null.deviance - fit.glm.ex$deviance)
+df.diff <- (fit.glm.ex$df.null - fit.glm.ex$df.residual)
+1 - pchisq(diff, df.diff)
+
+# pHG.HS <- ((1 - sum(awayDat$shotBlocked) / sum(homeDat$shotsTotal) ) * 
+#         (1 - sum(awayDat$saves) / sum(homeDat$shotsTotal) ) * 
+#         (sum(homeDat$shotOnTarget) / sum(homeDat$shotsTotal) ))
+
+
+
+
+
+# expected number of shots (shot rate) as function of game aspects as
+# passes, dribbels ... (Hx, for example the number of contributions of type X)
+E(HS) <- f(Hx, Hy, Au, Av) # as
+E(HS) <- alpha0 + alphax * Hx + betau * Au
+
+# alphax for example can be seen as the expected number of extra shots when the
+# number of passes increases by one
+
+
+
+# the number of points we award to a player
+# for a single contribution X is the change in the expected
+# number of points for his team when the number of contributions
+# X changes by one, that is, derivative E(HPTS) / derivative Hx
+# expected number of points for home side, double Poisson model implies:
+E(HPTS) <- (3 points) * (prob win) + (1 point) * (prob loose) 
+        = exp(-lambdaHG -lambdaAG)
+
+
+# home goals Hg are given by a poisson proces with shot effectiveness pHG.HS
+# times the expected home shots per game (shot rate)
+HG <- poisson(pHG.HS * E(HS))
+
 
 #Subindex 2: Points-Sharing Index
 
