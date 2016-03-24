@@ -53,6 +53,7 @@ def player_stat_scraper(datalist):
         players = body.findAll('tr')
         for i in range(len(players)):
             player = players[i]
+            # name, position and special events are only scraped once
             if firstBody:
                 playerDic = {}
                 findName = re.findall("Players(.*?)span" , str(player))
@@ -63,6 +64,7 @@ def player_stat_scraper(datalist):
                 playerDic = merge_dicts(playerDic, specialEvents)
             else:
                 playerDic = returnList[i]
+            # player statistics are scraped four times, once for every table
             for stat in stats:
                 if extract_value(player, stat) is not '':
                     playerDic[stat.strip()] = extract_value(player, stat)
@@ -87,13 +89,17 @@ def check_special_events(player):
     for incident in incidents:
         for event in incident.findAll("span", {"class" : "incident-icon"}):
             datatype = re.findall('data-type="(.*?)">' , str(event))[0]
+            # datatype 18 means suboff (player has to leave)
             if datatype == '18':
                 playedMinutes = re.findall('data-minute="(.*?)"' , str(event))[0]
+            # datatype 19 means subon (player enters game)
             if datatype == '19':
                 playedMinutes = 'FT - ' + re.findall('data-minute="(.*?)"' , str(event))[0]
+            # datatype 17 means a card was received
             if datatype == '17':
                 if len(re.findall('redcard' , str(event))) == 1:
                     redCard = True
+                    playedMinutes = re.findall('data-minute="(.*?)"' , str(event))[0]
                 if len(re.findall('yellowcard' , str(event))) == 1:
                     yellowCard = True
             if datatype == '16':
@@ -141,8 +147,9 @@ def scrape_single_match(season, match_url, matchdayIdentifier, phantom = True):
 
     #load all javascript tables
     data = []
+    # repeat until summary, offensive, defensive and passing tables are
+    # loaded and saved in data list for home and away team (therefore must be 8)
     while len(data) != 8:
-        
         browser.get(player_stats_url)
         time.sleep(randint(1, 3))
         tables = ['summary', 'offensive', 'defensive', 'passing']
@@ -235,7 +242,7 @@ def scrape_single_match(season, match_url, matchdayIdentifier, phantom = True):
     print 'Gerneral info scraping done.'   
     return match_data
 
-def scrape_matchday(matchIds, matchdayNr, season):
+def scrape_matchday(matchIds, matchdayNr, season, phantomscrapeTables):
   
     matchdayData = []
     matchdayIdentifier = season + '_matchday_' + str(matchdayNr)

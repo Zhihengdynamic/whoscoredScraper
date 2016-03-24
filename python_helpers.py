@@ -21,6 +21,8 @@ def sync_lists(listname1, listname2):
     print 'Sync completed.\n'
     for val in mismatch:
         syncDays.remove(val)
+    if len(syncMatchday) == 0:
+        write_to_disk(syncMatchday, listname2)
     write_to_disk(syncDays, listname1)
 
 def split_list(splitlist, nparts):
