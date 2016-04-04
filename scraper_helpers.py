@@ -28,6 +28,71 @@ def extract_teams(entry):
         output.append(teams.contents[0])
     return output
     
+def correct_teamname(teamname):
+    teamname = teamname.encode('ascii', 'ignore')
+    if 'Leverkusen' in teamname:
+        return 'Leverkusen'
+    if 'Bayern' in teamname:
+        return 'Bayern Munich'
+    if 'Mainz' in teamname:
+        return 'Mainz'
+    if 'Hamburg' in teamname:
+        return 'Hamburg'
+    if 'Stuttgart' in teamname:
+        return 'Stuttgart'
+    if 'Hannover' in teamname:
+        return 'Hannover'
+    if 'Schalke' in teamname:
+        return 'Schalke'
+    if 'Wolfsburg' in teamname:
+        return 'Wolfsburg'
+    if 'Dortmund' in teamname:
+        return 'Dortmund'
+    if u'Kln' in teamname:
+        return 'Cologne'
+    if 'Cologne' in teamname:
+        return 'Cologne'
+    if 'Bremen' in teamname:
+        return 'Bremen'
+    if 'Frankfurt' in teamname:
+        return 'Frankfurt'
+    if 'Berlin' in teamname:
+        return 'Berlin'
+    if u'Nrnberg' in teamname:
+        return 'Nuernberg'
+    if 'Nuernberg' in teamname:
+        return 'Nuernberg'
+    if 'Hoffenheim' in teamname:
+        return 'Hoffenheim'
+    if 'Bochum' in teamname:
+        return 'Bochum'
+    if 'Gladbach' in teamname:
+        return 'Gladbach'
+    if 'Freiburg' in teamname:
+        return 'Freiburg'
+    if 'Kaiserslatuern' in teamname:
+        return 'Kaiserslatuern'
+    if 'Pauli' in teamname:
+        return 'St. Pauli'
+    if 'Duesseldorf' in teamname:
+        return 'Duesseldorf'
+    if u'Dsseldorf' in teamname:
+        return 'Duesseldorf'
+    if 'Fuerth' in teamname:
+        return 'Fuerth'
+    if u'Frth' in teamname:
+        return 'Fuerth'
+    if 'Brauenschweig' in teamname:
+        return 'Brauenschweig'
+    if 'Paderborn' in teamname:
+        return 'Paderborn'
+    if 'Ingolstadt' in teamname:
+        return 'Ingolstadt'
+    if 'Darmstadt' in teamname:
+        return 'Darmstadt'
+    return teamname
+        
+    
     
 #def get_button_title(soup, side = 'right'):
 #    matchButton = soup.findAll("div", {"id": "date-controller"})[0].findAll("a", {"href": "#"})

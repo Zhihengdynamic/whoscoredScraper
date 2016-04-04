@@ -17,6 +17,10 @@ path <- unlist(read.table('repPath.txt'))
 data <- read.csv(file.path(path, 'player_stats_validated.csv'), 
                  encoding = 'UTF-8', 
                  stringsAsFactors = FALSE)
+# load data of current season
+curData <- read.csv(file.path(path, 'player_stats_15_16.csv'), 
+                 encoding = 'UTF-8', 
+                 stringsAsFactors = FALSE)
 
 data <- subset(data, season == '2014-2015')
 

@@ -6,12 +6,18 @@ Created on Thu Mar 03 13:54:15 2016
 """
 
 # Exernal modules
-import os
+
 from bs4 import BeautifulSoup
 import time
 from selenium import webdriver
 
 # change wd
+import os
+with open('python-wd.txt', 'r') as f:
+    wdPath = f.read()
+f.closed
+
+os.chdir(wdPath)
 
 # import local functions
 from file_helpers import write_to_disk
@@ -31,6 +37,7 @@ seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336',
             'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2520',
             'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/1903']
 #seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336']
+            
             
 path = 'player_stats.csv'
 phantomscrape = True

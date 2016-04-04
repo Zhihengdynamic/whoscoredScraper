@@ -15,12 +15,18 @@ os.chdir(wdPath)
 from file_helpers import open_from_csv
 from file_helpers import open_from_disk
 from file_helpers import write_to_csv
+from scraper_helpers import correct_teamname
 import datetime
 import sys
 import numpy as np
 
 
-data = open_from_csv('player_stats')
+#dataname = 'player_stats'
+dataname = 'player_stats_15_16'
+data = open_from_csv(dataname)
+
+# must be up to date for validation:
+matchID = open_from_disk('matchIdTeamLink')
 
 #data = data[:1000]
 
@@ -85,8 +91,6 @@ for entry in data:
            entry[key[0].lower() + key[1:]] = entry.pop(key) 
     
 
-matchID = open_from_disk('matchIdTeamLink')
-
 def search_entry(column, term, data):
     return [dic for dic in data if dic[column] == term]
 
@@ -131,8 +135,12 @@ saveData = data
 counter = 1
 matchesCorrected = []
 for entry in data:
-    matchSeason = entry['matchIdentifier'].split('_')[0]
-    matchTeams = entry['matchIdentifier'].split('_')[3]
+    if '_' in entry['matchIdentifier']:
+        identifier = 'matchIdentifier'
+    else:
+        identifier = 'matchdayIdentifier'
+    matchSeason = entry[identifier].split('_')[0]
+    matchTeams = entry[identifier].split('_')[3]
     info = [dic for dic in matchInfos if dic['season'] == matchSeason 
             and matchTeams.split('-')[0] in dic['teams'].split('-')[0] 
             and matchTeams.split('-')[1] in dic['teams'].split('-')[1]]
@@ -302,20 +310,21 @@ teams = [entry["team"] for entry in data]
 uniqueTeams = list(set(teams))
 
 for entry in data:
-    if entry['team'] == 'Leverkusen':
-        entry['team'] = 'Bayer Leverkusen'
-    if entry['team'] == 'Bayern':
-        entry['team'] = 'Bayern Munich'
-    if entry['team'] == 'Mainz 05':
-        entry['team'] = 'Mainz'
-    if entry['team'] == 'Hamburger SV':
-        entry['team'] = 'Hamburg'
-    if entry['team'] == 'VfB Stuttgart':
-        entry['team'] = 'Stuttgart'
-    if entry['team'] == 'Hannover 96':
-        entry['team'] = 'Hannover'
-    if entry['team'] == 'Schalke 04':
-        entry['team'] = 'Schalke'
+    entry['team'] = correct_teamname(entry['team'])
+#    if entry['team'] == 'Leverkusen':
+#        entry['team'] = 'Bayer Leverkusen'
+#    if entry['team'] == 'Bayern':
+#        entry['team'] = 'Bayern Munich'
+#    if entry['team'] == 'Mainz 05':
+#        entry['team'] = 'Mainz'
+#    if entry['team'] == 'Hamburger SV':
+#        entry['team'] = 'Hamburg'
+#    if entry['team'] == 'VfB Stuttgart':
+#        entry['team'] = 'Stuttgart'
+#    if entry['team'] == 'Hannover 96':
+#        entry['team'] = 'Hannover'
+#    if entry['team'] == 'Schalke 04':
+#        entry['team'] = 'Schalke'
         
 # check if team names are unquie now
 teamsNew = [entry["team"] for entry in data]
@@ -323,4 +332,4 @@ uniqueTeamsNew = list(set(teamsNew))
 uniqueTeamsNew.sort()
 
 dataSorted = sorted(data, key=lambda entry: entry['date'])
-write_to_csv('player_stats_validated.csv', dataSorted, append = False)
+write_to_csv(dataname + '_validated.csv', dataSorted, append = False)
