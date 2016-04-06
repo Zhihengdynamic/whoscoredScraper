@@ -30,65 +30,72 @@ def extract_teams(entry):
     
 def correct_teamname(teamname):
     teamname = teamname.encode('ascii', 'ignore')
-    if 'Leverkusen' in teamname:
+    teamname = teamname.lower()
+    if 'leverkusen' in teamname:
         return 'Leverkusen'
-    if 'Bayern' in teamname:
+    if 'bayern' in teamname:
         return 'Bayern Munich'
-    if 'Mainz' in teamname:
+    if 'mainz' in teamname:
         return 'Mainz'
-    if 'Hamburg' in teamname:
+    if 'hamburg' in teamname:
         return 'Hamburg'
-    if 'Stuttgart' in teamname:
+    if 'stuttgart' in teamname:
         return 'Stuttgart'
-    if 'Hannover' in teamname:
+    if 'hannover' in teamname:
         return 'Hannover'
-    if 'Schalke' in teamname:
+    if 'schalke' in teamname:
         return 'Schalke'
-    if 'Wolfsburg' in teamname:
+    if 'wolfsburg' in teamname:
         return 'Wolfsburg'
-    if 'Dortmund' in teamname:
+    if 'dortmund' in teamname:
         return 'Dortmund'
-    if u'Kln' in teamname:
+    if u'kln' in teamname:
         return 'Cologne'
-    if 'Cologne' in teamname:
+    if u'k?ln' in teamname:
         return 'Cologne'
-    if 'Bremen' in teamname:
+    if 'cologne' in teamname:
+        return 'Cologne'
+    if 'bremen' in teamname:
         return 'Bremen'
-    if 'Frankfurt' in teamname:
+    if 'frankfurt' in teamname:
         return 'Frankfurt'
-    if 'Berlin' in teamname:
+    if 'berlin' in teamname:
         return 'Berlin'
-    if u'Nrnberg' in teamname:
+    if u'n?rnberg' in teamname:
         return 'Nuernberg'
-    if 'Nuernberg' in teamname:
+    if 'nuernberg' in teamname:
         return 'Nuernberg'
-    if 'Hoffenheim' in teamname:
+    if 'hoffenheim' in teamname:
         return 'Hoffenheim'
-    if 'Bochum' in teamname:
+    if 'bochum' in teamname:
         return 'Bochum'
-    if 'Gladbach' in teamname:
+    if 'gladbach' in teamname:
         return 'Gladbach'
-    if 'Freiburg' in teamname:
+    if 'freiburg' in teamname:
         return 'Freiburg'
-    if 'Kaiserslatuern' in teamname:
+    if 'kaiserslatuern' in teamname:
         return 'Kaiserslatuern'
-    if 'Pauli' in teamname:
+    if 'pauli' in teamname:
         return 'St. Pauli'
-    if 'Duesseldorf' in teamname:
+    if 'duesseldorf' in teamname:
         return 'Duesseldorf'
-    if u'Dsseldorf' in teamname:
+    if u'd?sseldorf' in teamname:
         return 'Duesseldorf'
-    if 'Fuerth' in teamname:
+    if u'dsseldorf' in teamname:
+        return 'Duesseldorf'
+    if 'fuerth' in teamname:
         return 'Fuerth'
-    if u'Frth' in teamname:
+    if u'frth' in teamname:
         return 'Fuerth'
-    if 'Brauenschweig' in teamname:
+    if u'f?rth' in teamname:
+        return 'Fuerth'
+    if 'brauenschweig' in teamname:
         return 'Brauenschweig'
-    if 'Paderborn' in teamname:
+    if 'paderborn' in teamname:
         return 'Paderborn'
-    if 'Ingolstadt' in teamname:
+    if 'ingolstadt' in teamname:
         return 'Ingolstadt'
-    if 'Darmstadt' in teamname:
+    if 'darmstadt' in teamname:
         return 'Darmstadt'
     return teamname
         

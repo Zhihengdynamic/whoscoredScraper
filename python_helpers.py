@@ -36,3 +36,10 @@ def merge_dicts(*dict_args):
     for dictionary in dict_args:
         result.update(dictionary)
     return result
+    
+def search_dicts(inList, key, value, returnIndex = False):
+    if returnIndex:
+        return [inList.index(entry) for entry in inList if entry[key] == value]
+    else:
+        return [entry for entry in inList if entry[key] == value]
+    
