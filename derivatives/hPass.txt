@@ -1,0 +1,1017 @@
+Exp*(-0.1114379*(3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+       1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+       0.191196*hCross + 
+             0.142784*hDribbel + 0.012337*hPass) - 
+    0.1114379*(3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+       0.007481*aPass + 0.041405*hCleared - 
+             0.039837*hInter + 1.02033*hRed - 0.008294*hTackle + 
+       0.270869*hYellow))*
+     (3*(0.0013748093723000001 + 
+       0.0001532058693494302*(3.755656 + 0.018317*aCleared - 
+          0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+                  0.366328*aYellow + 0.191196*hCross + 
+          0.142784*hDribbel + 0.012337*hPass) + 8.536470173987433*^-6*
+               (3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+           1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 
+                    0.142784*hDribbel + 0.012337*hPass)^2 + 
+       3.1709543653393147*^-7*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^3 + 
+             
+       8.83411238673115*^-9*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^4 + 1.9689098654826148*^-10*
+               (3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+           1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 
+                    0.142784*hDribbel + 0.012337*hPass)^5 + 
+       3.656853011644418*^-12*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^6 + 
+             
+       5.821600288947565*^-14*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7 + 8.109336385496375*^-16*
+               (3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+           1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 
+                    0.142784*hDribbel + 0.012337*hPass)^8 + 
+       1.0040971302147849*^-17*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9 + 
+             
+       0.00001707294034797487*(3.755656 + 0.018317*aCleared - 
+          0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+          0.366328*aYellow + 
+                  0.191196*hCross + 0.142784*hDribbel + 
+          0.012337*hPass)*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       9.512863096017945*^-7*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^2*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       3.53364495469246*^-8*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^3*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       9.844549327413075*^-10*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^4*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       2.194111806986651*^-11*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^5*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       4.075120202263295*^-13*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       6.487469108397099*^-15*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       9.036874171933065*^-17*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       1.1189447558716217*^-18*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+          0.131453*aDribbel + 0.007481*aPass + 
+                  0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+             
+       5.30046743203869*^-8*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^2*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       1.968909865482615*^-9*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^3*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       5.485279517466627*^-11*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^4*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       1.2225360606789886*^-12*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^5*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       2.270614187938985*^-14*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       3.614749668773226*^-16*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       5.035251401422298*^-18*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       6.234642690517312*^-20*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^2 + 
+             
+       7.313706023288836*^-11*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^3*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       2.037560101131648*^-12*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^4*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       4.5412283758779693*^-14*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^5*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       8.434415893804193*^-16*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       1.3427337070459464*^-17*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       1.8703928071551935*^-19*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       2.315918295605331*^-21*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^3 + 
+             
+       5.6765354698474615*^-14*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^4*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^4 + 
+             
+       1.2651623840706292*^-15*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^5*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^4 + 
+             
+       2.349783987330406*^-17*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^4 + 
+             
+       3.7407856143103874*^-19*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^4 + 
+             
+       5.210816165111993*^-21*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^4 + 
+             
+       6.452026785845931*^-23*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^4 + 
+             
+       2.819740784796487*^-17*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^5*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^5 + 
+             
+       5.23709986003454*^-19*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^5 + 
+             
+       8.33730586417919*^-21*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^5 + 
+             
+       1.1613648214522676*^-22*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^5 + 
+             
+       1.4380006315168405*^-24*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^5 + 
+             
+       9.726856841542387*^-21*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^6 + 
+             
+       1.5484864286030237*^-22*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^6 + 
+             
+       2.1570009472752615*^-24*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^6 + 
+             
+       2.670796176248509*^-26*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^6 + 
+             
+       2.465143939743156*^-24*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^7*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^7 + 
+             
+       3.433880798033798*^-26*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^7 + 
+             
+       4.25182738870234*^-28*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^7 + 
+             
+       4.783305812290133*^-28*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^8*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^8 + 
+             
+       5.922683941993407*^-30*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^8 + 
+             
+       7.3334606762163*^-32*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9*(3.002313 + 0.217512*aCross + 
+           0.131453*aDribbel + 0.007481*aPass + 
+                    0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow)^9) + 
+        0.0001532058693494302*(3.002313 + 0.217512*aCross + 
+       0.131453*aDribbel + 0.007481*aPass + 0.041405*hCleared - 
+       0.039837*hInter + 
+             1.02033*hRed - 0.008294*hTackle + 0.270869*hYellow) + 
+    9.512863096017945*^-7*(3.755656 + 0.018317*aCleared - 
+       0.031077*aInter + 
+             1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+       0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^2 + 
+    1.968909865482615*^-9*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^2*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^3 + 
+    2.037560101131648*^-12*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^3*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^4 + 
+    1.265162384070629*^-15*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^4*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^5 + 
+    5.237099860034541*^-19*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^5*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^6 + 
+    1.5484864286030234*^-22*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^6*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^7 + 
+    3.4338807980337983*^-26*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^7*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^8 + 
+    5.922683941993406*^-30*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^8*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^9 + 
+    8.172254574901246*^-34*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^9*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^10) - 0.0013748093723000001*Exp*
+     (1 + 
+    3*(0.1114379*(3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+          1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+          0.191196*hCross + 
+                  0.142784*hDribbel + 0.012337*hPass) + 
+       0.006209202778205001*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^2 + 
+             
+       0.00023064683942577703*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^3 + 6.4256998568114504*^-6*
+               (3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+           1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 
+                    0.142784*hDribbel + 0.012337*hPass)^4 + 
+       1.4321329961467376*^-7*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^5 + 
+             
+       2.659898226855009*^-9*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^6 + 4.2344781802063687*^-11*
+               (3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+           1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 
+                    0.142784*hDribbel + 0.012337*hPass)^7 + 
+       5.898516949975242*^-13*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8 + 
+             
+       7.303537133551624*^-15*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+           0.366328*aYellow + 
+                    0.191196*hCross + 0.142784*hDribbel + 
+           0.012337*hPass)^9 + 8.138908407350124*^-17*
+               (3.755656 + 0.018317*aCleared - 0.031077*aInter + 
+           1.05232*aRed - 0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 
+                    0.142784*hDribbel + 0.012337*hPass)^10 + 
+       0.0006919405182773311*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^2*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       0.000025702799427245802*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^3*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       7.160664980733688*^-7*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^4*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       1.5959389361130054*^-8*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^5*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       2.9641347261444584*^-10*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^6*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       4.718813559980193*^-12*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^7*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       6.573183420196461*^-14*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       8.138908407350125*^-16*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       9.069828612074424*^-18*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+          0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+          1.02033*hRed - 
+                  0.008294*hTackle + 0.270869*hYellow) + 
+       1.4321329961467375*^-6*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^3*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       3.989847340282513*^-8*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^4*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       8.892404178433374*^-10*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^5*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       1.6515847459930678*^-11*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^6*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       2.6292733680785844*^-13*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^7*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       3.662508783307556*^-15*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       4.5349143060372127*^-17*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       5.053613269447443*^-19*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^2 + 
+       1.482067363072229*^-9*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^4*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       3.3031694919861357*^-11*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^5*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       6.134971192183363*^-13*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^6*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       9.76669008882015*^-15*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^7*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       1.3604742918111639*^-16*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       1.6845377564824813*^-18*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       1.8772135005311914*^-20*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^3 + 
+       9.202456788275044*^-13*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^5*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^4 + 
+       1.7091707655435264*^-14*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^6*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^4 + 
+       2.7209485836223277*^-16*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^7*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^4 + 
+       3.790209952085583*^-18*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^4 + 
+       4.6930337513279775*^-20*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^4 + 
+       5.2298182587711205*^-22*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^4 + 
+       3.809328017071258*^-16*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^6*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^5 + 
+       6.064335923336931*^-18*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^7*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^5 + 
+       8.447460752390359*^-20*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^5 + 
+       1.0459636517542241*^-21*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^5 + 
+       1.1655999282782204*^-23*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^5 + 
+       1.1263281003187145*^-19*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^7*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^6 + 
+       1.5689454776313361*^-21*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^6 + 
+       1.9426665471303678*^-23*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^6 + 
+       2.1648668041245918*^-25*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^6 + 
+       2.4977141320247585*^-23*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^8*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^7 + 
+       3.0926668630351317*^-25*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^7 + 
+       3.446403006162227*^-27*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^7 + 
+       4.308003757702784*^-27*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^9*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^8 + 
+       4.8007489195050715*^-29*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^8 + 
+       5.944281977965713*^-31*(3.755656 + 0.018317*aCleared - 
+           0.031077*aInter + 1.05232*aRed - 
+                    0.0502*aTackle + 0.366328*aYellow + 
+           0.191196*hCross + 0.142784*hDribbel + 0.012337*hPass)^10*
+               (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+           0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+           1.02033*hRed - 
+                    0.008294*hTackle + 0.270869*hYellow)^9) + 
+    0.012418405556410002*(3.755656 + 0.018317*aCleared - 
+       0.031077*aInter + 1.05232*aRed - 
+             0.0502*aTackle + 0.366328*aYellow + 0.191196*hCross + 
+       0.142784*hDribbel + 0.012337*hPass)*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+       0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+       1.02033*hRed - 0.008294*hTackle + 
+             0.270869*hYellow) + 
+    0.0000385541991408687*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^2*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^2 + 
+    5.3197964537100177*^-8*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^3*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^3 + 
+    4.128961864982669*^-11*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^4*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^4 + 
+    2.0510049186522314*^-14*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^5*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^5 + 
+    7.075058577226421*^-18*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^6*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^6 + 
+    1.793080545864384*^-21*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^7*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^7 + 
+    3.4792502209145233*^-25*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^8*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^8 + 
+    5.334165466116745*^-29*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^9*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^9 + 
+    6.624183006323453*^-33*(3.755656 + 0.018317*aCleared - 
+        0.031077*aInter + 1.05232*aRed - 0.0502*aTackle + 
+               0.366328*aYellow + 0.191196*hCross + 
+        0.142784*hDribbel + 0.012337*hPass)^10*
+          (3.002313 + 0.217512*aCross + 0.131453*aDribbel + 
+        0.007481*aPass + 0.041405*hCleared - 0.039837*hInter + 
+        1.02033*hRed - 0.008294*hTackle + 
+               0.270869*hYellow)^10)

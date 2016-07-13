@@ -10,41 +10,25 @@ Created on Mon Apr 04 15:48:17 2016
 
 
 # import external modules
-from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 import random
 
 import os
-with open('python-wd.txt', 'r') as f:
-    wdPath = f.read()
-f.closed
-
-os.chdir(wdPath)
+try:
+    with open('python-wd.txt', 'r') as f:
+        wdPath = f.read()
+    f.closed
+    os.chdir(wdPath)
+except:
+    pass
 
 # import internal modules
 from scraper_helpers import correct_teamname
 from file_helpers import write_to_csv
 
-def ExtractBildInfo(element):
-    playerDic = {}
-    # scrape all necessary data
-    name = info[1].text
-    if ',' in name:
-        playerDic['name'] = name.split(', ')[1] + ' ' +  name.split(', ')[0]
-    else:
-        playerDic['name'] = name
-    team = info[2].text
-    playerDic['team'] = correct_teamname(team)
-    playerDic['position'] = info[3].text
-    playerDic['gamesPlayed'] = info[4].text
-    playerDic['gamesRated'] = info[5].text
-    playerDic['rating'] = info[6].text.replace(',', '.')
-    return playerDic
-         
-
 # bild Ratings
-bildURL = 'http://sportdaten.bild.de'
+bildURL = 'http://www.bild.de/bundesliga/'
 
 # initialise selenium
 profile = webdriver.FirefoxProfile()
@@ -53,48 +37,83 @@ profile.update_preferences()
 
 browser = webdriver.Firefox(profile)
 
-# go to rating url
+# go to bild BL page
 browser.get(bildURL)
 
 # initialise outputList
 bildOutput = []
 
-# go to top player page that contains the ratings
-browser.find_element_by_xpath('//*[@class="wfb-li-ranking-bildscore"]').click()
+# get links for all BL teams
+teams = browser.find_element_by_xpath('//*[@class="teams"]')
+teamList = teams.find_element_by_tag_name("ol").find_elements_by_tag_name('li')
+teamLinks = [link.find_element_by_css_selector('a').get_attribute('href') for link in teamList]
 
-#sleep for some time
-time.sleep(random.sample([10, 12], 1)[0])
+# get widget links (iframe)
+widgetLinks = []
+checkedLinks = []
+while len(widgetLinks) != 18:
+    for link in teamLinks:
+        widLink = '' 
+        if link not in checkedLinks:
+            browser.get(link)
+            iframes =  browser.find_elements_by_tag_name("iframe")
+            widLink = [ilink.get_attribute('src') for 
+                        ilink in iframes if 'widget-stats-team' in ilink.get_attribute('src')][0]
+            if widLink != '':
+                widgetLinks.append(widLink)
+                checkedLinks.append(link)
+            time.sleep(random.sample([4, 6], 1)[0])
+    print 'Widget Links has length ' + str(len(widgetLinks))
 
-# find button to click on next page
-nextpage = browser.find_element_by_xpath('//*[@class="next wfb-unselectable"]')
-
-# while next page is clickable, click on it
+# go to every team page and get all information
 bildOutput = []
-first = True
-while nextpage.is_displayed():
-    if first:
-        first = False
-    else:
-        nextpage.click()
-    # extract data
-    content = (browser.page_source).encode('ascii', 'replace')
-    soup = BeautifulSoup(''.join(content))
-
-    # get all tables with player data
-    datatables = soup.find("tbody", {"class": 'data-body'}).findAll('tr')
-    
-    for tab in datatables:
-        info = tab.findAll('td')
-        bildOutput.append(ExtractBildInfo(info))
-    #sleep for some time
-    time.sleep(random.sample(range(5,8), 1)[0])
-    nextpage = browser.find_element_by_xpath('//*[@class="next wfb-unselectable"]')
+for wlink in widgetLinks:
+    team = ''
+    while team == '':
+        browser.set_page_load_timeout(60)
+        browser.get(wlink)
+        time.sleep(random.sample([10, 15], 1)[0])
+        try:
+            team = correct_teamname(browser.find_element_by_xpath('//*[@class="team-away current-team"]').text)
+        except:
+            pass
+    browser.find_element_by_xpath('//*[@id="squad"]').click()
+    time.sleep(random.sample([3, 6], 1)[0])
+    playerList = browser.find_elements_by_tag_name('tr')
+    for entry in playerList:
+        if '(' in entry.text:
+            nameRaw = entry.text.split('(')[0]
+            try:
+                name = nameRaw.split(', ')[1] + nameRaw.split(', ')[0]
+            except:
+                name = nameRaw
+            addInfo = entry.text.split(') ')[1].split(' ')
+            playerDic = {}
+            playerDic['name'] = name.encode('ascii', 'replace')
+            playerDic['position'] = entry.get_attribute('class').split(' ')[1]
+            playerDic['team'] = team
+            playerDic["games"] = playerDic["goals"] = 0
+            playerDic["rating"] = '-'
+            try:
+                playerDic["games"] = addInfo[1]
+            except:
+                pass
+            try:
+                playerDic["goals"] = addInfo[2]
+            except:
+                pass
+            try:
+                playerDic["rating"] = addInfo[3]
+            except:
+                pass
+            # save in output
+            bildOutput.append(playerDic)
 
 # close browser after work is done
 browser.quit()
 
 # write data to disk
-write_to_csv("bildRatings.csv", bildOutput)
+write_to_csv("bildRatings_complete.csv", bildOutput)
 
 
     

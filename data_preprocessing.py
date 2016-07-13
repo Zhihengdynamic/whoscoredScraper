@@ -6,27 +6,33 @@ Created on Wed Mar 02 17:23:35 2016
 """
 
 import os
-with open('python-wd.txt', 'r') as f:
-    wdPath = f.read()
-f.closed
+try:
+    with open('python-wd.txt', 'r') as f:
+        wdPath = f.read()
+    f.closed
+    os.chdir(wdPath)
+except:
+    pass
 
-os.chdir(wdPath)
+
 
 from file_helpers import open_from_csv
 from file_helpers import open_from_disk
 from file_helpers import write_to_csv
+from python_helpers import search_entry
 from scraper_helpers import correct_teamname
 import datetime
-import sys
 import numpy as np
+from tqdm import tqdm
 
 
 #dataname = 'player_stats'
-dataname = 'player_stats_15_16'
+ending = '_complete'
+dataname = 'player_stats' + ending
 data = open_from_csv(dataname)
 
 # must be up to date for validation:
-matchID = open_from_disk('matchIdTeamLink')
+matchID = open_from_disk('matchIdTeamLink' + ending)
 
 #data = data[:1000]
 
@@ -60,10 +66,15 @@ game_parameters = ['bigError',
                    'PassCrossTotal']
 
 specialCases = []
-for entry in data:
+for entry in tqdm(data):
+    # give player entries consistent measurement names
+    # which means to make first letter a small letter
+    for key in entry:
+        if key[0].isupper():
+           entry[key[0].lower() + key[1:]] = entry.pop(key)
     # set substitution players game time to zero
     entry['substituted'] = False
-    if entry['Position'] == 'Sub':
+    if entry['position'] == 'Sub':
         if entry['rating'] == '-':
             check = True
             for key,val in entry.items():
@@ -78,22 +89,25 @@ for entry in data:
                 entry['playedMinutes'] = '0'
         else:
             entry['substituted'] = True
+    # compute points won
     if entry['result'] == 'win':
         entry['pointsWon'] = 3
     elif entry['result'] == 'defeat':
         entry['pointsWon'] = 0
     else:
         entry['pointsWon'] = 1
-    # give player entries consistent names
-    # which means to make first letter a small letter
-    for key in entry:
-        if key[0].isupper():
-           entry[key[0].lower() + key[1:]] = entry.pop(key) 
+    # set card values from false/true to numbers
+    if entry['yellowCard'] == 'False':
+        entry['yellowCard'] = 0
+    else:
+        entry['yellowCard'] = 1
+    if entry['redCard'] == 'False':
+        entry['redCard'] = 0
+    else:
+        entry['redCard'] = 1
     
 
-def search_entry(column, term, data):
-    return [dic for dic in data if dic[column] == term]
-
+# prepare matchID information (to validate data later)
 matchInfo = []
 for ID in matchID:
     matchEntry = {}
@@ -107,10 +121,11 @@ for ID in matchID:
     else:
         matchEntry['season'] = str(int(year) - 1) + '-' + year
     matchInfo.append(matchEntry)   
-   
+ 
 seasons = []
 seasons = [dic['season'] for dic in matchInfo if dic['season'] not in seasons]
 seasons = list(set(seasons))
+seasons.sort()
 matchInfos = []
 for season in seasons:       
     x = [dic for dic in matchInfo if dic['season'] == season]
@@ -122,7 +137,10 @@ for season in seasons:
     for match in seasonSorted:
         match['matchday'] = matchday
         secondLeg = match['teams'].split('-')[1] + '-' + match['teams'].split('-')[0]
-        second = search_entry('teams', secondLeg, seasonSorted)[0]
+        try:
+            second = search_entry('teams', secondLeg, seasonSorted)[0]
+        except:
+            second['id'] = 'Missing'
         match['reMatch ID'] = second['id']
 
         if counter == 9:
@@ -132,9 +150,8 @@ for season in seasons:
     matchInfos.extend(seasonSorted)
         
 saveData = data
-counter = 1
 matchesCorrected = []
-for entry in data:
+for entry in tqdm(data):
     if '_' in entry['matchIdentifier']:
         identifier = 'matchIdentifier'
     else:
@@ -156,10 +173,6 @@ for entry in data:
     entry['date'] = info['date']
     del entry['matchdayIdentifier']
     del entry['matchIdentifier']
-    sys.stdout.write('\r')
-    sys.stdout.write(str(round(counter / float(len(data)), 3) * 100) + '% done.')
-    sys.stdout.flush()
-    counter += 1
     matchesCorrected.append(info)
 
 # All matches have been updated    
@@ -169,10 +182,17 @@ len(matchesCorrected) == len(data)
 matchIDS = [dic['matchID'] for dic in data]
 matchIDS = list(set(matchIDS))
 
+# check whether games have been missed:
+validateIDS  = [mID['id'] for mID in matchInfos]
+
+# all match IDS that should be in data but are not yet:
+set(validateIDS) - set(matchIDS)
+# if set is empty, everything is fine
+
 # above, only substitue player that came into the game were tagged as 
 # substituted, now the players that left the pitch will be tagged as well
 numberPlayers = []
-for ID in matchIDS:
+for ID in tqdm(matchIDS):
     match = search_entry('matchID', ID, data)
     numberPlayers.append(len(match) / float(2))
     
@@ -181,9 +201,9 @@ for ID in matchIDS:
     
     homeCleanSheet = False
     awayCleanSheet = False
-    if score[0] == '0':
-        homeCleanSheet = True
     if score[1] == '0':
+        homeCleanSheet = True
+    if score[0] == '0':
         awayCleanSheet = True
 
     # compute saves
@@ -246,7 +266,7 @@ for ID in matchIDS:
         player['substituted'] = True
     
     # calculate saves of goalis that have been substituted
-    if goaliHome['substituted'] or goaliHome['redCard'] == 'True':
+    if goaliHome['substituted'] or goaliHome['redCard'] == 0:
         # all saves
         savesTotal = goaliHome['saves']
         goaliMinShare = int(goaliHome['playedMinutes']) / float(fullMinutes)
@@ -268,14 +288,18 @@ for ID in matchIDS:
                 if len(goaliSub) == 1:
                     break
             # if no other goali was found, just take the first entry
-            if len(goaliSub) != 1:
+            if len(goaliSub) == 0:
+                # set goali saves to all saves
+                goaliHome['saves'] = savesTotal
+            else:
                 goaliSub = goaliSub[0]
         else:
             goaliSub = goaliSub[0]
-        goaliSub['saves'] = (1 - goaliMinShare) * savesTotal
-        goaliSub['savesAccuracy'] = goaliHome['savesAccuracy']
+        if len(goaliSub) == 1:
+            goaliSub['saves'] = (1 - goaliMinShare) * savesTotal
+            goaliSub['savesAccuracy'] = goaliHome['savesAccuracy']
         
-    if goaliAway['substituted'] or goaliAway['redCard'] == 'True':
+    if goaliAway['substituted'] or goaliAway['redCard'] == 0:
         # all saves
         savesTotal = goaliAway['saves']
         goaliMinShare = int(goaliAway['playedMinutes']) / float(fullMinutes)
@@ -297,34 +321,24 @@ for ID in matchIDS:
                 if len(goaliSub) == 1:
                     break
             # if no other goali was found, just take the first entry
-            if len(goaliSub) != 1:
+            if len(goaliSub) == 0:
+                # set goali saves to all saves
+                goaliHome['saves'] = savesTotal
+            else:
                 goaliSub = goaliSub[0]
         else:
             goaliSub = goaliSub[0]
-        goaliSub['saves'] = (1 - goaliMinShare) * savesTotal
-        goaliSub['savesAccuracy'] = goaliAway['savesAccuracy']
+        if len(goaliSub) == 1:
+            goaliSub['saves'] = (1 - goaliMinShare) * savesTotal
+            goaliSub['savesAccuracy'] = goaliAway['savesAccuracy']
         
         
 # correct names of teams
 teams = [entry["team"] for entry in data]
 uniqueTeams = list(set(teams))
 
-for entry in data:
+for entry in tqdm(data):
     entry['team'] = correct_teamname(entry['team'])
-#    if entry['team'] == 'Leverkusen':
-#        entry['team'] = 'Bayer Leverkusen'
-#    if entry['team'] == 'Bayern':
-#        entry['team'] = 'Bayern Munich'
-#    if entry['team'] == 'Mainz 05':
-#        entry['team'] = 'Mainz'
-#    if entry['team'] == 'Hamburger SV':
-#        entry['team'] = 'Hamburg'
-#    if entry['team'] == 'VfB Stuttgart':
-#        entry['team'] = 'Stuttgart'
-#    if entry['team'] == 'Hannover 96':
-#        entry['team'] = 'Hannover'
-#    if entry['team'] == 'Schalke 04':
-#        entry['team'] = 'Schalke'
         
 # check if team names are unquie now
 teamsNew = [entry["team"] for entry in data]

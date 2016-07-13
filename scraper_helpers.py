@@ -5,7 +5,6 @@ Created on Wed Mar 02 10:38:30 2016
 @author:  JK
 """
 import re
-from bs4 import BeautifulSoup
 #import urllib2
 
 def get_match_ids(soup):
@@ -31,6 +30,8 @@ def extract_teams(entry):
 def correct_teamname(teamname):
     teamname = teamname.encode('ascii', 'ignore')
     teamname = teamname.lower()
+    if 'augsburg' in teamname:
+        return 'Augsburg'
     if 'leverkusen' in teamname:
         return 'Leverkusen'
     if 'bayern' in teamname:
@@ -61,6 +62,8 @@ def correct_teamname(teamname):
         return 'Frankfurt'
     if 'berlin' in teamname:
         return 'Berlin'
+    if 'hertha' in teamname:
+        return 'Berlin'
     if u'n?rnberg' in teamname:
         return 'Nuernberg'
     if 'nuernberg' in teamname:
@@ -73,7 +76,7 @@ def correct_teamname(teamname):
         return 'Gladbach'
     if 'freiburg' in teamname:
         return 'Freiburg'
-    if 'kaiserslatuern' in teamname:
+    if 'kaiserslautern' in teamname:
         return 'Kaiserslatuern'
     if 'pauli' in teamname:
         return 'St. Pauli'
@@ -89,8 +92,8 @@ def correct_teamname(teamname):
         return 'Fuerth'
     if u'f?rth' in teamname:
         return 'Fuerth'
-    if 'brauenschweig' in teamname:
-        return 'Brauenschweig'
+    if 'braunschweig' in teamname:
+        return 'Braunschweig'
     if 'paderborn' in teamname:
         return 'Paderborn'
     if 'ingolstadt' in teamname:

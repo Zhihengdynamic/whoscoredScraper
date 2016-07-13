@@ -16,11 +16,14 @@ import re
 from tqdm import tqdm
 
 import os
-with open('python-wd.txt', 'r') as f:
-    wdPath = f.read()
-f.closed
+try:
+    with open('python-wd.txt', 'r') as f:
+        wdPath = f.read()
+    f.closed
+    os.chdir(wdPath)
+except:
+    pass
 
-os.chdir(wdPath)
 
 # import internal modules
 from scraper_helpers import correct_teamname
@@ -41,7 +44,7 @@ def CreateSpoxURL(spieltagNr):
     spoxURL7 = "/voraussichtliche-aufstellungen-"
 
     # go to rating url
-    if nr in ["19", "20"] or nr >= "22":
+    if nr in ["19", "20"] or int(nr) >= 22:
         curURL = spoxURL1 + nr + spoxURL2 + nr + spoxURL3
     elif nr == "1":
         curURL = spoxURL1 + nr + spoxURL7 + nr + spoxURL3
@@ -119,10 +122,20 @@ profile.update_preferences()
 
 browser = webdriver.Firefox(profile)
 
-lastSpieltag = 28
-userOutput = []
+lastSpieltag = 34
+if 'userOutput' not in globals():
+    userOutput = []
+    
+
+if 'spieltageCompleted' not in globals():
+    spieltageCompleted = []
+
 # tqdm for monitoring progres
 for spieltagNr in tqdm(range(1, lastSpieltag + 1)):
+    
+    # do not scrape days that have been scraped already
+    if spieltagNr in spieltageCompleted:
+        continue
     # create appropriate link
     curURL = CreateSpoxURL(spieltagNr)
     # go to link address
@@ -140,6 +153,23 @@ for spieltagNr in tqdm(range(1, lastSpieltag + 1)):
                 pageLinks.append("http://www.spox.com/de/sport/fussball/"
                          "bundesliga/saison2015-2016/spieltag-2/spielberichte/"
                          "gladbach-mainz/gladbach-mainz-user-noten.html")
+            elif 'einzelkritik' in element.get_attribute('href'):
+                pageLinks.append(element.get_attribute('href').replace('einzelkritik', 'user-noten'))
+            elif '3/spielberichte/augsburg-ingolstadt' in element.get_attribute('href'):
+                pageLinks.append(element.get_attribute('href').split('spielbericht-')[0] 
+                                    + 'augsburg-ingolstadt-user-noten.html')
+            elif 'analyse-vfb-sge-1-4-luc' in element.get_attribute('href'):
+                pageLinks.append("http://www.spox.com/de/sport/fussball/bundesliga/saison2015-2016/"
+                 + "spieltag-3/spielberichte/koeln-hamburg/koeln-hamburg-user-noten.html")
+            elif 'sv-98-1899-tsg-0-0' in element.get_attribute('href'):
+                pageLinks.append(element.get_attribute('href').split('sv')[0] 
+                                    + "darmstadt-hoffenheim-user-noten.html")
+            elif 'm05-muto-h96-3-0' in element.get_attribute('href'):
+                pageLinks.append(element.get_attribute('href').split('m05')[0] 
+                                    + "mainz-hannover-user-noten.html")
+            elif '1-fc-04-analyse-1' in element.get_attribute('href'):
+                pageLinks.append(element.get_attribute('href').split('1-fc-04-analyse-1')[0] 
+                                    + "koeln-ingolstadt-user-noten.html")
             else:
                 pageLinks.append(element.get_attribute('href'))
 
@@ -148,7 +178,15 @@ for spieltagNr in tqdm(range(1, lastSpieltag + 1)):
         # go to website of that game
         browser.get(link)
         # identify iframe element in wich information is stored
-        ele = browser.find_element_by_xpath("//div[@class='artCmp artCmpM']")
+        noElement = True
+        while noElement:
+            try:
+                ele = browser.find_element_by_xpath("//div[@class='artCmp artCmpM']")
+                noElement = False
+            except:
+                time.sleep(random.sample([1, 2], 1)[0])
+                browser.get(link)  
+        
         # make browser to switch to iframe object
         browser.switch_to.frame(ele.find_element_by_tag_name("iframe"))
         # reveal ratings that are initially hidden
@@ -165,12 +203,20 @@ for spieltagNr in tqdm(range(1, lastSpieltag + 1)):
         # get info of all players of the game
         spieltagList = ExtractUserRatingPage(soup, spieltagNr)
         # save game info into general output list
-        userOutput.extend(spieltagList)
+        for entry in spieltagList:
+            if entry not in userOutput:
+                userOutput.extend(spieltagList)
         # sleep for a moment before going on
-        time.sleep(random.sample([5, 7], 1)[0])
+        time.sleep(random.sample([2, 5], 1)[0])
+        # save intermediate results
+        write_to_csv("userRatings_userOutputSave.csv",
+                         userOutput)
+    spieltageCompleted.append(spieltagNr)
         
 # close browser after work is done
-browser.quit()        
+browser.quit()     
+   
+   
 # compute average rating of players
 diskOutput = []
 nameList = []
@@ -182,6 +228,7 @@ for entry in userOutput:
         nameList.append(entry['name'])
         aggregatedPlayer = {}
         aggregatedPlayer['name'] = entry['name']
+        aggregatedPlayer['team'] = correct_teamname(entry['team'])
         aggregatedPlayer['cumUser'] = float(entry['userRating'])
         aggregatedPlayer['cumUserRated'] = float(entry['userRated'])
         aggregatedPlayer['cumSportal'] = float(entry['sportalRating'])
@@ -203,4 +250,4 @@ for entry in diskOutput:
         
 
 # write data to disk
-write_to_csv("userRatings.csv", diskOutput)
+write_to_csv("userRatings_complete.csv", diskOutput)

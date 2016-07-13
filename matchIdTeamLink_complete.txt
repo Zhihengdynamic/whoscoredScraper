@@ -1,0 +1,2142 @@
+834866_Bayern Munich-Mainz 05_May 23 2015
+834870_Borussia Dortmund-Werder Bremen_May 23 2015
+834874_Borussia M.Gladbach-Augsburg_May 23 2015
+834878_Hoffenheim-Hertha Berlin_May 23 2015
+834882_Hannover 96-Freiburg_May 23 2015
+834886_Eintracht Frankfurt-Bayer Leverkusen_May 23 2015
+834891_Hamburger SV-Schalke 04_May 23 2015
+834895_FC Cologne-Wolfsburg_May 23 2015
+834899_Paderborn-VfB Stuttgart_May 23 2015
+834589_Bayern Munich-Wolfsburg_Aug 22 2014
+834594_Hoffenheim-Augsburg_Aug 23 2014
+834595_Hannover 96-Schalke 04_Aug 23 2014
+834596_Hertha Berlin-Werder Bremen_Aug 23 2014
+834597_Eintracht Frankfurt-Freiburg_Aug 23 2014
+834598_FC Cologne-Hamburger SV_Aug 23 2014
+834592_Borussia Dortmund-Bayer Leverkusen_Aug 23 2014
+834599_Paderborn-Mainz 05_Aug 24 2014
+834593_Borussia M.Gladbach-VfB Stuttgart_Aug 24 2014
+834619_Augsburg-Borussia Dortmund_Aug 29 2014
+834620_Werder Bremen-Hoffenheim_Aug 30 2014
+834622_VfB Stuttgart-FC Cologne_Aug 30 2014
+834623_Hamburger SV-Paderborn_Aug 30 2014
+834616_Bayer Leverkusen-Hertha Berlin_Aug 30 2014
+834617_Wolfsburg-Eintracht Frankfurt_Aug 30 2014
+834615_Schalke 04-Bayern Munich_Aug 30 2014
+834618_Mainz 05-Hannover 96_Aug 31 2014
+834621_Freiburg-Borussia M.Gladbach_Aug 31 2014
+834626_Bayer Leverkusen-Werder Bremen_Sep 12 2014
+834624_Bayern Munich-VfB Stuttgart_Sep 13 2014
+834625_Borussia Dortmund-Freiburg_Sep 13 2014
+834628_Hoffenheim-Wolfsburg_Sep 13 2014
+834630_Hertha Berlin-Mainz 05_Sep 13 2014
+834632_Paderborn-FC Cologne_Sep 13 2014
+834627_Borussia M.Gladbach-Schalke 04_Sep 13 2014
+834631_Eintracht Frankfurt-Augsburg_Sep 14 2014
+834629_Hannover 96-Hamburger SV_Sep 14 2014
+834638_Freiburg-Hertha Berlin_Sep 19 2014
+834639_VfB Stuttgart-Hoffenheim_Sep 20 2014
+834640_Hamburger SV-Bayern Munich_Sep 20 2014
+834634_Schalke 04-Eintracht Frankfurt_Sep 20 2014
+834637_Augsburg-Werder Bremen_Sep 20 2014
+834642_Paderborn-Hannover 96_Sep 20 2014
+834636_Mainz 05-Borussia Dortmund_Sep 20 2014
+834635_Wolfsburg-Bayer Leverkusen_Sep 21 2014
+834641_FC Cologne-Borussia M.Gladbach_Sep 21 2014
+834643_Bayern Munich-Paderborn_Sep 23 2014
+834650_Werder Bremen-Schalke 04_Sep 23 2014
+834651_Eintracht Frankfurt-Mainz 05_Sep 23 2014
+834647_Hoffenheim-Freiburg_Sep 23 2014
+834648_Hannover 96-FC Cologne_Sep 24 2014
+834649_Hertha Berlin-Wolfsburg_Sep 24 2014
+834644_Borussia Dortmund-VfB Stuttgart_Sep 24 2014
+834645_Bayer Leverkusen-Augsburg_Sep 24 2014
+834646_Borussia M.Gladbach-Hamburger SV_Sep 24 2014
+834654_Mainz 05-Hoffenheim_Sep 26 2014
+834656_Freiburg-Bayer Leverkusen_Sep 27 2014
+834657_VfB Stuttgart-Hannover 96_Sep 27 2014
+834659_FC Cologne-Bayern Munich_Sep 27 2014
+834660_Paderborn-Borussia M.Gladbach_Sep 27 2014
+834652_Schalke 04-Borussia Dortmund_Sep 27 2014
+834653_Wolfsburg-Werder Bremen_Sep 27 2014
+834655_Augsburg-Hertha Berlin_Sep 28 2014
+834658_Hamburger SV-Eintracht Frankfurt_Sep 28 2014
+834667_Hertha Berlin-VfB Stuttgart_Oct 3 2014
+834668_Werder Bremen-Freiburg_Oct 4 2014
+834666_Hoffenheim-Schalke 04_Oct 4 2014
+834661_Bayern Munich-Hannover 96_Oct 4 2014
+834662_Borussia Dortmund-Hamburger SV_Oct 4 2014
+834663_Bayer Leverkusen-Paderborn_Oct 4 2014
+834669_Eintracht Frankfurt-FC Cologne_Oct 4 2014
+834664_Wolfsburg-Augsburg_Oct 5 2014
+834665_Borussia M.Gladbach-Mainz 05_Oct 5 2014
+834672_Mainz 05-Augsburg_Oct 18 2014
+834673_Hannover 96-Borussia M.Gladbach_Oct 18 2014
+834674_Freiburg-Wolfsburg_Oct 18 2014
+834675_VfB Stuttgart-Bayer Leverkusen_Oct 18 2014
+834670_Bayern Munich-Werder Bremen_Oct 18 2014
+834677_FC Cologne-Borussia Dortmund_Oct 18 2014
+834671_Schalke 04-Hertha Berlin_Oct 18 2014
+834676_Hamburger SV-Hoffenheim_Oct 19 2014
+834678_Paderborn-Eintracht Frankfurt_Oct 19 2014
+834686_Werder Bremen-FC Cologne_Oct 24 2014
+834687_Eintracht Frankfurt-VfB Stuttgart_Oct 25 2014
+834683_Augsburg-Freiburg_Oct 25 2014
+834684_Hoffenheim-Paderborn_Oct 25 2014
+834685_Hertha Berlin-Hamburger SV_Oct 25 2014
+834679_Borussia Dortmund-Hannover 96_Oct 25 2014
+834680_Bayer Leverkusen-Schalke 04_Oct 25 2014
+834681_Wolfsburg-Mainz 05_Oct 26 2014
+834682_Borussia M.Gladbach-Bayern Munich_Oct 26 2014
+834689_Schalke 04-Augsburg_Oct 31 2014
+834691_Mainz 05-Werder Bremen_Nov 1 2014
+834692_Hannover 96-Eintracht Frankfurt_Nov 1 2014
+834693_VfB Stuttgart-Wolfsburg_Nov 1 2014
+834694_Hamburger SV-Bayer Leverkusen_Nov 1 2014
+834688_Bayern Munich-Borussia Dortmund_Nov 1 2014
+834690_Borussia M.Gladbach-Hoffenheim_Nov 2 2014
+834695_FC Cologne-Freiburg_Nov 2 2014
+834696_Paderborn-Hertha Berlin_Nov 2 2014
+834706_Hertha Berlin-Hannover 96_Nov 7 2014
+834708_Eintracht Frankfurt-Bayern Munich_Nov 8 2014
+834709_Freiburg-Schalke 04_Nov 8 2014
+834702_Bayer Leverkusen-Mainz 05_Nov 8 2014
+834704_Augsburg-Paderborn_Nov 8 2014
+834705_Hoffenheim-FC Cologne_Nov 8 2014
+834707_Werder Bremen-VfB Stuttgart_Nov 8 2014
+834703_Wolfsburg-Hamburger SV_Nov 9 2014
+834701_Borussia Dortmund-Borussia M.Gladbach_Nov 9 2014
+834710_Bayern Munich-Hoffenheim_Nov 22 2014
+834711_Schalke 04-Wolfsburg_Nov 22 2014
+834712_Borussia M.Gladbach-Eintracht Frankfurt_Nov 22 2014
+834713_Mainz 05-Freiburg_Nov 22 2014
+834714_Hannover 96-Bayer Leverkusen_Nov 22 2014
+834727_Paderborn-Borussia Dortmund_Nov 22 2014
+834724_FC Cologne-Hertha Berlin_Nov 22 2014
+834716_Hamburger SV-Werder Bremen_Nov 23 2014
+834715_VfB Stuttgart-Augsburg_Nov 23 2014
+834720_Freiburg-VfB Stuttgart_Nov 28 2014
+834729_Schalke 04-Mainz 05_Nov 29 2014
+834731_Bayer Leverkusen-FC Cologne_Nov 29 2014
+834717_Hertha Berlin-Bayern Munich_Nov 29 2014
+834718_Werder Bremen-Paderborn_Nov 29 2014
+834735_Augsburg-Hamburger SV_Nov 29 2014
+834737_Hoffenheim-Hannover 96_Nov 29 2014
+834733_Wolfsburg-Borussia M.Gladbach_Nov 30 2014
+834719_Eintracht Frankfurt-Borussia Dortmund_Nov 30 2014
+834722_Borussia Dortmund-Hoffenheim_Dec 5 2014
+834723_Borussia M.Gladbach-Hertha Berlin_Dec 6 2014
+834725_Hannover 96-Wolfsburg_Dec 6 2014
+834728_VfB Stuttgart-Schalke 04_Dec 6 2014
+834734_Paderborn-Freiburg_Dec 6 2014
+834732_FC Cologne-Augsburg_Dec 6 2014
+834721_Bayern Munich-Bayer Leverkusen_Dec 6 2014
+834730_Hamburger SV-Mainz 05_Dec 7 2014
+834726_Eintracht Frankfurt-Werder Bremen_Dec 7 2014
+834753_Hoffenheim-Eintracht Frankfurt_Dec 12 2014
+834755_Hertha Berlin-Borussia Dortmund_Dec 13 2014
+834757_Werder Bremen-Hannover 96_Dec 13 2014
+834760_Freiburg-Hamburger SV_Dec 13 2014
+834736_Schalke 04-FC Cologne_Dec 13 2014
+834751_Augsburg-Bayern Munich_Dec 13 2014
+834749_Mainz 05-VfB Stuttgart_Dec 13 2014
+834745_Bayer Leverkusen-Borussia M.Gladbach_Dec 14 2014
+834747_Wolfsburg-Paderborn_Dec 14 2014
+834743_Hamburger SV-VfB Stuttgart_Dec 16 2014
+834744_FC Cologne-Mainz 05_Dec 16 2014
+834741_Hannover 96-Augsburg_Dec 16 2014
+834762_Bayern Munich-Freiburg_Dec 16 2014
+834742_Eintracht Frankfurt-Hertha Berlin_Dec 17 2014
+834738_Borussia Dortmund-Wolfsburg_Dec 17 2014
+834739_Borussia M.Gladbach-Werder Bremen_Dec 17 2014
+834740_Hoffenheim-Bayer Leverkusen_Dec 17 2014
+834746_Paderborn-Schalke 04_Dec 17 2014
+834754_Mainz 05-Bayern Munich_Dec 19 2014
+834756_Augsburg-Borussia M.Gladbach_Dec 20 2014
+834759_Werder Bremen-Borussia Dortmund_Dec 20 2014
+834748_Schalke 04-Hamburger SV_Dec 20 2014
+834750_Bayer Leverkusen-Eintracht Frankfurt_Dec 20 2014
+834763_VfB Stuttgart-Paderborn_Dec 20 2014
+834752_Wolfsburg-FC Cologne_Dec 20 2014
+834758_Hertha Berlin-Hoffenheim_Dec 21 2014
+834761_Freiburg-Hannover 96_Dec 21 2014
+834766_Wolfsburg-Bayern Munich_Jan 30 2015
+834767_Mainz 05-Paderborn_Jan 31 2015
+834764_Schalke 04-Hannover 96_Jan 31 2015
+834770_Freiburg-Eintracht Frankfurt_Jan 31 2015
+834803_VfB Stuttgart-Borussia M.Gladbach_Jan 31 2015
+834808_Hamburger SV-FC Cologne_Jan 31 2015
+834765_Bayer Leverkusen-Borussia Dortmund_Jan 31 2015
+834769_Werder Bremen-Hertha Berlin_Feb 1 2015
+834768_Augsburg-Hoffenheim_Feb 1 2015
+834785_Eintracht Frankfurt-Wolfsburg_Feb 3 2015
+834777_Hannover 96-Mainz 05_Feb 3 2015
+834813_Bayern Munich-Schalke 04_Feb 3 2015
+834823_Borussia M.Gladbach-Freiburg_Feb 3 2015
+834818_Borussia Dortmund-Augsburg_Feb 4 2015
+834781_Hertha Berlin-Bayer Leverkusen_Feb 4 2015
+834789_FC Cologne-VfB Stuttgart_Feb 4 2015
+834793_Paderborn-Hamburger SV_Feb 4 2015
+834773_Hoffenheim-Werder Bremen_Feb 4 2015
+834797_Schalke 04-Borussia M.Gladbach_Feb 6 2015
+834801_Wolfsburg-Hoffenheim_Feb 7 2015
+834806_Mainz 05-Hertha Berlin_Feb 7 2015
+834775_FC Cologne-Paderborn_Feb 7 2015
+834821_Freiburg-Borussia Dortmund_Feb 7 2015
+834826_VfB Stuttgart-Bayern Munich_Feb 7 2015
+834771_Hamburger SV-Hannover 96_Feb 7 2015
+834816_Werder Bremen-Bayer Leverkusen_Feb 8 2015
+834811_Augsburg-Eintracht Frankfurt_Feb 8 2015
+834783_Borussia Dortmund-Mainz 05_Feb 13 2015
+834787_Bayer Leverkusen-Wolfsburg_Feb 14 2015
+834791_Borussia M.Gladbach-FC Cologne_Feb 14 2015
+834795_Hoffenheim-VfB Stuttgart_Feb 14 2015
+834776_Werder Bremen-Augsburg_Feb 14 2015
+834779_Bayern Munich-Hamburger SV_Feb 14 2015
+834780_Eintracht Frankfurt-Schalke 04_Feb 14 2015
+834772_Hertha Berlin-Freiburg_Feb 15 2015
+834799_Hannover 96-Paderborn_Feb 15 2015
+834805_VfB Stuttgart-Borussia Dortmund_Feb 20 2015
+834800_Freiburg-Hoffenheim_Feb 21 2015
+834792_Mainz 05-Eintracht Frankfurt_Feb 21 2015
+834796_Augsburg-Bayer Leverkusen_Feb 21 2015
+834774_Paderborn-Bayern Munich_Feb 21 2015
+834784_Schalke 04-Werder Bremen_Feb 21 2015
+834815_FC Cologne-Hannover 96_Feb 21 2015
+834810_Hamburger SV-Borussia M.Gladbach_Feb 22 2015
+834788_Wolfsburg-Hertha Berlin_Feb 22 2015
+834778_Bayern Munich-FC Cologne_Feb 27 2015
+834782_Borussia Dortmund-Schalke 04_Feb 28 2015
+834786_Bayer Leverkusen-Freiburg_Feb 28 2015
+834794_Hoffenheim-Mainz 05_Feb 28 2015
+834798_Hannover 96-VfB Stuttgart_Feb 28 2015
+834802_Hertha Berlin-Augsburg_Feb 28 2015
+834812_Eintracht Frankfurt-Hamburger SV_Feb 28 2015
+834790_Borussia M.Gladbach-Paderborn_Mar 1 2015
+834807_Werder Bremen-Wolfsburg_Mar 1 2015
+834836_VfB Stuttgart-Hertha Berlin_Mar 6 2015
+834840_Hamburger SV-Borussia Dortmund_Mar 7 2015
+834817_Schalke 04-Hoffenheim_Mar 7 2015
+834827_Augsburg-Wolfsburg_Mar 7 2015
+834828_Hannover 96-Bayern Munich_Mar 7 2015
+834832_Freiburg-Werder Bremen_Mar 7 2015
+834822_Mainz 05-Borussia M.Gladbach_Mar 7 2015
+834844_FC Cologne-Eintracht Frankfurt_Mar 8 2015
+834848_Paderborn-Bayer Leverkusen_Mar 8 2015
+834856_Bayer Leverkusen-VfB Stuttgart_Mar 13 2015
+834868_Augsburg-Mainz 05_Mar 14 2015
+834872_Hoffenheim-Hamburger SV_Mar 14 2015
+834876_Hertha Berlin-Schalke 04_Mar 14 2015
+834880_Werder Bremen-Bayern Munich_Mar 14 2015
+834884_Eintracht Frankfurt-Paderborn_Mar 14 2015
+834852_Borussia Dortmund-FC Cologne_Mar 14 2015
+834860_Wolfsburg-Freiburg_Mar 15 2015
+834864_Borussia M.Gladbach-Hannover 96_Mar 15 2015
+834907_Hamburger SV-Hertha Berlin_Mar 20 2015
+834909_FC Cologne-Werder Bremen_Mar 21 2015
+834911_Paderborn-Hoffenheim_Mar 21 2015
+834900_Hannover 96-Borussia Dortmund_Mar 21 2015
+834903_Freiburg-Augsburg_Mar 21 2015
+834905_VfB Stuttgart-Eintracht Frankfurt_Mar 21 2015
+834892_Schalke 04-Bayer Leverkusen_Mar 21 2015
+834896_Mainz 05-Wolfsburg_Mar 22 2015
+834888_Bayern Munich-Borussia M.Gladbach_Mar 22 2015
+834843_Werder Bremen-Mainz 05_Apr 4 2015
+834847_Eintracht Frankfurt-Hannover 96_Apr 4 2015
+834851_Freiburg-FC Cologne_Apr 4 2015
+834835_Hoffenheim-Borussia M.Gladbach_Apr 4 2015
+834915_Bayer Leverkusen-Hamburger SV_Apr 4 2015
+834916_Wolfsburg-VfB Stuttgart_Apr 4 2015
+834913_Borussia Dortmund-Bayern Munich_Apr 4 2015
+834831_Augsburg-Schalke 04_Apr 5 2015
+834839_Hertha Berlin-Paderborn_Apr 5 2015
+834871_Hannover 96-Hertha Berlin_Apr 10 2015
+834855_Bayern Munich-Eintracht Frankfurt_Apr 11 2015
+834859_Schalke 04-Freiburg_Apr 11 2015
+834863_Borussia M.Gladbach-Borussia Dortmund_Apr 11 2015
+834867_Mainz 05-Bayer Leverkusen_Apr 11 2015
+834887_Paderborn-Augsburg_Apr 11 2015
+834879_Hamburger SV-Wolfsburg_Apr 11 2015
+834883_FC Cologne-Hoffenheim_Apr 12 2015
+834875_VfB Stuttgart-Werder Bremen_Apr 12 2015
+834910_Eintracht Frankfurt-Borussia M.Gladbach_Apr 17 2015
+834912_Freiburg-Mainz 05_Apr 18 2015
+834904_Hoffenheim-Bayern Munich_Apr 18 2015
+834906_Hertha Berlin-FC Cologne_Apr 18 2015
+834890_Borussia Dortmund-Paderborn_Apr 18 2015
+834894_Bayer Leverkusen-Hannover 96_Apr 18 2015
+834902_Augsburg-VfB Stuttgart_Apr 18 2015
+834908_Werder Bremen-Hamburger SV_Apr 19 2015
+834898_Wolfsburg-Schalke 04_Apr 19 2015
+834814_Mainz 05-Schalke 04_Apr 24 2015
+834819_Hannover 96-Hoffenheim_Apr 25 2015
+834824_VfB Stuttgart-Freiburg_Apr 25 2015
+834829_Hamburger SV-Augsburg_Apr 25 2015
+834833_FC Cologne-Bayer Leverkusen_Apr 25 2015
+834804_Borussia Dortmund-Eintracht Frankfurt_Apr 25 2015
+834914_Bayern Munich-Hertha Berlin_Apr 25 2015
+834837_Paderborn-Werder Bremen_Apr 26 2015
+834809_Borussia M.Gladbach-Wolfsburg_Apr 26 2015
+834841_Schalke 04-VfB Stuttgart_May 2 2015
+834849_Wolfsburg-Hannover 96_May 2 2015
+834857_Augsburg-FC Cologne_May 2 2015
+834861_Hoffenheim-Borussia Dortmund_May 2 2015
+834869_Werder Bremen-Eintracht Frankfurt_May 2 2015
+834873_Freiburg-Paderborn_May 2 2015
+834845_Bayer Leverkusen-Bayern Munich_May 2 2015
+834853_Mainz 05-Hamburger SV_May 3 2015
+834865_Hertha Berlin-Borussia M.Gladbach_May 3 2015
+834901_Hamburger SV-Freiburg_May 8 2015
+834877_Bayern Munich-Augsburg_May 9 2015
+834881_Borussia Dortmund-Hertha Berlin_May 9 2015
+834885_Borussia M.Gladbach-Bayer Leverkusen_May 9 2015
+834889_Hannover 96-Werder Bremen_May 9 2015
+834893_Eintracht Frankfurt-Hoffenheim_May 9 2015
+834897_VfB Stuttgart-Mainz 05_May 9 2015
+834825_Paderborn-Wolfsburg_May 10 2015
+834820_FC Cologne-Schalke 04_May 10 2015
+834830_Schalke 04-Paderborn_May 16 2015
+834834_Bayer Leverkusen-Hoffenheim_May 16 2015
+834838_Wolfsburg-Borussia Dortmund_May 16 2015
+834842_Mainz 05-FC Cologne_May 16 2015
+834846_Augsburg-Hannover 96_May 16 2015
+834850_Hertha Berlin-Eintracht Frankfurt_May 16 2015
+834854_Werder Bremen-Borussia M.Gladbach_May 16 2015
+834858_Freiburg-Bayern Munich_May 16 2015
+834862_VfB Stuttgart-Hamburger SV_May 16 2015
+723694_Bayern Munich-Borussia M.Gladbach_Aug 9 2013
+723696_Hoffenheim-Nuernberg_Aug 10 2013
+723698_Bayer Leverkusen-Freiburg_Aug 10 2013
+723699_Hannover 96-Wolfsburg_Aug 10 2013
+723700_Augsburg-Borussia Dortmund_Aug 10 2013
+723702_Hertha Berlin-Eintracht Frankfurt_Aug 10 2013
+723701_Braunschweig-Werder Bremen_Aug 10 2013
+723695_Mainz 05-VfB Stuttgart_Aug 11 2013
+723697_Schalke 04-Hamburger SV_Aug 11 2013
+723748_Freiburg-Mainz 05_Aug 17 2013
+723749_Hamburger SV-Hoffenheim_Aug 17 2013
+723750_Eintracht Frankfurt-Bayern Munich_Aug 17 2013
+723744_VfB Stuttgart-Bayer Leverkusen_Aug 17 2013
+723745_Wolfsburg-Schalke 04_Aug 17 2013
+723746_Werder Bremen-Augsburg_Aug 17 2013
+723743_Borussia M.Gladbach-Hannover 96_Aug 17 2013
+723747_Nuernberg-Hertha Berlin_Aug 18 2013
+723742_Borussia Dortmund-Braunschweig_Aug 18 2013
+723751_Borussia Dortmund-Werder Bremen_Aug 23 2013
+723752_Bayern Munich-Nuernberg_Aug 24 2013
+723753_Bayer Leverkusen-Borussia M.Gladbach_Aug 24 2013
+723754_Hannover 96-Schalke 04_Aug 24 2013
+723755_Hoffenheim-Freiburg_Aug 24 2013
+723756_Mainz 05-Wolfsburg_Aug 24 2013
+723761_Hertha Berlin-Hamburger SV_Aug 24 2013
+723759_Braunschweig-Eintracht Frankfurt_Aug 25 2013
+723757_Augsburg-VfB Stuttgart_Aug 25 2013
+723763_Freiburg-Bayern Munich_Aug 27 2013
+723767_Borussia M.Gladbach-Werder Bremen_Aug 31 2013
+723758_Nuernberg-Augsburg_Aug 31 2013
+723760_Hamburger SV-Braunschweig_Aug 31 2013
+723771_Hannover 96-Mainz 05_Aug 31 2013
+723773_Wolfsburg-Hertha Berlin_Aug 31 2013
+723765_Schalke 04-Bayer Leverkusen_Aug 31 2013
+723769_VfB Stuttgart-Hoffenheim_Sep 1 2013
+723762_Eintracht Frankfurt-Borussia Dortmund_Sep 1 2013
+723777_Hertha Berlin-VfB Stuttgart_Sep 13 2013
+723774_Mainz 05-Schalke 04_Sep 14 2013
+723775_Augsburg-Freiburg_Sep 14 2013
+723766_Bayern Munich-Hannover 96_Sep 14 2013
+723768_Bayer Leverkusen-Wolfsburg_Sep 14 2013
+723770_Werder Bremen-Eintracht Frankfurt_Sep 14 2013
+723764_Borussia Dortmund-Hamburger SV_Sep 14 2013
+723772_Hoffenheim-Borussia M.Gladbach_Sep 15 2013
+723776_Braunschweig-Nuernberg_Sep 15 2013
+723781_Borussia M.Gladbach-Braunschweig_Sep 20 2013
+723785_Hannover 96-Augsburg_Sep 21 2013
+723787_Wolfsburg-Hoffenheim_Sep 21 2013
+723789_Nuernberg-Borussia Dortmund_Sep 21 2013
+723793_Mainz 05-Bayer Leverkusen_Sep 21 2013
+723795_Hamburger SV-Werder Bremen_Sep 21 2013
+723779_Schalke 04-Bayern Munich_Sep 21 2013
+723791_Freiburg-Hertha Berlin_Sep 22 2013
+723783_VfB Stuttgart-Eintracht Frankfurt_Sep 22 2013
+723786_Augsburg-Borussia M.Gladbach_Sep 27 2013
+723792_Hertha Berlin-Mainz 05_Sep 28 2013
+723797_Borussia Dortmund-Freiburg_Sep 28 2013
+723784_Hoffenheim-Schalke 04_Sep 28 2013
+723778_Bayern Munich-Wolfsburg_Sep 28 2013
+723780_Bayer Leverkusen-Hannover 96_Sep 28 2013
+723790_Eintracht Frankfurt-Hamburger SV_Sep 28 2013
+723782_Werder Bremen-Nuernberg_Sep 29 2013
+723788_Braunschweig-VfB Stuttgart_Sep 29 2013
+723800_Hannover 96-Hertha Berlin_Oct 4 2013
+723801_Wolfsburg-Braunschweig_Oct 5 2013
+723794_Schalke 04-Augsburg_Oct 5 2013
+723796_Borussia M.Gladbach-Borussia Dortmund_Oct 5 2013
+723799_VfB Stuttgart-Werder Bremen_Oct 5 2013
+723807_Mainz 05-Hoffenheim_Oct 5 2013
+723798_Bayer Leverkusen-Bayern Munich_Oct 5 2013
+723802_Nuernberg-Hamburger SV_Oct 6 2013
+723804_Freiburg-Eintracht Frankfurt_Oct 6 2013
+723819_Hoffenheim-Bayer Leverkusen_Oct 18 2013
+723810_Borussia Dortmund-Hannover 96_Oct 19 2013
+723813_Bayern Munich-Mainz 05_Oct 19 2013
+723816_Werder Bremen-Freiburg_Oct 19 2013
+723828_Braunschweig-Schalke 04_Oct 19 2013
+723830_Eintracht Frankfurt-Nuernberg_Oct 19 2013
+723805_Hertha Berlin-Borussia M.Gladbach_Oct 19 2013
+723825_Hamburger SV-VfB Stuttgart_Oct 20 2013
+723822_Augsburg-Wolfsburg_Oct 20 2013
+723820_VfB Stuttgart-Nuernberg_Oct 25 2013
+723817_Bayer Leverkusen-Augsburg_Oct 26 2013
+723808_Bayern Munich-Hertha Berlin_Oct 26 2013
+723811_Schalke 04-Borussia Dortmund_Oct 26 2013
+723823_Hannover 96-Hoffenheim_Oct 26 2013
+723831_Mainz 05-Braunschweig_Oct 26 2013
+723826_Wolfsburg-Werder Bremen_Oct 26 2013
+723829_Freiburg-Hamburger SV_Oct 27 2013
+723814_Borussia M.Gladbach-Eintracht Frankfurt_Oct 27 2013
+723832_Borussia Dortmund-VfB Stuttgart_Nov 1 2013
+723812_Hamburger SV-Borussia M.Gladbach_Nov 2 2013
+723821_Hertha Berlin-Schalke 04_Nov 2 2013
+723815_Braunschweig-Bayer Leverkusen_Nov 2 2013
+723803_Nuernberg-Freiburg_Nov 2 2013
+723806_Hoffenheim-Bayern Munich_Nov 2 2013
+723818_Eintracht Frankfurt-Wolfsburg_Nov 2 2013
+723809_Augsburg-Mainz 05_Nov 3 2013
+723833_Werder Bremen-Hannover 96_Nov 3 2013
+723839_Hannover 96-Braunschweig_Nov 8 2013
+723842_Wolfsburg-Borussia Dortmund_Nov 9 2013
+723845_Hoffenheim-Hertha Berlin_Nov 9 2013
+723824_Bayern Munich-Augsburg_Nov 9 2013
+723827_Schalke 04-Werder Bremen_Nov 9 2013
+723836_Bayer Leverkusen-Hamburger SV_Nov 9 2013
+723834_Borussia M.Gladbach-Nuernberg_Nov 9 2013
+723851_Mainz 05-Eintracht Frankfurt_Nov 10 2013
+723848_Freiburg-VfB Stuttgart_Nov 10 2013
+723857_VfB Stuttgart-Borussia M.Gladbach_Nov 22 2013
+723835_Augsburg-Hoffenheim_Nov 23 2013
+723841_Braunschweig-Freiburg_Nov 23 2013
+723844_Eintracht Frankfurt-Schalke 04_Nov 23 2013
+723847_Hertha Berlin-Bayer Leverkusen_Nov 23 2013
+723863_Nuernberg-Wolfsburg_Nov 23 2013
+723854_Borussia Dortmund-Bayern Munich_Nov 23 2013
+723838_Hamburger SV-Hannover 96_Nov 24 2013
+723860_Werder Bremen-Mainz 05_Nov 24 2013
+723865_Wolfsburg-Hamburger SV_Nov 29 2013
+723837_Hoffenheim-Werder Bremen_Nov 30 2013
+723859_Bayer Leverkusen-Nuernberg_Nov 30 2013
+723840_Mainz 05-Borussia Dortmund_Nov 30 2013
+723843_Hertha Berlin-Augsburg_Nov 30 2013
+723850_Bayern Munich-Braunschweig_Nov 30 2013
+723853_Schalke 04-VfB Stuttgart_Nov 30 2013
+723862_Hannover 96-Eintracht Frankfurt_Dec 1 2013
+723856_Borussia M.Gladbach-Freiburg_Dec 1 2013
+723858_Nuernberg-Mainz 05_Dec 6 2013
+723849_Borussia M.Gladbach-Schalke 04_Dec 7 2013
+723852_VfB Stuttgart-Hannover 96_Dec 7 2013
+723855_Werder Bremen-Bayern Munich_Dec 7 2013
+723864_Hamburger SV-Augsburg_Dec 7 2013
+723867_Eintracht Frankfurt-Hoffenheim_Dec 7 2013
+723846_Borussia Dortmund-Bayer Leverkusen_Dec 7 2013
+723861_Freiburg-Wolfsburg_Dec 8 2013
+723866_Braunschweig-Hertha Berlin_Dec 8 2013
+723900_Hertha Berlin-Werder Bremen_Dec 13 2013
+723868_Bayern Munich-Hamburger SV_Dec 14 2013
+723880_Hannover 96-Nuernberg_Dec 14 2013
+723888_Hoffenheim-Borussia Dortmund_Dec 14 2013
+723892_Mainz 05-Borussia M.Gladbach_Dec 14 2013
+723896_Augsburg-Braunschweig_Dec 14 2013
+723884_Wolfsburg-VfB Stuttgart_Dec 14 2013
+723872_Schalke 04-Freiburg_Dec 15 2013
+723876_Bayer Leverkusen-Eintracht Frankfurt_Dec 15 2013
+723897_Eintracht Frankfurt-Augsburg_Dec 20 2013
+723904_Borussia Dortmund-Hertha Berlin_Dec 21 2013
+723885_Freiburg-Hannover 96_Dec 21 2013
+723889_Hamburger SV-Mainz 05_Dec 21 2013
+723893_Braunschweig-Hoffenheim_Dec 21 2013
+723877_Werder Bremen-Bayer Leverkusen_Dec 21 2013
+723881_Nuernberg-Schalke 04_Dec 21 2013
+723873_Borussia M.Gladbach-Wolfsburg_Dec 22 2013
+723908_Borussia M.Gladbach-Bayern Munich_Jan 24 2014
+723912_VfB Stuttgart-Mainz 05_Jan 25 2014
+723905_Borussia Dortmund-Augsburg_Jan 25 2014
+723871_Wolfsburg-Hannover 96_Jan 25 2014
+723879_Nuernberg-Hoffenheim_Jan 25 2014
+723883_Freiburg-Bayer Leverkusen_Jan 25 2014
+723891_Eintracht Frankfurt-Hertha Berlin_Jan 25 2014
+723875_Werder Bremen-Braunschweig_Jan 26 2014
+723887_Hamburger SV-Schalke 04_Jan 26 2014
+723901_VfB Stuttgart-Bayern Munich_Jan 29 2014
+723878_Braunschweig-Borussia Dortmund_Jan 31 2014
+723870_Mainz 05-Freiburg_Feb 1 2014
+723874_Augsburg-Werder Bremen_Feb 1 2014
+723903_Bayer Leverkusen-VfB Stuttgart_Feb 1 2014
+723899_Schalke 04-Wolfsburg_Feb 1 2014
+723911_Hoffenheim-Hamburger SV_Feb 1 2014
+723907_Hannover 96-Borussia M.Gladbach_Feb 1 2014
+723882_Hertha Berlin-Nuernberg_Feb 2 2014
+723895_Bayern Munich-Eintracht Frankfurt_Feb 2 2014
+723890_Borussia M.Gladbach-Bayer Leverkusen_Feb 7 2014
+723898_Wolfsburg-Mainz 05_Feb 8 2014
+723902_Werder Bremen-Borussia Dortmund_Feb 8 2014
+723906_Nuernberg-Bayern Munich_Feb 8 2014
+723910_Freiburg-Hoffenheim_Feb 8 2014
+723929_Eintracht Frankfurt-Braunschweig_Feb 8 2014
+723924_Hamburger SV-Hertha Berlin_Feb 8 2014
+723894_VfB Stuttgart-Augsburg_Feb 9 2014
+723886_Schalke 04-Hannover 96_Feb 9 2014
+723959_Mainz 05-Hannover 96_Feb 14 2014
+723949_Werder Bremen-Borussia M.Gladbach_Feb 15 2014
+723954_Hoffenheim-VfB Stuttgart_Feb 15 2014
+723919_Braunschweig-Hamburger SV_Feb 15 2014
+723934_Borussia Dortmund-Eintracht Frankfurt_Feb 15 2014
+723939_Bayern Munich-Freiburg_Feb 15 2014
+723944_Bayer Leverkusen-Schalke 04_Feb 15 2014
+723964_Augsburg-Nuernberg_Feb 16 2014
+723923_Hertha Berlin-Wolfsburg_Feb 16 2014
+723928_Schalke 04-Mainz 05_Feb 21 2014
+723933_Borussia M.Gladbach-Hoffenheim_Feb 22 2014
+723938_VfB Stuttgart-Hertha Berlin_Feb 22 2014
+723953_Nuernberg-Braunschweig_Feb 22 2014
+723958_Freiburg-Augsburg_Feb 22 2014
+723962_Hamburger SV-Borussia Dortmund_Feb 22 2014
+723948_Wolfsburg-Bayer Leverkusen_Feb 22 2014
+723966_Eintracht Frankfurt-Werder Bremen_Feb 23 2014
+723943_Hannover 96-Bayern Munich_Feb 23 2014
+723940_Hertha Berlin-Freiburg_Feb 28 2014
+723969_Borussia Dortmund-Nuernberg_Mar 1 2014
+723916_Werder Bremen-Hamburger SV_Mar 1 2014
+723925_Augsburg-Hannover 96_Mar 1 2014
+723930_Braunschweig-Borussia M.Gladbach_Mar 1 2014
+723972_Bayer Leverkusen-Mainz 05_Mar 1 2014
+723971_Bayern Munich-Schalke 04_Mar 1 2014
+723920_Hoffenheim-Wolfsburg_Mar 2 2014
+723935_Eintracht Frankfurt-VfB Stuttgart_Mar 2 2014
+723945_Schalke 04-Hoffenheim_Mar 8 2014
+723950_Borussia M.Gladbach-Augsburg_Mar 8 2014
+723955_VfB Stuttgart-Braunschweig_Mar 8 2014
+723960_Hannover 96-Bayer Leverkusen_Mar 8 2014
+723915_Wolfsburg-Bayern Munich_Mar 8 2014
+723932_Hamburger SV-Eintracht Frankfurt_Mar 8 2014
+723918_Nuernberg-Werder Bremen_Mar 8 2014
+723922_Freiburg-Borussia Dortmund_Mar 9 2014
+723927_Mainz 05-Hertha Berlin_Mar 9 2014
+723957_Augsburg-Schalke 04_Mar 14 2014
+723947_Werder Bremen-VfB Stuttgart_Mar 15 2014
+723952_Hoffenheim-Mainz 05_Mar 15 2014
+723937_Borussia Dortmund-Borussia M.Gladbach_Mar 15 2014
+723965_Braunschweig-Wolfsburg_Mar 15 2014
+723970_Hertha Berlin-Hannover 96_Mar 15 2014
+723942_Bayern Munich-Bayer Leverkusen_Mar 15 2014
+723961_Hamburger SV-Nuernberg_Mar 16 2014
+723967_Eintracht Frankfurt-Freiburg_Mar 16 2014
+723946_Freiburg-Werder Bremen_Mar 21 2014
+723951_Mainz 05-Bayern Munich_Mar 22 2014
+723914_Schalke 04-Braunschweig_Mar 22 2014
+723926_VfB Stuttgart-Hamburger SV_Mar 22 2014
+723931_Hannover 96-Borussia Dortmund_Mar 22 2014
+723936_Wolfsburg-Augsburg_Mar 22 2014
+723917_Borussia M.Gladbach-Hertha Berlin_Mar 22 2014
+723941_Nuernberg-Eintracht Frankfurt_Mar 23 2014
+723921_Bayer Leverkusen-Hoffenheim_Mar 23 2014
+723956_Borussia Dortmund-Schalke 04_Mar 25 2014
+723988_Werder Bremen-Wolfsburg_Mar 25 2014
+724023_Braunschweig-Mainz 05_Mar 25 2014
+724034_Hertha Berlin-Bayern Munich_Mar 25 2014
+724029_Eintracht Frankfurt-Borussia M.Gladbach_Mar 26 2014
+724004_Hoffenheim-Hannover 96_Mar 26 2014
+724011_Augsburg-Bayer Leverkusen_Mar 26 2014
+724017_Hamburger SV-Freiburg_Mar 26 2014
+723997_Nuernberg-VfB Stuttgart_Mar 26 2014
+724041_Schalke 04-Hertha Berlin_Mar 28 2014
+724038_Bayern Munich-Hoffenheim_Mar 29 2014
+724001_Mainz 05-Augsburg_Mar 29 2014
+723984_Wolfsburg-Eintracht Frankfurt_Mar 29 2014
+724045_Bayer Leverkusen-Braunschweig_Mar 29 2014
+724046_VfB Stuttgart-Borussia Dortmund_Mar 29 2014
+723992_Freiburg-Nuernberg_Mar 29 2014
+724043_Borussia M.Gladbach-Hamburger SV_Mar 30 2014
+723977_Hannover 96-Werder Bremen_Mar 30 2014
+724037_Hamburger SV-Bayer Leverkusen_Apr 4 2014
+723980_Eintracht Frankfurt-Mainz 05_Apr 5 2014
+724014_VfB Stuttgart-Freiburg_Apr 5 2014
+724020_Werder Bremen-Schalke 04_Apr 5 2014
+724026_Nuernberg-Borussia M.Gladbach_Apr 5 2014
+724031_Augsburg-Bayern Munich_Apr 5 2014
+724008_Borussia Dortmund-Wolfsburg_Apr 5 2014
+724040_Braunschweig-Hannover 96_Apr 6 2014
+723987_Hertha Berlin-Hoffenheim_Apr 6 2014
+724003_Schalke 04-Eintracht Frankfurt_Apr 11 2014
+724010_Borussia M.Gladbach-VfB Stuttgart_Apr 12 2014
+724022_Hannover 96-Hamburger SV_Apr 12 2014
+724028_Wolfsburg-Nuernberg_Apr 12 2014
+723975_Freiburg-Braunschweig_Apr 12 2014
+723982_Mainz 05-Werder Bremen_Apr 12 2014
+723995_Bayern Munich-Borussia Dortmund_Apr 12 2014
+724016_Bayer Leverkusen-Hertha Berlin_Apr 13 2014
+724033_Hoffenheim-Augsburg_Apr 13 2014
+724015_Eintracht Frankfurt-Hannover 96_Apr 17 2014
+723985_Freiburg-Borussia M.Gladbach_Apr 19 2014
+723990_Borussia Dortmund-Mainz 05_Apr 19 2014
+723993_Augsburg-Hertha Berlin_Apr 19 2014
+724006_Werder Bremen-Hoffenheim_Apr 19 2014
+724009_Braunschweig-Bayern Munich_Apr 19 2014
+724002_Hamburger SV-Wolfsburg_Apr 19 2014
+723978_Nuernberg-Bayer Leverkusen_Apr 20 2014
+723999_VfB Stuttgart-Schalke 04_Apr 20 2014
+723976_Hannover 96-VfB Stuttgart_Apr 25 2014
+724013_Hertha Berlin-Braunschweig_Apr 26 2014
+724021_Bayern Munich-Werder Bremen_Apr 26 2014
+724000_Mainz 05-Nuernberg_Apr 26 2014
+723983_Wolfsburg-Freiburg_Apr 26 2014
+723991_Hoffenheim-Eintracht Frankfurt_Apr 26 2014
+724032_Bayer Leverkusen-Borussia Dortmund_Apr 26 2014
+724007_Augsburg-Hamburger SV_Apr 27 2014
+724027_Schalke 04-Borussia M.Gladbach_Apr 27 2014
+724030_VfB Stuttgart-Wolfsburg_May 3 2014
+724036_Werder Bremen-Hertha Berlin_May 3 2014
+724039_Nuernberg-Hannover 96_May 3 2014
+724042_Freiburg-Schalke 04_May 3 2014
+724044_Hamburger SV-Bayern Munich_May 3 2014
+724019_Borussia Dortmund-Hoffenheim_May 3 2014
+724025_Borussia M.Gladbach-Mainz 05_May 3 2014
+723974_Braunschweig-Augsburg_May 3 2014
+723981_Eintracht Frankfurt-Bayer Leverkusen_May 3 2014
+723979_Mainz 05-Hamburger SV_May 10 2014
+723986_Augsburg-Eintracht Frankfurt_May 10 2014
+723989_Bayern Munich-VfB Stuttgart_May 10 2014
+723994_Hertha Berlin-Borussia Dortmund_May 10 2014
+723998_Schalke 04-Nuernberg_May 10 2014
+724005_Bayer Leverkusen-Werder Bremen_May 10 2014
+724012_Hannover 96-Freiburg_May 10 2014
+724018_Wolfsburg-Borussia M.Gladbach_May 10 2014
+724024_Hoffenheim-Braunschweig_May 10 2014
+621122_Borussia Dortmund-Werder Bremen_Aug 24 2012
+621134_Greuther Fuerth-Bayern Munich_Aug 25 2012
+621135_Borussia M.Gladbach-Hoffenheim_Aug 25 2012
+621130_Freiburg-Mainz 05_Aug 25 2012
+621131_Augsburg-Fortuna Duesseldorf_Aug 25 2012
+621132_Hamburger SV-Nuernberg_Aug 25 2012
+621133_Eintracht Frankfurt-Bayer Leverkusen_Aug 25 2012
+621129_VfB Stuttgart-Wolfsburg_Aug 25 2012
+621125_Hannover 96-Schalke 04_Aug 26 2012
+621146_Mainz 05-Greuther Fuerth_Aug 31 2012
+621147_Werder Bremen-Hamburger SV_Sep 1 2012
+621150_Nuernberg-Borussia Dortmund_Sep 1 2012
+621151_Schalke 04-Augsburg_Sep 1 2012
+621153_Hoffenheim-Eintracht Frankfurt_Sep 1 2012
+621154_Bayer Leverkusen-Freiburg_Sep 1 2012
+621149_Fortuna Duesseldorf-Borussia M.Gladbach_Sep 1 2012
+621156_Wolfsburg-Hannover 96_Sep 2 2012
+621148_Bayern Munich-VfB Stuttgart_Sep 2 2012
+621161_Augsburg-Wolfsburg_Sep 14 2012
+621152_Borussia Dortmund-Bayer Leverkusen_Sep 15 2012
+621155_Bayern Munich-Mainz 05_Sep 15 2012
+621157_Borussia M.Gladbach-Nuernberg_Sep 15 2012
+621158_VfB Stuttgart-Fortuna Duesseldorf_Sep 15 2012
+621159_Hannover 96-Werder Bremen_Sep 15 2012
+621162_Greuther Fuerth-Schalke 04_Sep 15 2012
+621160_Freiburg-Hoffenheim_Sep 16 2012
+621163_Eintracht Frankfurt-Hamburger SV_Sep 16 2012
+621171_Nuernberg-Eintracht Frankfurt_Sep 21 2012
+621172_Fortuna Duesseldorf-Freiburg_Sep 22 2012
+621168_Hamburger SV-Borussia Dortmund_Sep 22 2012
+621169_Wolfsburg-Greuther Fuerth_Sep 22 2012
+621165_Schalke 04-Bayern Munich_Sep 22 2012
+621166_Mainz 05-Augsburg_Sep 22 2012
+621167_Bayer Leverkusen-Borussia M.Gladbach_Sep 23 2012
+621164_Hoffenheim-Hannover 96_Sep 23 2012
+621170_Werder Bremen-VfB Stuttgart_Sep 23 2012
+621144_Greuther Fuerth-Fortuna Duesseldorf_Sep 25 2012
+621145_Eintracht Frankfurt-Borussia Dortmund_Sep 25 2012
+621137_Bayern Munich-Wolfsburg_Sep 25 2012
+621138_Schalke 04-Mainz 05_Sep 25 2012
+621139_Borussia M.Gladbach-Hamburger SV_Sep 26 2012
+621140_VfB Stuttgart-Hoffenheim_Sep 26 2012
+621141_Hannover 96-Nuernberg_Sep 26 2012
+621142_Freiburg-Werder Bremen_Sep 26 2012
+621143_Augsburg-Bayer Leverkusen_Sep 26 2012
+621181_Fortuna Duesseldorf-Schalke 04_Sep 28 2012
+621174_Bayer Leverkusen-Greuther Fuerth_Sep 29 2012
+621176_Werder Bremen-Bayern Munich_Sep 29 2012
+621177_Nuernberg-VfB Stuttgart_Sep 29 2012
+621178_Hoffenheim-Augsburg_Sep 29 2012
+621179_Hamburger SV-Hannover 96_Sep 29 2012
+621173_Borussia Dortmund-Borussia M.Gladbach_Sep 29 2012
+621180_Eintracht Frankfurt-Freiburg_Sep 30 2012
+621175_Wolfsburg-Mainz 05_Sep 30 2012
+621195_Augsburg-Werder Bremen_Oct 5 2012
+621198_Greuther Fuerth-Hamburger SV_Oct 6 2012
+621189_Freiburg-Nuernberg_Oct 6 2012
+621192_Mainz 05-Fortuna Duesseldorf_Oct 6 2012
+621182_Bayern Munich-Hoffenheim_Oct 6 2012
+621183_Schalke 04-Wolfsburg_Oct 6 2012
+621184_Borussia M.Gladbach-Eintracht Frankfurt_Oct 7 2012
+621185_VfB Stuttgart-Bayer Leverkusen_Oct 7 2012
+621186_Hannover 96-Borussia Dortmund_Oct 7 2012
+621187_Hoffenheim-Greuther Fuerth_Oct 19 2012
+621188_Borussia Dortmund-Schalke 04_Oct 20 2012
+621191_Bayer Leverkusen-Mainz 05_Oct 20 2012
+621193_Eintracht Frankfurt-Hannover 96_Oct 20 2012
+621194_Wolfsburg-Freiburg_Oct 20 2012
+621196_Fortuna Duesseldorf-Bayern Munich_Oct 20 2012
+621197_Werder Bremen-Borussia M.Gladbach_Oct 20 2012
+621200_Nuernberg-Augsburg_Oct 21 2012
+621190_Hamburger SV-VfB Stuttgart_Oct 21 2012
+621213_Augsburg-Hamburger SV_Oct 26 2012
+621201_Schalke 04-Nuernberg_Oct 27 2012
+621203_Greuther Fuerth-Werder Bremen_Oct 27 2012
+621204_Fortuna Duesseldorf-Wolfsburg_Oct 27 2012
+621211_Mainz 05-Hoffenheim_Oct 27 2012
+621212_Freiburg-Borussia Dortmund_Oct 27 2012
+621202_VfB Stuttgart-Eintracht Frankfurt_Oct 28 2012
+621199_Bayern Munich-Bayer Leverkusen_Oct 28 2012
+621210_Hannover 96-Borussia M.Gladbach_Oct 28 2012
+621216_Eintracht Frankfurt-Greuther Fuerth_Nov 2 2012
+621217_Hoffenheim-Schalke 04_Nov 3 2012
+621215_Nuernberg-Wolfsburg_Nov 3 2012
+621208_Hannover 96-Augsburg_Nov 3 2012
+621205_Borussia Dortmund-VfB Stuttgart_Nov 3 2012
+621206_Borussia M.Gladbach-Freiburg_Nov 3 2012
+621214_Hamburger SV-Bayern Munich_Nov 3 2012
+621207_Bayer Leverkusen-Fortuna Duesseldorf_Nov 4 2012
+621209_Werder Bremen-Mainz 05_Nov 4 2012
+621228_Mainz 05-Nuernberg_Nov 9 2012
+621226_Freiburg-Hamburger SV_Nov 10 2012
+621223_Fortuna Duesseldorf-Hoffenheim_Nov 10 2012
+621218_Bayern Munich-Eintracht Frankfurt_Nov 10 2012
+621219_Augsburg-Borussia Dortmund_Nov 10 2012
+621220_Schalke 04-Werder Bremen_Nov 10 2012
+621224_Wolfsburg-Bayer Leverkusen_Nov 11 2012
+621221_Greuther Fuerth-Borussia M.Gladbach_Nov 11 2012
+621222_VfB Stuttgart-Hannover 96_Nov 11 2012
+621230_Hannover 96-Freiburg_Nov 17 2012
+621225_Borussia Dortmund-Greuther Fuerth_Nov 17 2012
+621227_Borussia M.Gladbach-VfB Stuttgart_Nov 17 2012
+621232_Nuernberg-Bayern Munich_Nov 17 2012
+621234_Hamburger SV-Mainz 05_Nov 17 2012
+621235_Eintracht Frankfurt-Augsburg_Nov 17 2012
+621229_Bayer Leverkusen-Schalke 04_Nov 17 2012
+621231_Werder Bremen-Fortuna Duesseldorf_Nov 18 2012
+621233_Hoffenheim-Wolfsburg_Nov 18 2012
+621245_Fortuna Duesseldorf-Hamburger SV_Nov 23 2012
+621236_Bayern Munich-Hannover 96_Nov 24 2012
+621237_Schalke 04-Eintracht Frankfurt_Nov 24 2012
+621238_Wolfsburg-Werder Bremen_Nov 24 2012
+621241_Mainz 05-Borussia Dortmund_Nov 24 2012
+621243_Greuther Fuerth-Nuernberg_Nov 24 2012
+621240_Freiburg-VfB Stuttgart_Nov 25 2012
+621242_Augsburg-Borussia M.Gladbach_Nov 25 2012
+621239_Hoffenheim-Bayer Leverkusen_Nov 25 2012
+621246_Hamburger SV-Schalke 04_Nov 27 2012
+621247_Borussia Dortmund-Fortuna Duesseldorf_Nov 27 2012
+621248_Eintracht Frankfurt-Mainz 05_Nov 27 2012
+621251_Hannover 96-Greuther Fuerth_Nov 27 2012
+621252_Werder Bremen-Bayer Leverkusen_Nov 28 2012
+621249_Borussia M.Gladbach-Wolfsburg_Nov 28 2012
+621250_VfB Stuttgart-Augsburg_Nov 28 2012
+621244_Freiburg-Bayern Munich_Nov 28 2012
+621253_Nuernberg-Hoffenheim_Nov 28 2012
+621259_Fortuna Duesseldorf-Eintracht Frankfurt_Nov 30 2012
+621255_Augsburg-Freiburg_Dec 1 2012
+621256_Schalke 04-Borussia M.Gladbach_Dec 1 2012
+621257_Greuther Fuerth-VfB Stuttgart_Dec 1 2012
+621258_Bayer Leverkusen-Nuernberg_Dec 1 2012
+621262_Mainz 05-Hannover 96_Dec 1 2012
+621254_Bayern Munich-Borussia Dortmund_Dec 1 2012
+621261_Hoffenheim-Werder Bremen_Dec 2 2012
+621260_Wolfsburg-Hamburger SV_Dec 2 2012
+621270_Hamburger SV-Hoffenheim_Dec 7 2012
+621271_VfB Stuttgart-Schalke 04_Dec 8 2012
+621264_Freiburg-Greuther Fuerth_Dec 8 2012
+621265_Borussia Dortmund-Wolfsburg_Dec 8 2012
+621267_Augsburg-Bayern Munich_Dec 8 2012
+621277_Nuernberg-Fortuna Duesseldorf_Dec 8 2012
+621273_Eintracht Frankfurt-Werder Bremen_Dec 8 2012
+621268_Borussia M.Gladbach-Mainz 05_Dec 9 2012
+621274_Hannover 96-Bayer Leverkusen_Dec 9 2012
+621276_Bayern Munich-Borussia M.Gladbach_Dec 14 2012
+621275_Mainz 05-VfB Stuttgart_Dec 15 2012
+621263_Bayer Leverkusen-Hamburger SV_Dec 15 2012
+621266_Wolfsburg-Eintracht Frankfurt_Dec 15 2012
+621279_Greuther Fuerth-Augsburg_Dec 15 2012
+621281_Fortuna Duesseldorf-Hannover 96_Dec 15 2012
+621278_Schalke 04-Freiburg_Dec 15 2012
+621272_Hoffenheim-Borussia Dortmund_Dec 16 2012
+621269_Werder Bremen-Nuernberg_Dec 16 2012
+621285_Schalke 04-Hannover 96_Jan 18 2013
+621280_Hoffenheim-Borussia M.Gladbach_Jan 19 2013
+621282_Wolfsburg-VfB Stuttgart_Jan 19 2013
+621284_Mainz 05-Freiburg_Jan 19 2013
+621290_Bayer Leverkusen-Eintracht Frankfurt_Jan 19 2013
+621293_Bayern Munich-Greuther Fuerth_Jan 19 2013
+621283_Werder Bremen-Borussia Dortmund_Jan 19 2013
+621287_Nuernberg-Hamburger SV_Jan 20 2013
+621286_Fortuna Duesseldorf-Augsburg_Jan 20 2013
+621289_Borussia Dortmund-Nuernberg_Jan 25 2013
+621291_Augsburg-Schalke 04_Jan 26 2013
+621292_Eintracht Frankfurt-Hoffenheim_Jan 26 2013
+621295_Greuther Fuerth-Mainz 05_Jan 26 2013
+621296_Hannover 96-Wolfsburg_Jan 26 2013
+621297_Borussia M.Gladbach-Fortuna Duesseldorf_Jan 26 2013
+621294_Freiburg-Bayer Leverkusen_Jan 26 2013
+621298_Hamburger SV-Werder Bremen_Jan 27 2013
+621288_VfB Stuttgart-Bayern Munich_Jan 27 2013
+621303_Werder Bremen-Hannover 96_Feb 1 2013
+621304_Hoffenheim-Freiburg_Feb 2 2013
+621305_Wolfsburg-Augsburg_Feb 2 2013
+621306_Schalke 04-Greuther Fuerth_Feb 2 2013
+621300_Mainz 05-Bayern Munich_Feb 2 2013
+621302_Fortuna Duesseldorf-VfB Stuttgart_Feb 2 2013
+621307_Hamburger SV-Eintracht Frankfurt_Feb 2 2013
+621301_Nuernberg-Borussia M.Gladbach_Feb 3 2013
+621299_Bayer Leverkusen-Borussia Dortmund_Feb 3 2013
+621313_Greuther Fuerth-Wolfsburg_Feb 9 2013
+621315_VfB Stuttgart-Werder Bremen_Feb 9 2013
+621317_Eintracht Frankfurt-Nuernberg_Feb 9 2013
+621318_Hannover 96-Hoffenheim_Feb 9 2013
+621310_Borussia Dortmund-Hamburger SV_Feb 9 2013
+621311_Borussia M.Gladbach-Bayer Leverkusen_Feb 9 2013
+621309_Bayern Munich-Schalke 04_Feb 9 2013
+621308_Augsburg-Mainz 05_Feb 10 2013
+621312_Freiburg-Fortuna Duesseldorf_Feb 10 2013
+621314_Wolfsburg-Bayern Munich_Feb 15 2013
+621316_Mainz 05-Schalke 04_Feb 16 2013
+621319_Hamburger SV-Borussia M.Gladbach_Feb 16 2013
+621322_Werder Bremen-Freiburg_Feb 16 2013
+621323_Bayer Leverkusen-Augsburg_Feb 16 2013
+621324_Fortuna Duesseldorf-Greuther Fuerth_Feb 16 2013
+621325_Borussia Dortmund-Eintracht Frankfurt_Feb 16 2013
+621321_Nuernberg-Hannover 96_Feb 17 2013
+621320_Hoffenheim-VfB Stuttgart_Feb 17 2013
+621331_Freiburg-Eintracht Frankfurt_Feb 22 2013
+621332_VfB Stuttgart-Nuernberg_Feb 23 2013
+621334_Augsburg-Hoffenheim_Feb 23 2013
+621328_Mainz 05-Wolfsburg_Feb 23 2013
+621329_Hannover 96-Hamburger SV_Feb 23 2013
+621330_Bayern Munich-Werder Bremen_Feb 23 2013
+621333_Schalke 04-Fortuna Duesseldorf_Feb 23 2013
+621326_Borussia M.Gladbach-Borussia Dortmund_Feb 24 2013
+621327_Greuther Fuerth-Bayer Leverkusen_Feb 24 2013
+621337_Eintracht Frankfurt-Borussia M.Gladbach_Mar 1 2013
+621339_Borussia Dortmund-Hannover 96_Mar 2 2013
+621340_Nuernberg-Freiburg_Mar 2 2013
+621342_Werder Bremen-Augsburg_Mar 2 2013
+621343_Hamburger SV-Greuther Fuerth_Mar 2 2013
+621336_Wolfsburg-Schalke 04_Mar 2 2013
+621338_Bayer Leverkusen-VfB Stuttgart_Mar 2 2013
+621335_Hoffenheim-Bayern Munich_Mar 3 2013
+621341_Fortuna Duesseldorf-Mainz 05_Mar 3 2013
+621349_Augsburg-Nuernberg_Mar 8 2013
+621348_Greuther Fuerth-Hoffenheim_Mar 9 2013
+621344_Schalke 04-Borussia Dortmund_Mar 9 2013
+621345_Mainz 05-Bayer Leverkusen_Mar 9 2013
+621346_Freiburg-Wolfsburg_Mar 9 2013
+621357_Bayern Munich-Fortuna Duesseldorf_Mar 9 2013
+621347_Borussia M.Gladbach-Werder Bremen_Mar 9 2013
+621356_Hannover 96-Eintracht Frankfurt_Mar 10 2013
+621354_VfB Stuttgart-Hamburger SV_Mar 10 2013
+621353_Wolfsburg-Fortuna Duesseldorf_Mar 15 2013
+621350_Hoffenheim-Mainz 05_Mar 16 2013
+621351_Hamburger SV-Augsburg_Mar 16 2013
+621352_Werder Bremen-Greuther Fuerth_Mar 16 2013
+621359_Nuernberg-Schalke 04_Mar 16 2013
+621362_Borussia Dortmund-Freiburg_Mar 16 2013
+621358_Bayer Leverkusen-Bayern Munich_Mar 16 2013
+621360_Eintracht Frankfurt-VfB Stuttgart_Mar 17 2013
+621361_Borussia M.Gladbach-Hannover 96_Mar 17 2013
+621355_VfB Stuttgart-Borussia Dortmund_Mar 30 2013
+621364_Freiburg-Borussia M.Gladbach_Mar 30 2013
+621367_Fortuna Duesseldorf-Bayer Leverkusen_Mar 30 2013
+621370_Augsburg-Hannover 96_Mar 30 2013
+621373_Mainz 05-Werder Bremen_Mar 30 2013
+621378_Schalke 04-Hoffenheim_Mar 30 2013
+621380_Bayern Munich-Hamburger SV_Mar 30 2013
+621376_Wolfsburg-Nuernberg_Mar 31 2013
+621382_Greuther Fuerth-Eintracht Frankfurt_Mar 31 2013
+621363_Hoffenheim-Fortuna Duesseldorf_Apr 5 2013
+621365_Eintracht Frankfurt-Bayern Munich_Apr 6 2013
+621368_Werder Bremen-Schalke 04_Apr 6 2013
+621374_Bayer Leverkusen-Wolfsburg_Apr 6 2013
+621381_Borussia Dortmund-Augsburg_Apr 6 2013
+621383_Borussia M.Gladbach-Greuther Fuerth_Apr 6 2013
+621377_Hamburger SV-Freiburg_Apr 6 2013
+621379_Nuernberg-Mainz 05_Apr 7 2013
+621371_Hannover 96-VfB Stuttgart_Apr 7 2013
+621375_Freiburg-Hannover 96_Apr 12 2013
+621366_Greuther Fuerth-Borussia Dortmund_Apr 13 2013
+621384_Fortuna Duesseldorf-Werder Bremen_Apr 13 2013
+621387_Bayern Munich-Nuernberg_Apr 13 2013
+621390_Wolfsburg-Hoffenheim_Apr 13 2013
+621393_Mainz 05-Hamburger SV_Apr 13 2013
+621372_Schalke 04-Bayer Leverkusen_Apr 13 2013
+621369_VfB Stuttgart-Borussia M.Gladbach_Apr 14 2013
+621385_Augsburg-Eintracht Frankfurt_Apr 14 2013
+621389_Borussia M.Gladbach-Augsburg_Apr 19 2013
+621391_Eintracht Frankfurt-Schalke 04_Apr 20 2013
+621395_Hamburger SV-Fortuna Duesseldorf_Apr 20 2013
+621396_Bayer Leverkusen-Hoffenheim_Apr 20 2013
+621386_Borussia Dortmund-Mainz 05_Apr 20 2013
+621388_Hannover 96-Bayern Munich_Apr 20 2013
+621394_Werder Bremen-Wolfsburg_Apr 20 2013
+621398_VfB Stuttgart-Freiburg_Apr 21 2013
+621392_Nuernberg-Greuther Fuerth_Apr 21 2013
+621399_Greuther Fuerth-Hannover 96_Apr 26 2013
+621400_Wolfsburg-Borussia M.Gladbach_Apr 27 2013
+621401_Bayer Leverkusen-Werder Bremen_Apr 27 2013
+621402_Augsburg-VfB Stuttgart_Apr 27 2013
+621403_Hoffenheim-Nuernberg_Apr 27 2013
+621404_Bayern Munich-Freiburg_Apr 27 2013
+621397_Fortuna Duesseldorf-Borussia Dortmund_Apr 27 2013
+621408_Mainz 05-Eintracht Frankfurt_Apr 28 2013
+621406_Schalke 04-Hamburger SV_Apr 28 2013
+621412_Borussia M.Gladbach-Schalke 04_May 3 2013
+621413_Eintracht Frankfurt-Fortuna Duesseldorf_May 4 2013
+621414_Nuernberg-Bayer Leverkusen_May 4 2013
+621407_Hannover 96-Mainz 05_May 4 2013
+621405_Werder Bremen-Hoffenheim_May 4 2013
+621411_VfB Stuttgart-Greuther Fuerth_May 4 2013
+621410_Borussia Dortmund-Bayern Munich_May 4 2013
+621409_Freiburg-Augsburg_May 5 2013
+621416_Hamburger SV-Wolfsburg_May 5 2013
+621417_Mainz 05-Borussia M.Gladbach_May 11 2013
+621418_Schalke 04-VfB Stuttgart_May 11 2013
+621419_Bayer Leverkusen-Hannover 96_May 11 2013
+621420_Fortuna Duesseldorf-Nuernberg_May 11 2013
+621421_Greuther Fuerth-Freiburg_May 11 2013
+621422_Bayern Munich-Augsburg_May 11 2013
+621423_Hoffenheim-Hamburger SV_May 11 2013
+621424_Werder Bremen-Eintracht Frankfurt_May 11 2013
+621415_Wolfsburg-Borussia Dortmund_May 11 2013
+621425_Borussia M.Gladbach-Bayern Munich_May 18 2013
+621426_Freiburg-Schalke 04_May 18 2013
+621427_Hamburger SV-Bayer Leverkusen_May 18 2013
+621428_Eintracht Frankfurt-Wolfsburg_May 18 2013
+621429_Nuernberg-Werder Bremen_May 18 2013
+621430_Borussia Dortmund-Hoffenheim_May 18 2013
+621431_VfB Stuttgart-Mainz 05_May 18 2013
+621432_Augsburg-Greuther Fuerth_May 18 2013
+621433_Hannover 96-Fortuna Duesseldorf_May 18 2013
+509546_Borussia Dortmund-Hamburger SV_Aug 5 2011
+509547_Werder Bremen-Kaiserslautern_Aug 6 2011
+509548_Hannover 96-Hoffenheim_Aug 6 2011
+509550_VfB Stuttgart-Schalke 04_Aug 6 2011
+509551_FC Cologne-Wolfsburg_Aug 6 2011
+509552_Augsburg-Freiburg_Aug 6 2011
+509553_Hertha Berlin-Nuernberg_Aug 6 2011
+509549_Mainz 05-Bayer Leverkusen_Aug 7 2011
+509554_Bayern Munich-Borussia M.Gladbach_Aug 7 2011
+509571_Hoffenheim-Borussia Dortmund_Aug 13 2011
+509572_Wolfsburg-Bayern Munich_Aug 13 2011
+509566_Schalke 04-FC Cologne_Aug 13 2011
+509567_Hamburger SV-Hertha Berlin_Aug 13 2011
+509568_Nuernberg-Hannover 96_Aug 13 2011
+509569_Freiburg-Mainz 05_Aug 13 2011
+509573_Borussia M.Gladbach-VfB Stuttgart_Aug 13 2011
+509570_Kaiserslautern-Augsburg_Aug 14 2011
+509564_Bayer Leverkusen-Werder Bremen_Aug 14 2011
+509591_Borussia M.Gladbach-Wolfsburg_Aug 19 2011
+509592_Augsburg-Hoffenheim_Aug 20 2011
+509587_VfB Stuttgart-Bayer Leverkusen_Aug 20 2011
+509576_Borussia Dortmund-Nuernberg_Aug 20 2011
+509579_Bayern Munich-Hamburger SV_Aug 20 2011
+509581_Werder Bremen-Freiburg_Aug 20 2011
+509589_FC Cologne-Kaiserslautern_Aug 20 2011
+509586_Mainz 05-Schalke 04_Aug 21 2011
+509584_Hannover 96-Hertha Berlin_Aug 21 2011
+509617_Hertha Berlin-VfB Stuttgart_Aug 26 2011
+509602_Hamburger SV-FC Cologne_Aug 27 2011
+509606_Nuernberg-Augsburg_Aug 27 2011
+509608_Freiburg-Wolfsburg_Aug 27 2011
+509612_Kaiserslautern-Bayern Munich_Aug 27 2011
+509614_Hoffenheim-Werder Bremen_Aug 27 2011
+509598_Bayer Leverkusen-Borussia Dortmund_Aug 27 2011
+509603_Hannover 96-Mainz 05_Aug 28 2011
+509599_Schalke 04-Borussia M.Gladbach_Aug 28 2011
+509642_Augsburg-Bayer Leverkusen_Sep 9 2011
+509640_Borussia M.Gladbach-Kaiserslautern_Sep 10 2011
+509622_Borussia Dortmund-Hertha Berlin_Sep 10 2011
+509623_Bayern Munich-Freiburg_Sep 10 2011
+509627_Mainz 05-Hoffenheim_Sep 10 2011
+509632_VfB Stuttgart-Hannover 96_Sep 10 2011
+509625_Werder Bremen-Hamburger SV_Sep 10 2011
+509635_FC Cologne-Nuernberg_Sep 11 2011
+509638_Wolfsburg-Schalke 04_Sep 11 2011
+509662_Freiburg-VfB Stuttgart_Sep 16 2011
+509653_Hamburger SV-Borussia M.Gladbach_Sep 17 2011
+509648_Bayer Leverkusen-FC Cologne_Sep 17 2011
+509668_Hoffenheim-Wolfsburg_Sep 17 2011
+509670_Hertha Berlin-Augsburg_Sep 17 2011
+509658_Nuernberg-Werder Bremen_Sep 17 2011
+509666_Kaiserslautern-Mainz 05_Sep 17 2011
+509657_Hannover 96-Borussia Dortmund_Sep 18 2011
+509651_Schalke 04-Bayern Munich_Sep 18 2011
+509684_VfB Stuttgart-Hamburger SV_Sep 23 2011
+509682_Mainz 05-Borussia Dortmund_Sep 24 2011
+509677_Schalke 04-Freiburg_Sep 24 2011
+509687_Wolfsburg-Kaiserslautern_Sep 24 2011
+509688_Borussia M.Gladbach-Nuernberg_Sep 24 2011
+509690_Augsburg-Hannover 96_Sep 24 2011
+509676_Bayern Munich-Bayer Leverkusen_Sep 24 2011
+509685_FC Cologne-Hoffenheim_Sep 25 2011
+509679_Werder Bremen-Hertha Berlin_Sep 25 2011
+509711_Kaiserslautern-VfB Stuttgart_Sep 30 2011
+509714_Hoffenheim-Bayern Munich_Oct 1 2011
+509708_Nuernberg-Mainz 05_Oct 1 2011
+509710_Freiburg-Borussia M.Gladbach_Oct 1 2011
+509699_Borussia Dortmund-Augsburg_Oct 1 2011
+509702_Bayer Leverkusen-Wolfsburg_Oct 1 2011
+509716_Hertha Berlin-FC Cologne_Oct 1 2011
+509705_Hannover 96-Werder Bremen_Oct 2 2011
+509704_Hamburger SV-Schalke 04_Oct 2 2011
+509726_Werder Bremen-Borussia Dortmund_Oct 14 2011
+509729_Mainz 05-Augsburg_Oct 15 2011
+509721_Bayern Munich-Hertha Berlin_Oct 15 2011
+509733_VfB Stuttgart-Hoffenheim_Oct 15 2011
+509744_Wolfsburg-Nuernberg_Oct 15 2011
+509749_Borussia M.Gladbach-Bayer Leverkusen_Oct 15 2011
+509724_Schalke 04-Kaiserslautern_Oct 15 2011
+509730_Freiburg-Hamburger SV_Oct 16 2011
+509742_FC Cologne-Hannover 96_Oct 16 2011
+509766_Augsburg-Werder Bremen_Oct 21 2011
+509770_Hertha Berlin-Mainz 05_Oct 22 2011
+509753_Borussia Dortmund-FC Cologne_Oct 22 2011
+509760_Nuernberg-VfB Stuttgart_Oct 22 2011
+509762_Kaiserslautern-Freiburg_Oct 22 2011
+509765_Hoffenheim-Borussia M.Gladbach_Oct 22 2011
+509755_Hamburger SV-Wolfsburg_Oct 22 2011
+509754_Bayer Leverkusen-Schalke 04_Oct 23 2011
+509758_Hannover 96-Bayern Munich_Oct 23 2011
+509781_Freiburg-Bayer Leverkusen_Oct 28 2011
+509789_Wolfsburg-Hertha Berlin_Oct 29 2011
+509792_Borussia M.Gladbach-Hannover 96_Oct 29 2011
+509772_Bayern Munich-Nuernberg_Oct 29 2011
+509774_Schalke 04-Hoffenheim_Oct 29 2011
+509784_VfB Stuttgart-Borussia Dortmund_Oct 29 2011
+509779_Mainz 05-Werder Bremen_Oct 29 2011
+509787_FC Cologne-Augsburg_Oct 30 2011
+509775_Hamburger SV-Kaiserslautern_Oct 30 2011
+509806_Mainz 05-VfB Stuttgart_Nov 4 2011
+509809_Nuernberg-Freiburg_Nov 5 2011
+509811_Hoffenheim-Kaiserslautern_Nov 5 2011
+509798_Borussia Dortmund-Wolfsburg_Nov 5 2011
+509799_Werder Bremen-FC Cologne_Nov 5 2011
+509815_Hertha Berlin-Borussia M.Gladbach_Nov 5 2011
+509800_Bayer Leverkusen-Hamburger SV_Nov 5 2011
+509802_Hannover 96-Schalke 04_Nov 6 2011
+509814_Augsburg-Bayern Munich_Nov 6 2011
+509826_Kaiserslautern-Bayer Leverkusen_Nov 18 2011
+509832_Wolfsburg-Hannover 96_Nov 19 2011
+509833_Borussia M.Gladbach-Werder Bremen_Nov 19 2011
+509820_Schalke 04-Nuernberg_Nov 19 2011
+509824_Freiburg-Hertha Berlin_Nov 19 2011
+509819_Bayern Munich-Borussia Dortmund_Nov 19 2011
+509828_VfB Stuttgart-Augsburg_Nov 20 2011
+509822_Hamburger SV-Hoffenheim_Nov 20 2011
+509849_FC Cologne-Borussia M.Gladbach_Nov 25 2011
+509850_Augsburg-Wolfsburg_Nov 26 2011
+509854_Hertha Berlin-Bayer Leverkusen_Nov 26 2011
+509844_Nuernberg-Kaiserslautern_Nov 26 2011
+509847_Hoffenheim-Freiburg_Nov 26 2011
+509836_Borussia Dortmund-Schalke 04_Nov 26 2011
+509839_Hannover 96-Hamburger SV_Nov 26 2011
+509837_Werder Bremen-VfB Stuttgart_Nov 27 2011
+509842_Mainz 05-Bayern Munich_Nov 27 2011
+509860_Bayer Leverkusen-Hoffenheim_Dec 2 2011
+509862_Bayern Munich-Werder Bremen_Dec 3 2011
+509868_Freiburg-Hannover 96_Dec 3 2011
+509871_Kaiserslautern-Hertha Berlin_Dec 3 2011
+509873_Wolfsburg-Mainz 05_Dec 3 2011
+509876_Borussia M.Gladbach-Borussia Dortmund_Dec 3 2011
+509872_VfB Stuttgart-FC Cologne_Dec 3 2011
+509865_Hamburger SV-Nuernberg_Dec 4 2011
+509864_Schalke 04-Augsburg_Dec 4 2011
+509903_Hertha Berlin-Schalke 04_Dec 9 2011
+509880_Werder Bremen-Wolfsburg_Dec 10 2011
+509885_Mainz 05-Hamburger SV_Dec 10 2011
+509892_Nuernberg-Hoffenheim_Dec 10 2011
+509895_FC Cologne-Freiburg_Dec 10 2011
+509899_Augsburg-Borussia M.Gladbach_Dec 10 2011
+509881_Hannover 96-Bayer Leverkusen_Dec 10 2011
+509879_Borussia Dortmund-Kaiserslautern_Dec 11 2011
+509893_VfB Stuttgart-Bayern Munich_Dec 11 2011
+509830_FC Cologne-Mainz 05_Dec 13 2011
+509908_Bayern Munich-FC Cologne_Dec 16 2011
+509906_Bayer Leverkusen-Nuernberg_Dec 17 2011
+509913_Hamburger SV-Augsburg_Dec 17 2011
+509915_Freiburg-Borussia Dortmund_Dec 17 2011
+509919_Hoffenheim-Hertha Berlin_Dec 17 2011
+509922_Wolfsburg-VfB Stuttgart_Dec 17 2011
+509910_Schalke 04-Werder Bremen_Dec 17 2011
+509917_Kaiserslautern-Hannover 96_Dec 18 2011
+509921_Borussia M.Gladbach-Mainz 05_Dec 18 2011
+509944_Borussia M.Gladbach-Bayern Munich_Jan 20 2012
+509940_Hoffenheim-Hannover 96_Jan 21 2012
+509943_Wolfsburg-FC Cologne_Jan 21 2012
+509930_Schalke 04-VfB Stuttgart_Jan 21 2012
+509935_Nuernberg-Hertha Berlin_Jan 21 2012
+509936_Freiburg-Augsburg_Jan 21 2012
+509938_Kaiserslautern-Werder Bremen_Jan 21 2012
+509933_Hamburger SV-Borussia Dortmund_Jan 22 2012
+509929_Bayer Leverkusen-Mainz 05_Jan 22 2012
+509953_Hannover 96-Nuernberg_Jan 27 2012
+509947_Borussia Dortmund-Hoffenheim_Jan 28 2012
+509950_Bayern Munich-Wolfsburg_Jan 28 2012
+509952_Werder Bremen-Bayer Leverkusen_Jan 28 2012
+509962_Augsburg-Kaiserslautern_Jan 28 2012
+509963_Hertha Berlin-Hamburger SV_Jan 28 2012
+509959_FC Cologne-Schalke 04_Jan 28 2012
+509955_Mainz 05-Freiburg_Jan 29 2012
+509957_VfB Stuttgart-Borussia M.Gladbach_Jan 29 2012
+509973_Nuernberg-Borussia Dortmund_Feb 3 2012
+509977_Hoffenheim-Augsburg_Feb 4 2012
+509980_Wolfsburg-Borussia M.Gladbach_Feb 4 2012
+509982_Hertha Berlin-Hannover 96_Feb 4 2012
+509967_Bayer Leverkusen-VfB Stuttgart_Feb 4 2012
+509969_Schalke 04-Mainz 05_Feb 4 2012
+509971_Hamburger SV-Bayern Munich_Feb 4 2012
+509974_Freiburg-Werder Bremen_Feb 5 2012
+509976_Kaiserslautern-FC Cologne_Feb 5 2012
+509998_Wolfsburg-Freiburg_Feb 10 2012
+509987_Borussia Dortmund-Bayer Leverkusen_Feb 11 2012
+509988_Bayern Munich-Kaiserslautern_Feb 11 2012
+509989_Werder Bremen-Hoffenheim_Feb 11 2012
+509991_Mainz 05-Hannover 96_Feb 11 2012
+509993_VfB Stuttgart-Hertha Berlin_Feb 11 2012
+510001_Borussia M.Gladbach-Schalke 04_Feb 11 2012
+510002_Augsburg-Nuernberg_Feb 12 2012
+509995_FC Cologne-Hamburger SV_Feb 12 2012
+510016_Hoffenheim-Mainz 05_Feb 17 2012
+510017_Hertha Berlin-Borussia Dortmund_Feb 18 2012
+510015_Kaiserslautern-Borussia M.Gladbach_Feb 18 2012
+510011_Nuernberg-FC Cologne_Feb 18 2012
+510006_Bayer Leverkusen-Augsburg_Feb 18 2012
+510009_Hamburger SV-Werder Bremen_Feb 18 2012
+510013_Freiburg-Bayern Munich_Feb 18 2012
+510007_Schalke 04-Wolfsburg_Feb 19 2012
+510010_Hannover 96-VfB Stuttgart_Feb 19 2012
+510027_Borussia M.Gladbach-Hamburger SV_Feb 24 2012
+510029_Augsburg-Hertha Berlin_Feb 25 2012
+510023_Mainz 05-Kaiserslautern_Feb 25 2012
+510024_VfB Stuttgart-Freiburg_Feb 25 2012
+510025_FC Cologne-Bayer Leverkusen_Feb 25 2012
+510026_Wolfsburg-Hoffenheim_Feb 25 2012
+510021_Werder Bremen-Nuernberg_Feb 25 2012
+510020_Bayern Munich-Schalke 04_Feb 26 2012
+510018_Borussia Dortmund-Hannover 96_Feb 26 2012
+510048_Hertha Berlin-Werder Bremen_Mar 3 2012
+510042_Freiburg-Schalke 04_Mar 3 2012
+510044_Kaiserslautern-Wolfsburg_Mar 3 2012
+510034_Bayer Leverkusen-Bayern Munich_Mar 3 2012
+510036_Hamburger SV-VfB Stuttgart_Mar 3 2012
+510039_Hannover 96-Augsburg_Mar 3 2012
+510033_Borussia Dortmund-Mainz 05_Mar 3 2012
+510040_Nuernberg-Borussia M.Gladbach_Mar 4 2012
+510046_Hoffenheim-FC Cologne_Mar 4 2012
+510060_VfB Stuttgart-Kaiserslautern_Mar 9 2012
+510061_FC Cologne-Hertha Berlin_Mar 10 2012
+510062_Borussia M.Gladbach-Freiburg_Mar 10 2012
+510063_Wolfsburg-Bayer Leverkusen_Mar 10 2012
+510051_Bayern Munich-Hoffenheim_Mar 10 2012
+510057_Mainz 05-Nuernberg_Mar 10 2012
+510064_Augsburg-Borussia Dortmund_Mar 10 2012
+510056_Werder Bremen-Hannover 96_Mar 11 2012
+510054_Schalke 04-Hamburger SV_Mar 11 2012
+510080_Hoffenheim-VfB Stuttgart_Mar 16 2012
+510084_Augsburg-Mainz 05_Mar 17 2012
+510076_Nuernberg-Wolfsburg_Mar 17 2012
+510066_Borussia Dortmund-Werder Bremen_Mar 17 2012
+510069_Bayer Leverkusen-Borussia M.Gladbach_Mar 17 2012
+510072_Hamburger SV-Freiburg_Mar 17 2012
+510085_Hertha Berlin-Bayern Munich_Mar 17 2012
+510079_Kaiserslautern-Schalke 04_Mar 18 2012
+510075_Hannover 96-FC Cologne_Mar 18 2012
+510099_Wolfsburg-Hamburger SV_Mar 23 2012
+510100_Borussia M.Gladbach-Hoffenheim_Mar 24 2012
+510089_Bayern Munich-Hannover 96_Mar 24 2012
+510092_Werder Bremen-Augsburg_Mar 24 2012
+510094_Mainz 05-Hertha Berlin_Mar 24 2012
+510096_Freiburg-Kaiserslautern_Mar 24 2012
+510091_Schalke 04-Bayer Leverkusen_Mar 24 2012
+510097_VfB Stuttgart-Nuernberg_Mar 25 2012
+510098_FC Cologne-Borussia Dortmund_Mar 25 2012
+510101_Borussia Dortmund-VfB Stuttgart_Mar 30 2012
+510102_Bayer Leverkusen-Freiburg_Mar 31 2012
+510103_Werder Bremen-Mainz 05_Mar 31 2012
+510105_Nuernberg-Bayern Munich_Mar 31 2012
+510107_Augsburg-FC Cologne_Mar 31 2012
+510109_Kaiserslautern-Hamburger SV_Mar 31 2012
+510108_Hertha Berlin-Wolfsburg_Mar 31 2012
+510104_Hannover 96-Borussia M.Gladbach_Apr 1 2012
+510106_Hoffenheim-Schalke 04_Apr 1 2012
+510110_Bayern Munich-Augsburg_Apr 7 2012
+510120_Freiburg-Nuernberg_Apr 7 2012
+510122_Kaiserslautern-Hoffenheim_Apr 7 2012
+510124_VfB Stuttgart-Mainz 05_Apr 7 2012
+510127_FC Cologne-Werder Bremen_Apr 7 2012
+510129_Wolfsburg-Borussia Dortmund_Apr 7 2012
+510130_Borussia M.Gladbach-Hertha Berlin_Apr 7 2012
+510111_Schalke 04-Hannover 96_Apr 8 2012
+510115_Hamburger SV-Bayer Leverkusen_Apr 8 2012
+510140_Werder Bremen-Borussia M.Gladbach_Apr 10 2012
+510145_Mainz 05-FC Cologne_Apr 10 2012
+510152_Augsburg-VfB Stuttgart_Apr 10 2012
+510154_Hertha Berlin-Freiburg_Apr 10 2012
+510147_Nuernberg-Schalke 04_Apr 11 2012
+510149_Hoffenheim-Hamburger SV_Apr 11 2012
+510142_Hannover 96-Wolfsburg_Apr 11 2012
+510136_Borussia Dortmund-Bayern Munich_Apr 11 2012
+510138_Bayer Leverkusen-Kaiserslautern_Apr 11 2012
+510161_VfB Stuttgart-Werder Bremen_Apr 13 2012
+510162_Wolfsburg-Augsburg_Apr 14 2012
+510157_Schalke 04-Borussia Dortmund_Apr 14 2012
+510158_Hamburger SV-Hannover 96_Apr 14 2012
+510155_Bayer Leverkusen-Hertha Berlin_Apr 14 2012
+510160_Kaiserslautern-Nuernberg_Apr 14 2012
+510156_Bayern Munich-Mainz 05_Apr 14 2012
+510163_Borussia M.Gladbach-FC Cologne_Apr 15 2012
+510159_Freiburg-Hoffenheim_Apr 15 2012
+510144_Mainz 05-Wolfsburg_Apr 20 2012
+510146_Nuernberg-Hamburger SV_Apr 21 2012
+510148_Hoffenheim-Bayer Leverkusen_Apr 21 2012
+510150_FC Cologne-VfB Stuttgart_Apr 21 2012
+510141_Werder Bremen-Bayern Munich_Apr 21 2012
+510153_Hertha Berlin-Kaiserslautern_Apr 21 2012
+510139_Borussia Dortmund-Borussia M.Gladbach_Apr 21 2012
+510151_Augsburg-Schalke 04_Apr 22 2012
+510143_Hannover 96-Freiburg_Apr 22 2012
+510125_Bayer Leverkusen-Hannover 96_Apr 28 2012
+510126_Bayern Munich-VfB Stuttgart_Apr 28 2012
+510128_Schalke 04-Hertha Berlin_Apr 28 2012
+510131_Hamburger SV-Mainz 05_Apr 28 2012
+510132_Freiburg-FC Cologne_Apr 28 2012
+510133_Kaiserslautern-Borussia Dortmund_Apr 28 2012
+510134_Hoffenheim-Nuernberg_Apr 28 2012
+510135_Wolfsburg-Werder Bremen_Apr 28 2012
+510137_Borussia M.Gladbach-Augsburg_Apr 28 2012
+510112_Borussia Dortmund-Freiburg_May 5 2012
+510113_Werder Bremen-Schalke 04_May 5 2012
+510114_Hannover 96-Kaiserslautern_May 5 2012
+510116_Mainz 05-Borussia M.Gladbach_May 5 2012
+510117_Nuernberg-Bayer Leverkusen_May 5 2012
+510118_VfB Stuttgart-Wolfsburg_May 5 2012
+510119_FC Cologne-Bayern Munich_May 5 2012
+510121_Augsburg-Hamburger SV_May 5 2012
+510123_Hertha Berlin-Hoffenheim_May 5 2012
+421289_Bayern Munich-VfB Stuttgart_May 14 2011
+421290_Hoffenheim-Wolfsburg_May 14 2011
+421291_Hannover 96-Nuernberg_May 14 2011
+421292_Borussia Dortmund-Eintracht Frankfurt_May 14 2011
+421293_Hamburger SV-Borussia M.Gladbach_May 14 2011
+421294_Mainz 05-St. Pauli_May 14 2011
+421295_FC Cologne-Schalke 04_May 14 2011
+421298_Freiburg-Bayer Leverkusen_May 14 2011
+421300_Kaiserslautern-Werder Bremen_May 14 2011
+420757_Bayern Munich-Wolfsburg_Aug 20 2010
+420758_Hoffenheim-Werder Bremen_Aug 21 2010
+420759_Borussia M.Gladbach-Nuernberg_Aug 21 2010
+420760_FC Cologne-Kaiserslautern_Aug 21 2010
+420761_Freiburg-St. Pauli_Aug 21 2010
+420762_Hannover 96-Eintracht Frankfurt_Aug 21 2010
+420763_Hamburger SV-Schalke 04_Aug 21 2010
+420764_Mainz 05-VfB Stuttgart_Aug 22 2010
+420765_Borussia Dortmund-Bayer Leverkusen_Aug 22 2010
+420773_Kaiserslautern-Bayern Munich_Aug 27 2010
+420770_Wolfsburg-Mainz 05_Aug 28 2010
+420771_Eintracht Frankfurt-Hamburger SV_Aug 28 2010
+420772_Nuernberg-Freiburg_Aug 28 2010
+420766_Schalke 04-Hannover 96_Aug 28 2010
+420767_Werder Bremen-FC Cologne_Aug 28 2010
+420774_St. Pauli-Hoffenheim_Aug 28 2010
+420768_Bayer Leverkusen-Borussia M.Gladbach_Aug 29 2010
+420769_VfB Stuttgart-Borussia Dortmund_Aug 29 2010
+420779_Hoffenheim-Schalke 04_Sep 10 2010
+420780_Borussia M.Gladbach-Eintracht Frankfurt_Sep 11 2010
+420776_Borussia Dortmund-Wolfsburg_Sep 11 2010
+420777_Hamburger SV-Nuernberg_Sep 11 2010
+420782_Freiburg-VfB Stuttgart_Sep 11 2010
+420783_Hannover 96-Bayer Leverkusen_Sep 11 2010
+420775_Bayern Munich-Werder Bremen_Sep 11 2010
+420778_Mainz 05-Kaiserslautern_Sep 12 2010
+420781_FC Cologne-St. Pauli_Sep 12 2010
+420790_Eintracht Frankfurt-Freiburg_Sep 17 2010
+420791_Kaiserslautern-Hoffenheim_Sep 18 2010
+420784_Bayern Munich-FC Cologne_Sep 18 2010
+420786_Werder Bremen-Mainz 05_Sep 18 2010
+420788_VfB Stuttgart-Borussia M.Gladbach_Sep 18 2010
+420789_Wolfsburg-Hannover 96_Sep 18 2010
+420792_St. Pauli-Hamburger SV_Sep 19 2010
+420787_Bayer Leverkusen-Nuernberg_Sep 19 2010
+420785_Schalke 04-Borussia Dortmund_Sep 19 2010
+420800_Hannover 96-Werder Bremen_Sep 21 2010
+420796_Mainz 05-FC Cologne_Sep 21 2010
+420797_Hoffenheim-Bayern Munich_Sep 21 2010
+420798_Borussia M.Gladbach-St. Pauli_Sep 22 2010
+420799_Freiburg-Schalke 04_Sep 22 2010
+420793_Bayer Leverkusen-Eintracht Frankfurt_Sep 22 2010
+420794_Borussia Dortmund-Kaiserslautern_Sep 22 2010
+420795_Hamburger SV-Wolfsburg_Sep 22 2010
+420801_Nuernberg-VfB Stuttgart_Sep 22 2010
+420808_FC Cologne-Hoffenheim_Sep 24 2010
+420807_Eintracht Frankfurt-Nuernberg_Sep 25 2010
+420810_St. Pauli-Borussia Dortmund_Sep 25 2010
+420802_Bayern Munich-Mainz 05_Sep 25 2010
+420803_Schalke 04-Borussia M.Gladbach_Sep 25 2010
+420805_VfB Stuttgart-Bayer Leverkusen_Sep 25 2010
+420804_Werder Bremen-Hamburger SV_Sep 25 2010
+420806_Wolfsburg-Freiburg_Sep 26 2010
+420809_Kaiserslautern-Hannover 96_Sep 26 2010
+420818_Hannover 96-St. Pauli_Oct 1 2010
+420819_Nuernberg-Schalke 04_Oct 2 2010
+420814_Hamburger SV-Kaiserslautern_Oct 2 2010
+420815_Mainz 05-Hoffenheim_Oct 2 2010
+420816_Borussia M.Gladbach-Wolfsburg_Oct 2 2010
+420817_Freiburg-FC Cologne_Oct 2 2010
+420813_VfB Stuttgart-Eintracht Frankfurt_Oct 3 2010
+420811_Bayer Leverkusen-Werder Bremen_Oct 3 2010
+420812_Borussia Dortmund-Bayern Munich_Oct 3 2010
+420826_FC Cologne-Borussia Dortmund_Oct 15 2010
+420824_Mainz 05-Hamburger SV_Oct 16 2010
+420820_Bayern Munich-Hannover 96_Oct 16 2010
+420821_Schalke 04-VfB Stuttgart_Oct 16 2010
+420822_Werder Bremen-Freiburg_Oct 16 2010
+420828_St. Pauli-Nuernberg_Oct 16 2010
+420823_Wolfsburg-Bayer Leverkusen_Oct 16 2010
+420827_Kaiserslautern-Eintracht Frankfurt_Oct 17 2010
+420825_Hoffenheim-Borussia M.Gladbach_Oct 17 2010
+420832_Hamburger SV-Bayern Munich_Oct 22 2010
+420833_Eintracht Frankfurt-Schalke 04_Oct 23 2010
+420834_Borussia M.Gladbach-Werder Bremen_Oct 23 2010
+420835_Freiburg-Kaiserslautern_Oct 23 2010
+420836_Hannover 96-FC Cologne_Oct 23 2010
+420837_Nuernberg-Wolfsburg_Oct 23 2010
+420830_Borussia Dortmund-Hoffenheim_Oct 24 2010
+420831_VfB Stuttgart-St. Pauli_Oct 24 2010
+420829_Bayer Leverkusen-Mainz 05_Oct 24 2010
+420838_Bayern Munich-Freiburg_Oct 29 2010
+420840_Werder Bremen-Nuernberg_Oct 30 2010
+420841_Wolfsburg-VfB Stuttgart_Oct 30 2010
+420844_FC Cologne-Hamburger SV_Oct 30 2010
+420845_Kaiserslautern-Borussia M.Gladbach_Oct 30 2010
+420846_St. Pauli-Eintracht Frankfurt_Oct 30 2010
+420839_Schalke 04-Bayer Leverkusen_Oct 30 2010
+420842_Mainz 05-Borussia Dortmund_Oct 31 2010
+420843_Hoffenheim-Hannover 96_Oct 31 2010
+420848_Schalke 04-St. Pauli_Nov 5 2010
+420852_Hamburger SV-Hoffenheim_Nov 6 2010
+420854_Eintracht Frankfurt-Wolfsburg_Nov 6 2010
+420855_Borussia M.Gladbach-Bayern Munich_Nov 6 2010
+420857_Freiburg-Mainz 05_Nov 6 2010
+420859_Nuernberg-FC Cologne_Nov 6 2010
+420858_Hannover 96-Borussia Dortmund_Nov 7 2010
+420849_Bayer Leverkusen-Kaiserslautern_Nov 7 2010
+420851_VfB Stuttgart-Werder Bremen_Nov 7 2010
+420866_Borussia Dortmund-Hamburger SV_Nov 12 2010
+420867_Wolfsburg-Schalke 04_Nov 13 2010
+420871_FC Cologne-Borussia M.Gladbach_Nov 13 2010
+420872_Kaiserslautern-VfB Stuttgart_Nov 13 2010
+420873_St. Pauli-Bayer Leverkusen_Nov 13 2010
+420864_Werder Bremen-Eintracht Frankfurt_Nov 13 2010
+420869_Mainz 05-Hannover 96_Nov 13 2010
+420870_Hoffenheim-Freiburg_Nov 14 2010
+420863_Bayern Munich-Nuernberg_Nov 14 2010
+420874_Schalke 04-Werder Bremen_Nov 20 2010
+420878_Eintracht Frankfurt-Hoffenheim_Nov 20 2010
+420880_Borussia M.Gladbach-Mainz 05_Nov 20 2010
+420882_Freiburg-Borussia Dortmund_Nov 20 2010
+420885_Hannover 96-Hamburger SV_Nov 20 2010
+420887_Nuernberg-Kaiserslautern_Nov 20 2010
+420875_Bayer Leverkusen-Bayern Munich_Nov 20 2010
+420876_VfB Stuttgart-FC Cologne_Nov 21 2010
+420890_St. Pauli-Wolfsburg_Nov 21 2010
+420903_Mainz 05-Nuernberg_Nov 26 2010
+420905_Hoffenheim-Bayer Leverkusen_Nov 27 2010
+420901_Hamburger SV-VfB Stuttgart_Nov 27 2010
+420895_Bayern Munich-Eintracht Frankfurt_Nov 27 2010
+420909_Hannover 96-Freiburg_Nov 27 2010
+420910_Kaiserslautern-Schalke 04_Nov 27 2010
+420900_Borussia Dortmund-Borussia M.Gladbach_Nov 27 2010
+420898_Werder Bremen-St. Pauli_Nov 28 2010
+420907_FC Cologne-Wolfsburg_Nov 28 2010
+420927_St. Pauli-Kaiserslautern_Dec 3 2010
+420918_VfB Stuttgart-Hoffenheim_Dec 4 2010
+420919_Wolfsburg-Werder Bremen_Dec 4 2010
+420921_Eintracht Frankfurt-Mainz 05_Dec 4 2010
+420923_Borussia M.Gladbach-Hannover 96_Dec 4 2010
+420925_Freiburg-Hamburger SV_Dec 4 2010
+420915_Schalke 04-Bayern Munich_Dec 4 2010
+420916_Bayer Leverkusen-FC Cologne_Dec 5 2010
+420926_Nuernberg-Borussia Dortmund_Dec 5 2010
+420942_Hannover 96-VfB Stuttgart_Dec 10 2010
+420946_Kaiserslautern-Wolfsburg_Dec 11 2010
+420928_Bayern Munich-St. Pauli_Dec 11 2010
+420931_Hamburger SV-Bayer Leverkusen_Dec 11 2010
+420935_Hoffenheim-Nuernberg_Dec 11 2010
+420936_FC Cologne-Eintracht Frankfurt_Dec 11 2010
+420929_Borussia Dortmund-Werder Bremen_Dec 11 2010
+420939_Freiburg-Borussia M.Gladbach_Dec 12 2010
+420932_Mainz 05-Schalke 04_Dec 12 2010
+420975_Borussia M.Gladbach-Hamburger SV_Dec 17 2010
+420977_Nuernberg-Hannover 96_Dec 18 2010
+420967_Wolfsburg-Hoffenheim_Dec 18 2010
+420973_Eintracht Frankfurt-Borussia Dortmund_Dec 18 2010
+420955_Schalke 04-FC Cologne_Dec 18 2010
+420956_Werder Bremen-Kaiserslautern_Dec 18 2010
+420981_St. Pauli-Mainz 05_Dec 18 2010
+420959_Bayer Leverkusen-Freiburg_Dec 19 2010
+420961_VfB Stuttgart-Bayern Munich_Dec 19 2010
+420985_Bayer Leverkusen-Borussia Dortmund_Jan 14 2011
+420988_VfB Stuttgart-Mainz 05_Jan 15 2011
+420991_Wolfsburg-Bayern Munich_Jan 15 2011
+420984_Werder Bremen-Hoffenheim_Jan 15 2011
+420996_Nuernberg-Borussia M.Gladbach_Jan 15 2011
+421000_St. Pauli-Freiburg_Jan 15 2011
+420983_Schalke 04-Hamburger SV_Jan 15 2011
+420994_Eintracht Frankfurt-Hannover 96_Jan 16 2011
+420999_Kaiserslautern-FC Cologne_Jan 16 2011
+421021_Hamburger SV-Eintracht Frankfurt_Jan 21 2011
+421022_Mainz 05-Wolfsburg_Jan 22 2011
+421018_Bayern Munich-Kaiserslautern_Jan 22 2011
+421020_Borussia Dortmund-VfB Stuttgart_Jan 22 2011
+421028_Freiburg-Nuernberg_Jan 22 2011
+421030_Hannover 96-Schalke 04_Jan 22 2011
+421026_FC Cologne-Werder Bremen_Jan 22 2011
+421024_Borussia M.Gladbach-Bayer Leverkusen_Jan 23 2011
+421023_Hoffenheim-St. Pauli_Jan 23 2011
+421037_Bayer Leverkusen-Hannover 96_Jan 28 2011
+421032_Schalke 04-Hoffenheim_Jan 29 2011
+421034_Werder Bremen-Bayern Munich_Jan 29 2011
+421045_Wolfsburg-Borussia Dortmund_Jan 29 2011
+421049_Nuernberg-Hamburger SV_Jan 29 2011
+421054_St. Pauli-FC Cologne_Jan 29 2011
+421053_Kaiserslautern-Mainz 05_Jan 29 2011
+421041_VfB Stuttgart-Freiburg_Jan 30 2011
+421047_Eintracht Frankfurt-Borussia M.Gladbach_Jan 30 2011
+421055_Borussia Dortmund-Schalke 04_Feb 4 2011
+421058_Mainz 05-Werder Bremen_Feb 5 2011
+421060_Hoffenheim-Kaiserslautern_Feb 5 2011
+421063_FC Cologne-Bayern Munich_Feb 5 2011
+421069_Hannover 96-Wolfsburg_Feb 5 2011
+421072_Nuernberg-Bayer Leverkusen_Feb 5 2011
+421062_Borussia M.Gladbach-VfB Stuttgart_Feb 5 2011
+421065_Freiburg-Eintracht Frankfurt_Feb 6 2011
+421076_Bayern Munich-Hoffenheim_Feb 12 2011
+421078_Schalke 04-Freiburg_Feb 12 2011
+421082_VfB Stuttgart-Nuernberg_Feb 12 2011
+421084_Wolfsburg-Hamburger SV_Feb 12 2011
+421085_Eintracht Frankfurt-Bayer Leverkusen_Feb 12 2011
+421090_St. Pauli-Borussia M.Gladbach_Feb 12 2011
+421088_Kaiserslautern-Borussia Dortmund_Feb 12 2011
+421087_FC Cologne-Mainz 05_Feb 13 2011
+421080_Werder Bremen-Hannover 96_Feb 13 2011
+421056_Hamburger SV-St. Pauli_Feb 16 2011
+421103_Nuernberg-Eintracht Frankfurt_Feb 18 2011
+421101_Freiburg-Wolfsburg_Feb 19 2011
+421102_Hannover 96-Kaiserslautern_Feb 19 2011
+421092_Borussia Dortmund-St. Pauli_Feb 19 2011
+421094_Hamburger SV-Werder Bremen_Feb 19 2011
+421097_Hoffenheim-FC Cologne_Feb 19 2011
+421095_Mainz 05-Bayern Munich_Feb 19 2011
+421091_Bayer Leverkusen-VfB Stuttgart_Feb 20 2011
+421099_Borussia M.Gladbach-Schalke 04_Feb 20 2011
+421114_Wolfsburg-Borussia M.Gladbach_Feb 25 2011
+421109_Schalke 04-Nuernberg_Feb 26 2011
+421118_Hoffenheim-Mainz 05_Feb 26 2011
+421119_FC Cologne-Freiburg_Feb 26 2011
+421120_Kaiserslautern-Hamburger SV_Feb 26 2011
+421121_St. Pauli-Hannover 96_Feb 26 2011
+421106_Bayern Munich-Borussia Dortmund_Feb 26 2011
+421116_Eintracht Frankfurt-VfB Stuttgart_Feb 27 2011
+421111_Werder Bremen-Bayer Leverkusen_Feb 27 2011
+421128_Borussia Dortmund-FC Cologne_Mar 4 2011
+421129_VfB Stuttgart-Schalke 04_Mar 5 2011
+421131_Eintracht Frankfurt-Kaiserslautern_Mar 5 2011
+421134_Borussia M.Gladbach-Hoffenheim_Mar 5 2011
+421139_Hannover 96-Bayern Munich_Mar 5 2011
+421140_Nuernberg-St. Pauli_Mar 5 2011
+421126_Bayer Leverkusen-Wolfsburg_Mar 5 2011
+421137_Freiburg-Werder Bremen_Mar 6 2011
+421130_Hamburger SV-Mainz 05_Mar 6 2011
+421156_FC Cologne-Hannover 96_Mar 11 2011
+421158_Kaiserslautern-Freiburg_Mar 12 2011
+421154_Hoffenheim-Borussia Dortmund_Mar 12 2011
+421149_Wolfsburg-Nuernberg_Mar 12 2011
+421145_Bayern Munich-Hamburger SV_Mar 12 2011
+421146_Schalke 04-Eintracht Frankfurt_Mar 12 2011
+421148_Werder Bremen-Borussia M.Gladbach_Mar 12 2011
+421151_Mainz 05-Bayer Leverkusen_Mar 13 2011
+421159_St. Pauli-VfB Stuttgart_Mar 13 2011
+421168_Borussia M.Gladbach-Kaiserslautern_Mar 18 2011
+421169_Freiburg-Bayern Munich_Mar 19 2011
+421170_Hannover 96-Hoffenheim_Mar 19 2011
+421172_Nuernberg-Werder Bremen_Mar 19 2011
+421166_Hamburger SV-FC Cologne_Mar 19 2011
+421167_Eintracht Frankfurt-St. Pauli_Mar 19 2011
+421164_Borussia Dortmund-Mainz 05_Mar 19 2011
+421163_Bayer Leverkusen-Schalke 04_Mar 20 2011
+421165_VfB Stuttgart-Wolfsburg_Mar 20 2011
+421189_St. Pauli-Schalke 04_Apr 1 2011
+421188_Kaiserslautern-Bayer Leverkusen_Apr 2 2011
+421183_Mainz 05-Freiburg_Apr 2 2011
+421178_Bayern Munich-Borussia M.Gladbach_Apr 2 2011
+421179_Werder Bremen-VfB Stuttgart_Apr 2 2011
+421180_Borussia Dortmund-Hannover 96_Apr 2 2011
+421186_Hoffenheim-Hamburger SV_Apr 2 2011
+421187_FC Cologne-Nuernberg_Apr 3 2011
+421181_Wolfsburg-Eintracht Frankfurt_Apr 3 2011
+421230_Eintracht Frankfurt-Werder Bremen_Apr 8 2011
+421232_Freiburg-Hoffenheim_Apr 9 2011
+421233_Hannover 96-Mainz 05_Apr 9 2011
+421234_Nuernberg-Bayern Munich_Apr 9 2011
+421190_Schalke 04-Wolfsburg_Apr 9 2011
+421228_Hamburger SV-Borussia Dortmund_Apr 9 2011
+421227_VfB Stuttgart-Kaiserslautern_Apr 9 2011
+421231_Borussia M.Gladbach-FC Cologne_Apr 10 2011
+421191_Bayer Leverkusen-St. Pauli_Apr 10 2011
+421245_Mainz 05-Borussia M.Gladbach_Apr 15 2011
+421246_Hoffenheim-Eintracht Frankfurt_Apr 16 2011
+421248_FC Cologne-VfB Stuttgart_Apr 16 2011
+421250_Kaiserslautern-Nuernberg_Apr 16 2011
+421240_Hamburger SV-Hannover 96_Apr 16 2011
+421241_Wolfsburg-St. Pauli_Apr 16 2011
+421236_Werder Bremen-Schalke 04_Apr 16 2011
+421235_Bayern Munich-Bayer Leverkusen_Apr 17 2011
+421237_Borussia Dortmund-Freiburg_Apr 17 2011
+421259_Freiburg-Hannover 96_Apr 21 2011
+421257_Eintracht Frankfurt-Bayern Munich_Apr 23 2011
+421252_Schalke 04-Kaiserslautern_Apr 23 2011
+421254_Bayer Leverkusen-Hoffenheim_Apr 23 2011
+421255_VfB Stuttgart-Hamburger SV_Apr 23 2011
+421261_St. Pauli-Werder Bremen_Apr 23 2011
+421258_Borussia M.Gladbach-Borussia Dortmund_Apr 23 2011
+421256_Wolfsburg-FC Cologne_Apr 24 2011
+421260_Nuernberg-Mainz 05_Apr 24 2011
+421271_Kaiserslautern-St. Pauli_Apr 29 2011
+421263_Werder Bremen-Wolfsburg_Apr 29 2011
+421264_Borussia Dortmund-Nuernberg_Apr 30 2011
+421265_Hamburger SV-Freiburg_Apr 30 2011
+421266_Mainz 05-Eintracht Frankfurt_Apr 30 2011
+421267_Hoffenheim-VfB Stuttgart_Apr 30 2011
+421268_FC Cologne-Bayer Leverkusen_Apr 30 2011
+421270_Hannover 96-Borussia M.Gladbach_Apr 30 2011
+421262_Bayern Munich-Schalke 04_Apr 30 2011
+421275_Schalke 04-Mainz 05_May 7 2011
+421276_Werder Bremen-Borussia Dortmund_May 7 2011
+421278_Bayer Leverkusen-Hamburger SV_May 7 2011
+421280_VfB Stuttgart-Hannover 96_May 7 2011
+421281_Wolfsburg-Kaiserslautern_May 7 2011
+421283_Eintracht Frankfurt-FC Cologne_May 7 2011
+421286_Borussia M.Gladbach-Freiburg_May 7 2011
+421287_Nuernberg-Hoffenheim_May 7 2011
+421288_St. Pauli-Bayern Munich_May 7 2011
+328307_Werder Bremen-Hamburger SV_May 8 2010
+328308_Hertha Berlin-Bayern Munich_May 8 2010
+328309_Wolfsburg-Eintracht Frankfurt_May 8 2010
+328310_Freiburg-Borussia Dortmund_May 8 2010
+328311_Nuernberg-FC Cologne_May 8 2010
+328316_Bochum-Hannover 96_May 8 2010
+328317_Mainz 05-Schalke 04_May 8 2010
+328318_Borussia M.Gladbach-Bayer Leverkusen_May 8 2010
+328319_Hoffenheim-VfB Stuttgart_May 8 2010
+327995_Wolfsburg-VfB Stuttgart_Aug 7 2009
+327997_Borussia Dortmund-FC Cologne_Aug 8 2009
+327998_Werder Bremen-Eintracht Frankfurt_Aug 8 2009
+327999_Hertha Berlin-Hannover 96_Aug 8 2009
+328001_Nuernberg-Schalke 04_Aug 8 2009
+328003_Mainz 05-Bayer Leverkusen_Aug 8 2009
+328004_Hoffenheim-Bayern Munich_Aug 8 2009
+328002_Bochum-Borussia M.Gladbach_Aug 9 2009
+328000_Freiburg-Hamburger SV_Aug 9 2009
+328005_Bayern Munich-Werder Bremen_Aug 15 2009
+328006_Bayer Leverkusen-Hoffenheim_Aug 15 2009
+328007_Hamburger SV-Borussia Dortmund_Aug 15 2009
+328008_VfB Stuttgart-Freiburg_Aug 15 2009
+328010_Eintracht Frankfurt-Nuernberg_Aug 15 2009
+328012_Hannover 96-Mainz 05_Aug 15 2009
+328011_FC Cologne-Wolfsburg_Aug 15 2009
+328013_Borussia M.Gladbach-Hertha Berlin_Aug 16 2009
+328009_Schalke 04-Bochum_Aug 16 2009
+328022_Hoffenheim-Schalke 04_Aug 21 2009
+328021_Mainz 05-Bayern Munich_Aug 22 2009
+328014_Borussia Dortmund-VfB Stuttgart_Aug 22 2009
+328017_Freiburg-Bayer Leverkusen_Aug 22 2009
+328018_FC Cologne-Eintracht Frankfurt_Aug 22 2009
+328019_Nuernberg-Hannover 96_Aug 22 2009
+328020_Bochum-Hertha Berlin_Aug 23 2009
+328015_Werder Bremen-Borussia M.Gladbach_Aug 23 2009
+328016_Wolfsburg-Hamburger SV_Aug 23 2009
+328031_Borussia M.Gladbach-Mainz 05_Aug 28 2009
+328028_Schalke 04-Freiburg_Aug 29 2009
+328029_Eintracht Frankfurt-Borussia Dortmund_Aug 29 2009
+328030_Hannover 96-Hoffenheim_Aug 29 2009
+328024_Bayer Leverkusen-Bochum_Aug 29 2009
+328026_VfB Stuttgart-Nuernberg_Aug 29 2009
+328023_Bayern Munich-Wolfsburg_Aug 29 2009
+328027_Hertha Berlin-Werder Bremen_Aug 30 2009
+328025_Hamburger SV-FC Cologne_Aug 30 2009
+328033_Borussia Dortmund-Bayern Munich_Sep 12 2009
+328037_Wolfsburg-Bayer Leverkusen_Sep 12 2009
+328038_Freiburg-Eintracht Frankfurt_Sep 12 2009
+328040_Nuernberg-Borussia M.Gladbach_Sep 12 2009
+328041_Mainz 05-Hertha Berlin_Sep 12 2009
+328042_Hoffenheim-Bochum_Sep 12 2009
+328032_Hamburger SV-VfB Stuttgart_Sep 12 2009
+328034_Werder Bremen-Hannover 96_Sep 13 2009
+328039_FC Cologne-Schalke 04_Sep 13 2009
+328047_Schalke 04-Wolfsburg_Sep 18 2009
+328045_VfB Stuttgart-FC Cologne_Sep 19 2009
+328043_Bayern Munich-Nuernberg_Sep 19 2009
+328049_Bochum-Mainz 05_Sep 19 2009
+328050_Hannover 96-Borussia Dortmund_Sep 19 2009
+328051_Borussia M.Gladbach-Hoffenheim_Sep 19 2009
+328048_Eintracht Frankfurt-Hamburger SV_Sep 20 2009
+328046_Hertha Berlin-Freiburg_Sep 20 2009
+328044_Bayer Leverkusen-Werder Bremen_Sep 20 2009
+328061_Nuernberg-Bochum_Sep 25 2009
+328057_Eintracht Frankfurt-VfB Stuttgart_Sep 26 2009
+328058_FC Cologne-Bayer Leverkusen_Sep 26 2009
+328053_Borussia Dortmund-Schalke 04_Sep 26 2009
+328054_Werder Bremen-Mainz 05_Sep 26 2009
+328055_Wolfsburg-Hannover 96_Sep 26 2009
+328052_Hamburger SV-Bayern Munich_Sep 26 2009
+328056_Freiburg-Borussia M.Gladbach_Sep 27 2009
+328062_Hoffenheim-Hertha Berlin_Sep 27 2009
+328067_Schalke 04-Eintracht Frankfurt_Oct 2 2009
+328068_Bochum-Wolfsburg_Oct 3 2009
+328069_Hannover 96-Freiburg_Oct 3 2009
+328070_Mainz 05-Hoffenheim_Oct 3 2009
+328063_Bayern Munich-FC Cologne_Oct 3 2009
+328064_Bayer Leverkusen-Nuernberg_Oct 3 2009
+328071_Borussia M.Gladbach-Borussia Dortmund_Oct 3 2009
+328065_VfB Stuttgart-Werder Bremen_Oct 4 2009
+328066_Hertha Berlin-Hamburger SV_Oct 4 2009
+328074_VfB Stuttgart-Schalke 04_Oct 17 2009
+328075_Werder Bremen-Hoffenheim_Oct 17 2009
+328077_Freiburg-Bayern Munich_Oct 17 2009
+328078_Eintracht Frankfurt-Hannover 96_Oct 17 2009
+328079_FC Cologne-Mainz 05_Oct 17 2009
+328080_Nuernberg-Hertha Berlin_Oct 17 2009
+328072_Hamburger SV-Bayer Leverkusen_Oct 17 2009
+328076_Wolfsburg-Borussia M.Gladbach_Oct 18 2009
+328073_Borussia Dortmund-Bochum_Oct 18 2009
+328082_Bayer Leverkusen-Borussia Dortmund_Oct 23 2009
+328086_Hannover 96-VfB Stuttgart_Oct 24 2009
+328087_Mainz 05-Freiburg_Oct 24 2009
+328088_Borussia M.Gladbach-FC Cologne_Oct 24 2009
+328089_Hoffenheim-Nuernberg_Oct 24 2009
+328081_Bayern Munich-Eintracht Frankfurt_Oct 24 2009
+328083_Hertha Berlin-Wolfsburg_Oct 25 2009
+328084_Schalke 04-Hamburger SV_Oct 25 2009
+328085_Bochum-Werder Bremen_Oct 25 2009
+328091_Borussia Dortmund-Hertha Berlin_Oct 30 2009
+328092_VfB Stuttgart-Bayern Munich_Oct 31 2009
+328094_Wolfsburg-Mainz 05_Oct 31 2009
+328090_Hamburger SV-Borussia M.Gladbach_Oct 31 2009
+328097_FC Cologne-Hannover 96_Oct 31 2009
+328098_Nuernberg-Werder Bremen_Oct 31 2009
+328093_Schalke 04-Bayer Leverkusen_Oct 31 2009
+328095_Freiburg-Hoffenheim_Nov 1 2009
+328096_Eintracht Frankfurt-Bochum_Nov 1 2009
+328100_Bayer Leverkusen-Eintracht Frankfurt_Nov 6 2009
+328099_Bayern Munich-Schalke 04_Nov 7 2009
+328103_Bochum-Freiburg_Nov 7 2009
+328105_Mainz 05-Nuernberg_Nov 7 2009
+328106_Borussia M.Gladbach-VfB Stuttgart_Nov 7 2009
+328107_Hoffenheim-Wolfsburg_Nov 7 2009
+328104_Hannover 96-Hamburger SV_Nov 8 2009
+328101_Werder Bremen-Borussia Dortmund_Nov 8 2009
+328102_Hertha Berlin-FC Cologne_Nov 8 2009
+328111_VfB Stuttgart-Hertha Berlin_Nov 21 2009
+328112_Schalke 04-Hannover 96_Nov 21 2009
+328114_Wolfsburg-Nuernberg_Nov 21 2009
+328115_Freiburg-Werder Bremen_Nov 21 2009
+328116_Eintracht Frankfurt-Borussia M.Gladbach_Nov 21 2009
+328117_FC Cologne-Hoffenheim_Nov 21 2009
+328110_Borussia Dortmund-Mainz 05_Nov 21 2009
+328108_Bayern Munich-Bayer Leverkusen_Nov 22 2009
+328109_Hamburger SV-Bochum_Nov 22 2009
+328122_Bochum-FC Cologne_Nov 27 2009
+328124_Mainz 05-Hamburger SV_Nov 28 2009
+328119_Werder Bremen-Wolfsburg_Nov 28 2009
+328120_Hertha Berlin-Eintracht Frankfurt_Nov 28 2009
+328121_Nuernberg-Freiburg_Nov 28 2009
+328126_Hoffenheim-Borussia Dortmund_Nov 28 2009
+328125_Borussia M.Gladbach-Schalke 04_Nov 28 2009
+328118_Bayer Leverkusen-VfB Stuttgart_Nov 29 2009
+328123_Hannover 96-Bayern Munich_Nov 29 2009
+328127_Bayern Munich-Borussia M.Gladbach_Dec 4 2009
+328128_Hamburger SV-Hoffenheim_Dec 5 2009
+328129_Borussia Dortmund-Nuernberg_Dec 5 2009
+328130_VfB Stuttgart-Bochum_Dec 5 2009
+328132_Wolfsburg-Freiburg_Dec 5 2009
+328135_Hannover 96-Bayer Leverkusen_Dec 5 2009
+328133_Eintracht Frankfurt-Mainz 05_Dec 5 2009
+328134_FC Cologne-Werder Bremen_Dec 6 2009
+328131_Schalke 04-Hertha Berlin_Dec 6 2009
+328137_Hertha Berlin-Bayer Leverkusen_Dec 11 2009
+328139_Freiburg-FC Cologne_Dec 12 2009
+328140_Nuernberg-Hamburger SV_Dec 12 2009
+328141_Bochum-Bayern Munich_Dec 12 2009
+328143_Borussia M.Gladbach-Hannover 96_Dec 12 2009
+328144_Hoffenheim-Eintracht Frankfurt_Dec 12 2009
+328136_Werder Bremen-Schalke 04_Dec 12 2009
+328142_Mainz 05-VfB Stuttgart_Dec 13 2009
+328138_Wolfsburg-Borussia Dortmund_Dec 13 2009
+328150_Schalke 04-Mainz 05_Dec 18 2009
+328154_Eintracht Frankfurt-Wolfsburg_Dec 19 2009
+328148_Borussia Dortmund-Freiburg_Dec 19 2009
+328145_Bayern Munich-Hertha Berlin_Dec 19 2009
+328146_Bayer Leverkusen-Borussia M.Gladbach_Dec 19 2009
+328156_Hannover 96-Bochum_Dec 19 2009
+328149_VfB Stuttgart-Hoffenheim_Dec 19 2009
+328147_Hamburger SV-Werder Bremen_Dec 20 2009
+328155_FC Cologne-Nuernberg_Dec 20 2009
+328157_Bayern Munich-Hoffenheim_Jan 15 2010
+328158_Bayer Leverkusen-Mainz 05_Jan 16 2010
+328159_Hamburger SV-Freiburg_Jan 16 2010
+328162_Eintracht Frankfurt-Werder Bremen_Jan 16 2010
+328164_Hannover 96-Hertha Berlin_Jan 16 2010
+328165_Borussia M.Gladbach-Bochum_Jan 16 2010
+328160_VfB Stuttgart-Wolfsburg_Jan 16 2010
+328161_Schalke 04-Nuernberg_Jan 17 2010
+328163_FC Cologne-Borussia Dortmund_Jan 17 2010
+328170_Freiburg-VfB Stuttgart_Jan 22 2010
+328171_Nuernberg-Eintracht Frankfurt_Jan 23 2010
+328172_Bochum-Schalke 04_Jan 23 2010
+328173_Mainz 05-Hannover 96_Jan 23 2010
+328167_Werder Bremen-Bayern Munich_Jan 23 2010
+328168_Hertha Berlin-Borussia M.Gladbach_Jan 23 2010
+328166_Borussia Dortmund-Hamburger SV_Jan 23 2010
+328169_Wolfsburg-FC Cologne_Jan 24 2010
+328174_Hoffenheim-Bayer Leverkusen_Jan 24 2010
+328177_Hamburger SV-Wolfsburg_Jan 29 2010
+328179_Hertha Berlin-Bochum_Jan 30 2010
+328175_Bayern Munich-Mainz 05_Jan 30 2010
+328181_Eintracht Frankfurt-FC Cologne_Jan 30 2010
+328182_Hannover 96-Nuernberg_Jan 30 2010
+328183_Borussia M.Gladbach-Werder Bremen_Jan 30 2010
+328180_Schalke 04-Hoffenheim_Jan 30 2010
+328178_VfB Stuttgart-Borussia Dortmund_Jan 31 2010
+328176_Bayer Leverkusen-Freiburg_Jan 31 2010
+328186_Werder Bremen-Hertha Berlin_Feb 5 2010
+328187_Wolfsburg-Bayern Munich_Feb 6 2010
+328188_Freiburg-Schalke 04_Feb 6 2010
+328189_FC Cologne-Hamburger SV_Feb 6 2010
+328191_Bochum-Bayer Leverkusen_Feb 6 2010
+328193_Hoffenheim-Hannover 96_Feb 6 2010
+328190_Nuernberg-VfB Stuttgart_Feb 6 2010
+328192_Mainz 05-Borussia M.Gladbach_Feb 7 2010
+328184_Borussia Dortmund-Eintracht Frankfurt_Feb 7 2010
+328202_Borussia M.Gladbach-Nuernberg_Feb 12 2010
+328200_Bochum-Hoffenheim_Feb 13 2010
+328201_Hannover 96-Werder Bremen_Feb 13 2010
+328195_Bayer Leverkusen-Wolfsburg_Feb 13 2010
+328196_VfB Stuttgart-Hamburger SV_Feb 13 2010
+328197_Hertha Berlin-Mainz 05_Feb 13 2010
+328194_Bayern Munich-Borussia Dortmund_Feb 13 2010
+328198_Schalke 04-FC Cologne_Feb 14 2010
+328199_Eintracht Frankfurt-Freiburg_Feb 14 2010
+328211_Hoffenheim-Borussia M.Gladbach_Feb 19 2010
+328208_FC Cologne-VfB Stuttgart_Feb 20 2010
+328209_Nuernberg-Bayern Munich_Feb 20 2010
+328210_Mainz 05-Bochum_Feb 20 2010
+328203_Hamburger SV-Eintracht Frankfurt_Feb 20 2010
+328204_Borussia Dortmund-Hannover 96_Feb 20 2010
+328207_Freiburg-Hertha Berlin_Feb 21 2010
+328205_Werder Bremen-Bayer Leverkusen_Feb 21 2010
+328206_Wolfsburg-Schalke 04_Feb 21 2010
+328218_Schalke 04-Borussia Dortmund_Feb 26 2010
+328219_Bochum-Nuernberg_Feb 27 2010
+328216_VfB Stuttgart-Eintracht Frankfurt_Feb 27 2010
+328217_Hertha Berlin-Hoffenheim_Feb 27 2010
+328221_Mainz 05-Werder Bremen_Feb 27 2010
+328222_Borussia M.Gladbach-Freiburg_Feb 27 2010
+328215_Bayer Leverkusen-FC Cologne_Feb 27 2010
+328220_Hannover 96-Wolfsburg_Feb 28 2010
+328214_Bayern Munich-Hamburger SV_Feb 28 2010
+328223_Hamburger SV-Hertha Berlin_Mar 6 2010
+328225_Werder Bremen-VfB Stuttgart_Mar 6 2010
+328226_Wolfsburg-Bochum_Mar 6 2010
+328227_Freiburg-Hannover 96_Mar 6 2010
+328228_Eintracht Frankfurt-Schalke 04_Mar 6 2010
+328229_FC Cologne-Bayern Munich_Mar 6 2010
+328224_Borussia Dortmund-Borussia M.Gladbach_Mar 6 2010
+328230_Nuernberg-Bayer Leverkusen_Mar 7 2010
+328231_Hoffenheim-Mainz 05_Mar 7 2010
+328235_Schalke 04-VfB Stuttgart_Mar 12 2010
+328236_Bochum-Borussia Dortmund_Mar 13 2010
+328237_Hannover 96-Eintracht Frankfurt_Mar 13 2010
+328238_Mainz 05-FC Cologne_Mar 13 2010
+328239_Borussia M.Gladbach-Wolfsburg_Mar 13 2010
+328234_Hertha Berlin-Nuernberg_Mar 13 2010
+328232_Bayern Munich-Freiburg_Mar 13 2010
+328240_Hoffenheim-Werder Bremen_Mar 14 2010
+328233_Bayer Leverkusen-Hamburger SV_Mar 14 2010
+328249_FC Cologne-Borussia M.Gladbach_Mar 19 2010
+328250_Nuernberg-Hoffenheim_Mar 20 2010
+328243_VfB Stuttgart-Hannover 96_Mar 20 2010
+328244_Werder Bremen-Bochum_Mar 20 2010
+328246_Freiburg-Mainz 05_Mar 20 2010
+328247_Eintracht Frankfurt-Bayern Munich_Mar 20 2010
+328242_Borussia Dortmund-Bayer Leverkusen_Mar 20 2010
+328241_Hamburger SV-Schalke 04_Mar 21 2010
+328245_Wolfsburg-Hertha Berlin_Mar 21 2010
+328255_Bochum-Eintracht Frankfurt_Mar 26 2010
+328256_Hannover 96-FC Cologne_Mar 27 2010
+328257_Mainz 05-Wolfsburg_Mar 27 2010
+328251_Bayern Munich-VfB Stuttgart_Mar 27 2010
+328253_Werder Bremen-Nuernberg_Mar 27 2010
+328254_Hertha Berlin-Borussia Dortmund_Mar 27 2010
+328252_Bayer Leverkusen-Schalke 04_Mar 27 2010
+328259_Hoffenheim-Freiburg_Mar 28 2010
+328258_Borussia M.Gladbach-Hamburger SV_Mar 28 2010
+328268_Nuernberg-Mainz 05_Apr 3 2010
+328265_Freiburg-Bochum_Apr 3 2010
+328266_Eintracht Frankfurt-Bayer Leverkusen_Apr 3 2010
+328261_Borussia Dortmund-Werder Bremen_Apr 3 2010
+328262_VfB Stuttgart-Borussia M.Gladbach_Apr 3 2010
+328263_Schalke 04-Bayern Munich_Apr 3 2010
+328267_FC Cologne-Hertha Berlin_Apr 3 2010
+328264_Wolfsburg-Hoffenheim_Apr 4 2010
+328260_Hamburger SV-Hannover 96_Apr 4 2010
+328276_Borussia M.Gladbach-Eintracht Frankfurt_Apr 9 2010
+328277_Hoffenheim-FC Cologne_Apr 10 2010
+328274_Hannover 96-Schalke 04_Apr 10 2010
+328275_Mainz 05-Borussia Dortmund_Apr 10 2010
+328270_Werder Bremen-Freiburg_Apr 10 2010
+328271_Hertha Berlin-VfB Stuttgart_Apr 10 2010
+328269_Bayer Leverkusen-Bayern Munich_Apr 10 2010
+328273_Bochum-Hamburger SV_Apr 11 2010
+328272_Nuernberg-Wolfsburg_Apr 11 2010
+328288_FC Cologne-Bochum_Apr 16 2010
+328279_Hamburger SV-Mainz 05_Apr 17 2010
+328283_VfB Stuttgart-Bayer Leverkusen_Apr 17 2010
+328284_Schalke 04-Borussia M.Gladbach_Apr 17 2010
+328285_Wolfsburg-Werder Bremen_Apr 17 2010
+328286_Freiburg-Nuernberg_Apr 17 2010
+328278_Bayern Munich-Hannover 96_Apr 17 2010
+328282_Borussia Dortmund-Hoffenheim_Apr 18 2010
+328287_Eintracht Frankfurt-Hertha Berlin_Apr 18 2010
+328294_Bochum-VfB Stuttgart_Apr 23 2010
+328295_Mainz 05-Eintracht Frankfurt_Apr 24 2010
+328296_Borussia M.Gladbach-Bayern Munich_Apr 24 2010
+328289_Bayer Leverkusen-Hannover 96_Apr 24 2010
+328291_Hertha Berlin-Schalke 04_Apr 24 2010
+328293_Nuernberg-Borussia Dortmund_Apr 24 2010
+328290_Werder Bremen-FC Cologne_Apr 24 2010
+328297_Hoffenheim-Hamburger SV_Apr 25 2010
+328292_Freiburg-Wolfsburg_Apr 25 2010
+328298_Bayern Munich-Bochum_May 1 2010
+328299_Bayer Leverkusen-Hertha Berlin_May 1 2010
+328300_Hamburger SV-Nuernberg_May 1 2010
+328301_Borussia Dortmund-Wolfsburg_May 1 2010
+328302_VfB Stuttgart-Mainz 05_May 1 2010
+328303_Schalke 04-Werder Bremen_May 1 2010
+328304_Eintracht Frankfurt-Hoffenheim_May 1 2010
+328305_FC Cologne-Freiburg_May 1 2010
+328306_Hannover 96-Borussia M.Gladbach_May 1 2010
+969088_Bayern Munich-Hamburger SV_Aug 14 2015
+969096_Bayer Leverkusen-Hoffenheim_Aug 15 2015
+969107_Augsburg-Hertha Berlin_Aug 15 2015
+969110_Werder Bremen-Schalke 04_Aug 15 2015
+969114_Mainz 05-Ingolstadt_Aug 15 2015
+969117_Darmstadt-Hannover 96_Aug 15 2015
+969092_Borussia Dortmund-Borussia M.Gladbach_Aug 15 2015
+969100_Wolfsburg-Eintracht Frankfurt_Aug 16 2015
+969103_VfB Stuttgart-FC Cologne_Aug 16 2015
+969577_Hertha Berlin-Werder Bremen_Aug 21 2015
+969578_Hoffenheim-Bayern Munich_Aug 22 2015
+969574_Eintracht Frankfurt-Augsburg_Aug 22 2015
+969575_FC Cologne-Wolfsburg_Aug 22 2015
+969576_Hannover 96-Bayer Leverkusen_Aug 22 2015
+969571_Schalke 04-Darmstadt_Aug 22 2015
+969573_Hamburger SV-VfB Stuttgart_Aug 22 2015
+969579_Ingolstadt-Borussia Dortmund_Aug 23 2015
+969572_Borussia M.Gladbach-Mainz 05_Aug 23 2015
+969582_Wolfsburg-Schalke 04_Aug 28 2015
+969583_VfB Stuttgart-Eintracht Frankfurt_Aug 29 2015
+969584_Augsburg-Ingolstadt_Aug 29 2015
+969586_FC Cologne-Hamburger SV_Aug 29 2015
+969587_Mainz 05-Hannover 96_Aug 29 2015
+969588_Darmstadt-Hoffenheim_Aug 29 2015
+969580_Bayern Munich-Bayer Leverkusen_Aug 29 2015
+969581_Borussia Dortmund-Hertha Berlin_Aug 30 2015
+969585_Werder Bremen-Borussia M.Gladbach_Aug 30 2015
+969593_Borussia M.Gladbach-Hamburger SV_Sep 11 2015
+969590_Bayern Munich-Augsburg_Sep 12 2015
+969595_Hannover 96-Borussia Dortmund_Sep 12 2015
+969596_Hertha Berlin-VfB Stuttgart_Sep 12 2015
+969592_Bayer Leverkusen-Darmstadt_Sep 12 2015
+969598_Ingolstadt-Wolfsburg_Sep 12 2015
+969594_Eintracht Frankfurt-FC Cologne_Sep 12 2015
+969597_Hoffenheim-Werder Bremen_Sep 13 2015
+969591_Schalke 04-Mainz 05_Sep 13 2015
+969606_Mainz 05-Hoffenheim_Sep 18 2015
+969607_Darmstadt-Bayern Munich_Sep 19 2015
+969604_Werder Bremen-Ingolstadt_Sep 19 2015
+969605_FC Cologne-Borussia M.Gladbach_Sep 19 2015
+969600_Wolfsburg-Hertha Berlin_Sep 19 2015
+969601_Hamburger SV-Eintracht Frankfurt_Sep 19 2015
+969602_VfB Stuttgart-Schalke 04_Sep 20 2015
+969603_Augsburg-Hannover 96_Sep 20 2015
+969599_Borussia Dortmund-Bayer Leverkusen_Sep 20 2015
+969611_Bayern Munich-Wolfsburg_Sep 22 2015
+969616_Hertha Berlin-FC Cologne_Sep 22 2015
+969618_Ingolstadt-Hamburger SV_Sep 22 2015
+969619_Darmstadt-Werder Bremen_Sep 22 2015
+969617_Hoffenheim-Borussia Dortmund_Sep 23 2015
+969612_Schalke 04-Eintracht Frankfurt_Sep 23 2015
+969613_Bayer Leverkusen-Mainz 05_Sep 23 2015
+969614_Borussia M.Gladbach-Augsburg_Sep 23 2015
+969615_Hannover 96-VfB Stuttgart_Sep 23 2015
+969627_FC Cologne-Ingolstadt_Sep 25 2015
+969628_Mainz 05-Bayern Munich_Sep 26 2015
+969621_Wolfsburg-Hannover 96_Sep 26 2015
+969623_VfB Stuttgart-Borussia M.Gladbach_Sep 26 2015
+969624_Augsburg-Hoffenheim_Sep 26 2015
+969625_Werder Bremen-Bayer Leverkusen_Sep 26 2015
+969622_Hamburger SV-Schalke 04_Sep 26 2015
+969626_Eintracht Frankfurt-Hertha Berlin_Sep 27 2015
+969620_Borussia Dortmund-Darmstadt_Sep 27 2015
+969638_Darmstadt-Mainz 05_Oct 2 2015
+969633_Borussia M.Gladbach-Wolfsburg_Oct 3 2015
+969634_Hannover 96-Werder Bremen_Oct 3 2015
+969635_Hertha Berlin-Hamburger SV_Oct 3 2015
+969636_Hoffenheim-VfB Stuttgart_Oct 3 2015
+969637_Ingolstadt-Eintracht Frankfurt_Oct 3 2015
+969631_Schalke 04-FC Cologne_Oct 4 2015
+969632_Bayer Leverkusen-Augsburg_Oct 4 2015
+969630_Bayern Munich-Borussia Dortmund_Oct 4 2015
+969647_Mainz 05-Borussia Dortmund_Oct 16 2015
+969639_Schalke 04-Hertha Berlin_Oct 17 2015
+969640_Wolfsburg-Hoffenheim_Oct 17 2015
+969641_Hamburger SV-Bayer Leverkusen_Oct 17 2015
+969643_Augsburg-Darmstadt_Oct 17 2015
+969644_Werder Bremen-Bayern Munich_Oct 17 2015
+969645_Eintracht Frankfurt-Borussia M.Gladbach_Oct 17 2015
+969646_FC Cologne-Hannover 96_Oct 18 2015
+969642_VfB Stuttgart-Ingolstadt_Oct 18 2015
+969653_Hoffenheim-Hamburger SV_Oct 23 2015
+969654_Mainz 05-Werder Bremen_Oct 24 2015
+969652_Hannover 96-Eintracht Frankfurt_Oct 24 2015
+969648_Bayern Munich-FC Cologne_Oct 24 2015
+969650_Bayer Leverkusen-VfB Stuttgart_Oct 24 2015
+969656_Darmstadt-Wolfsburg_Oct 24 2015
+969655_Ingolstadt-Hertha Berlin_Oct 24 2015
+969649_Borussia Dortmund-Augsburg_Oct 25 2015
+969651_Borussia M.Gladbach-Schalke 04_Oct 25 2015
+969663_Eintracht Frankfurt-Bayern Munich_Oct 30 2015
+969664_FC Cologne-Hoffenheim_Oct 31 2015
+969665_Hertha Berlin-Borussia M.Gladbach_Oct 31 2015
+969661_Augsburg-Mainz 05_Oct 31 2015
+969662_Werder Bremen-Borussia Dortmund_Oct 31 2015
+969657_Schalke 04-Ingolstadt_Oct 31 2015
+969658_Wolfsburg-Bayer Leverkusen_Oct 31 2015
+969660_VfB Stuttgart-Darmstadt_Nov 1 2015
+969659_Hamburger SV-Hannover 96_Nov 1 2015
+969671_Hannover 96-Hertha Berlin_Nov 6 2015
+969672_Hoffenheim-Eintracht Frankfurt_Nov 7 2015
+969673_Mainz 05-Wolfsburg_Nov 7 2015
+969666_Bayern Munich-VfB Stuttgart_Nov 7 2015
+969668_Bayer Leverkusen-FC Cologne_Nov 7 2015
+969669_Borussia M.Gladbach-Ingolstadt_Nov 7 2015
+969674_Darmstadt-Hamburger SV_Nov 7 2015
+969667_Borussia Dortmund-Schalke 04_Nov 8 2015
+969670_Augsburg-Werder Bremen_Nov 8 2015
+969678_Hamburger SV-Borussia Dortmund_Nov 20 2015
+969679_VfB Stuttgart-Augsburg_Nov 21 2015
+969680_Eintracht Frankfurt-Bayer Leverkusen_Nov 21 2015
+969681_FC Cologne-Mainz 05_Nov 21 2015
+969676_Borussia M.Gladbach-Hannover 96_Nov 21 2015
+969677_Wolfsburg-Werder Bremen_Nov 21 2015
+969675_Schalke 04-Bayern Munich_Nov 21 2015
+969682_Hertha Berlin-Hoffenheim_Nov 22 2015
+969683_Ingolstadt-Darmstadt_Nov 22 2015
+969693_Darmstadt-FC Cologne_Nov 27 2015
+969685_Bayern Munich-Hertha Berlin_Nov 28 2015
+969689_Werder Bremen-Hamburger SV_Nov 28 2015
+969690_Hannover 96-Ingolstadt_Nov 28 2015
+969691_Hoffenheim-Borussia M.Gladbach_Nov 28 2015
+969692_Mainz 05-Eintracht Frankfurt_Nov 28 2015
+969686_Borussia Dortmund-VfB Stuttgart_Nov 29 2015
+969687_Bayer Leverkusen-Schalke 04_Nov 29 2015
+969688_Augsburg-Wolfsburg_Nov 29 2015
+969694_Schalke 04-Hannover 96_Dec 4 2015
+969695_Borussia M.Gladbach-Bayern Munich_Dec 5 2015
+969697_Hamburger SV-Mainz 05_Dec 5 2015
+969700_FC Cologne-Augsburg_Dec 5 2015
+969701_Hertha Berlin-Bayer Leverkusen_Dec 5 2015
+969702_Ingolstadt-Hoffenheim_Dec 5 2015
+969696_Wolfsburg-Borussia Dortmund_Dec 5 2015
+969698_VfB Stuttgart-Werder Bremen_Dec 6 2015
+969699_Eintracht Frankfurt-Darmstadt_Dec 6 2015
+969710_Mainz 05-VfB Stuttgart_Dec 11 2015
+969711_Darmstadt-Hertha Berlin_Dec 12 2015
+969703_Bayern Munich-Ingolstadt_Dec 12 2015
+969706_Wolfsburg-Hamburger SV_Dec 12 2015
+969708_Werder Bremen-FC Cologne_Dec 12 2015
+969709_Hoffenheim-Hannover 96_Dec 12 2015
+969705_Bayer Leverkusen-Borussia M.Gladbach_Dec 12 2015
+969707_Augsburg-Schalke 04_Dec 13 2015
+969704_Borussia Dortmund-Eintracht Frankfurt_Dec 13 2015
+969712_Schalke 04-Hoffenheim_Dec 18 2015
+969714_Hamburger SV-Augsburg_Dec 19 2015
+969716_Eintracht Frankfurt-Werder Bremen_Dec 19 2015
+969717_FC Cologne-Borussia Dortmund_Dec 19 2015
+969718_Hannover 96-Bayern Munich_Dec 19 2015
+969720_Ingolstadt-Bayer Leverkusen_Dec 19 2015
+969715_VfB Stuttgart-Wolfsburg_Dec 19 2015
+969719_Hertha Berlin-Mainz 05_Dec 20 2015
+969713_Borussia M.Gladbach-Darmstadt_Dec 20 2015
+969723_Hamburger SV-Bayern Munich_Jan 22 2016
+969725_FC Cologne-VfB Stuttgart_Jan 23 2016
+969726_Hannover 96-Darmstadt_Jan 23 2016
+969727_Hertha Berlin-Augsburg_Jan 23 2016
+969728_Hoffenheim-Bayer Leverkusen_Jan 23 2016
+969729_Ingolstadt-Mainz 05_Jan 23 2016
+969722_Borussia M.Gladbach-Borussia Dortmund_Jan 23 2016
+969724_Eintracht Frankfurt-Wolfsburg_Jan 24 2016
+969721_Schalke 04-Werder Bremen_Jan 24 2016
+969737_Mainz 05-Borussia M.Gladbach_Jan 29 2016
+969738_Darmstadt-Schalke 04_Jan 30 2016
+969735_Augsburg-Eintracht Frankfurt_Jan 30 2016
+969736_Werder Bremen-Hertha Berlin_Jan 30 2016
+969731_Borussia Dortmund-Ingolstadt_Jan 30 2016
+969732_Bayer Leverkusen-Hannover 96_Jan 30 2016
+969734_VfB Stuttgart-Hamburger SV_Jan 30 2016
+969733_Wolfsburg-FC Cologne_Jan 31 2016
+969730_Bayern Munich-Hoffenheim_Jan 31 2016
+969741_Borussia M.Gladbach-Werder Bremen_Feb 5 2016
+969739_Schalke 04-Wolfsburg_Feb 6 2016
+969743_Eintracht Frankfurt-VfB Stuttgart_Feb 6 2016
+969744_Hannover 96-Mainz 05_Feb 6 2016
+969745_Hertha Berlin-Borussia Dortmund_Feb 6 2016
+969747_Ingolstadt-Augsburg_Feb 6 2016
+969740_Bayer Leverkusen-Bayern Munich_Feb 6 2016
+969742_Hamburger SV-FC Cologne_Feb 7 2016
+969746_Hoffenheim-Darmstadt_Feb 7 2016
+969755_Mainz 05-Schalke 04_Feb 12 2016
+969756_Darmstadt-Bayer Leverkusen_Feb 13 2016
+969748_Borussia Dortmund-Hannover 96_Feb 13 2016
+969749_Wolfsburg-Ingolstadt_Feb 13 2016
+969751_VfB Stuttgart-Hertha Berlin_Feb 13 2016
+969753_Werder Bremen-Hoffenheim_Feb 13 2016
+969754_FC Cologne-Eintracht Frankfurt_Feb 13 2016
+969750_Hamburger SV-Borussia M.Gladbach_Feb 14 2016
+969752_Augsburg-Bayern Munich_Feb 14 2016
+969761_Eintracht Frankfurt-Hamburger SV_Feb 19 2016
+969760_Borussia M.Gladbach-FC Cologne_Feb 20 2016
+969757_Bayern Munich-Darmstadt_Feb 20 2016
+969763_Hertha Berlin-Wolfsburg_Feb 20 2016
+969764_Hoffenheim-Mainz 05_Feb 20 2016
+969765_Ingolstadt-Werder Bremen_Feb 20 2016
+969759_Bayer Leverkusen-Borussia Dortmund_Feb 21 2016
+969762_Hannover 96-Augsburg_Feb 21 2016
+969758_Schalke 04-VfB Stuttgart_Feb 21 2016
+969773_FC Cologne-Hertha Berlin_Feb 26 2016
+969771_Werder Bremen-Darmstadt_Feb 27 2016
+969767_Wolfsburg-Bayern Munich_Feb 27 2016
+969768_Hamburger SV-Ingolstadt_Feb 27 2016
+969769_VfB Stuttgart-Hannover 96_Feb 27 2016
+969770_Augsburg-Borussia M.Gladbach_Feb 28 2016
+969766_Borussia Dortmund-Hoffenheim_Feb 28 2016
+969774_Mainz 05-Bayer Leverkusen_Feb 28 2016
+969772_Eintracht Frankfurt-Schalke 04_Feb 28 2016
+969779_Hannover 96-Wolfsburg_Mar 1 2016
+969782_Ingolstadt-FC Cologne_Mar 1 2016
+969783_Darmstadt-Borussia Dortmund_Mar 2 2016
+969780_Hertha Berlin-Eintracht Frankfurt_Mar 2 2016
+969781_Hoffenheim-Augsburg_Mar 2 2016
+969775_Bayern Munich-Mainz 05_Mar 2 2016
+969776_Schalke 04-Hamburger SV_Mar 2 2016
+969777_Bayer Leverkusen-Werder Bremen_Mar 2 2016
+969778_Borussia M.Gladbach-VfB Stuttgart_Mar 2 2016
+969785_Wolfsburg-Borussia M.Gladbach_Mar 5 2016
+969787_VfB Stuttgart-Hoffenheim_Mar 5 2016
+969788_Augsburg-Bayer Leverkusen_Mar 5 2016
+969789_Werder Bremen-Hannover 96_Mar 5 2016
+969790_Eintracht Frankfurt-Ingolstadt_Mar 5 2016
+969791_FC Cologne-Schalke 04_Mar 5 2016
+969784_Borussia Dortmund-Bayern Munich_Mar 5 2016
+969792_Mainz 05-Darmstadt_Mar 6 2016
+969786_Hamburger SV-Hertha Berlin_Mar 6 2016
+969798_Hertha Berlin-Schalke 04_Mar 11 2016
+969799_Hoffenheim-Wolfsburg_Mar 12 2016
+969800_Ingolstadt-VfB Stuttgart_Mar 12 2016
+969801_Darmstadt-Augsburg_Mar 12 2016
+969796_Borussia M.Gladbach-Eintracht Frankfurt_Mar 12 2016
+969797_Hannover 96-FC Cologne_Mar 12 2016
+969793_Bayern Munich-Werder Bremen_Mar 12 2016
+969795_Bayer Leverkusen-Hamburger SV_Mar 13 2016
+969794_Borussia Dortmund-Mainz 05_Mar 13 2016
+969802_Schalke 04-Borussia M.Gladbach_Mar 18 2016
+969803_Wolfsburg-Darmstadt_Mar 19 2016
+969804_Hamburger SV-Hoffenheim_Mar 19 2016
+969807_Werder Bremen-Mainz 05_Mar 19 2016
+969809_FC Cologne-Bayern Munich_Mar 19 2016
+969810_Hertha Berlin-Ingolstadt_Mar 19 2016
+969808_Eintracht Frankfurt-Hannover 96_Mar 19 2016
+969805_VfB Stuttgart-Bayer Leverkusen_Mar 20 2016
+969806_Augsburg-Borussia Dortmund_Mar 20 2016
+969813_Bayer Leverkusen-Wolfsburg_Apr 1 2016
+969811_Bayern Munich-Eintracht Frankfurt_Apr 2 2016
+969815_Hannover 96-Hamburger SV_Apr 2 2016
+969817_Mainz 05-Augsburg_Apr 2 2016
+969818_Ingolstadt-Schalke 04_Apr 2 2016
+969819_Darmstadt-VfB Stuttgart_Apr 2 2016
+969812_Borussia Dortmund-Werder Bremen_Apr 2 2016
+969814_Borussia M.Gladbach-Hertha Berlin_Apr 3 2016
+969816_Hoffenheim-FC Cologne_Apr 3 2016
+969827_Hertha Berlin-Hannover 96_Apr 8 2016
+969828_Ingolstadt-Borussia M.Gladbach_Apr 9 2016
+969822_Hamburger SV-Darmstadt_Apr 9 2016
+969823_VfB Stuttgart-Bayern Munich_Apr 9 2016
+969824_Werder Bremen-Augsburg_Apr 9 2016
+969825_Eintracht Frankfurt-Hoffenheim_Apr 9 2016
+969821_Wolfsburg-Mainz 05_Apr 9 2016
+969820_Schalke 04-Borussia Dortmund_Apr 10 2016
+969826_FC Cologne-Bayer Leverkusen_Apr 10 2016
+969894_Hannover 96-Borussia M.Gladbach_Apr 15 2016
+969895_Hoffenheim-Hertha Berlin_Apr 16 2016
+969891_Bayer Leverkusen-Eintracht Frankfurt_Apr 16 2016
+969892_Augsburg-VfB Stuttgart_Apr 16 2016
+969893_Werder Bremen-Wolfsburg_Apr 16 2016
+969897_Darmstadt-Ingolstadt_Apr 16 2016
+969889_Bayern Munich-Schalke 04_Apr 16 2016
+969890_Borussia Dortmund-Hamburger SV_Apr 17 2016
+969896_Mainz 05-FC Cologne_Apr 17 2016
+969902_Hamburger SV-Werder Bremen_Apr 22 2016
+969903_VfB Stuttgart-Borussia Dortmund_Apr 23 2016
+969905_FC Cologne-Darmstadt_Apr 23 2016
+969906_Hertha Berlin-Bayern Munich_Apr 23 2016
+969907_Ingolstadt-Hannover 96_Apr 23 2016
+969901_Wolfsburg-Augsburg_Apr 23 2016
+969899_Schalke 04-Bayer Leverkusen_Apr 23 2016
+969900_Borussia M.Gladbach-Hoffenheim_Apr 24 2016
+969904_Eintracht Frankfurt-Mainz 05_Apr 24 2016
+969912_Werder Bremen-VfB Stuttgart_May 2 2016
+969917_Schalke 04-Augsburg_May 7 2016
+969918_Borussia M.Gladbach-Bayer Leverkusen_May 7 2016
+969919_Hamburger SV-Wolfsburg_May 7 2016
+969920_VfB Stuttgart-Mainz 05_May 7 2016
+969921_Eintracht Frankfurt-Borussia Dortmund_May 7 2016
+969922_FC Cologne-Werder Bremen_May 7 2016
+969923_Hannover 96-Hoffenheim_May 7 2016
+969924_Hertha Berlin-Darmstadt_May 7 2016
+969925_Ingolstadt-Bayern Munich_May 7 2016
+969962_Augsburg-Hamburger SV_May 14 2016
+969963_Bayern Munich-Hannover 96_May 14 2016
+969964_Werder Bremen-Eintracht Frankfurt_May 14 2016
+969965_Borussia Dortmund-FC Cologne_May 14 2016
+969966_Hoffenheim-Schalke 04_May 14 2016
+969967_Bayer Leverkusen-Ingolstadt_May 14 2016
+969968_Mainz 05-Hertha Berlin_May 14 2016
+969969_Wolfsburg-VfB Stuttgart_May 14 2016
+969970_Darmstadt-Borussia M.Gladbach_May 14 2016
+969911_Augsburg-FC Cologne_Apr 29 2016
+969913_Hannover 96-Schalke 04_Apr 30 2016
+969914_Hoffenheim-Ingolstadt_Apr 30 2016
+969915_Mainz 05-Hamburger SV_Apr 30 2016
+969916_Darmstadt-Eintracht Frankfurt_Apr 30 2016
+969908_Bayern Munich-Borussia M.Gladbach_Apr 30 2016
+969909_Borussia Dortmund-Wolfsburg_Apr 30 2016
+969910_Bayer Leverkusen-Hertha Berlin_Apr 30 2016

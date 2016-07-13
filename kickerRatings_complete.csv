@@ -1,0 +1,497 @@
+rating,name,games,goals,team,position
+2.84,Manuel Neuer,34,0,Bayern Munich,Torwart
+-,Tom Starke,0,0,Bayern Munich,Torwart
+3.00,Sven Ulreich,1,0,Bayern Munich,Torwart
+3.00,David Alaba,30,1,Bayern Munich,Abwehr
+3.17,Holger Badstuber,7,0,Bayern Munich,Abwehr
+3.31,Medhi Benatia,14,1,Bayern Munich,Abwehr
+2.74,Jerome Boateng,19,0,Bayern Munich,Abwehr
+2.62,Javi Martinez,16,1,Bayern Munich,Abwehr
+3.68,Juan Bernat,16,0,Bayern Munich,Abwehr
+3.00,Philipp Lahm,26,1,Bayern Munich,Abwehr
+3.45,Rafinha,25,0,Bayern Munich,Abwehr
+4.00,Serdar Tasci,3,0,Bayern Munich,Abwehr
+2.95,Kingsley Coman,23,4,Bayern Munich,Mittelfeld
+2.85,Douglas Costa,27,4,Bayern Munich,Mittelfeld
+2.95,Mario G?tze,14,3,Bayern Munich,Mittelfeld
+-,Julian Green,0,0,Bayern Munich,Mittelfeld
+3.13,Joshua Kimmich,23,0,Bayern Munich,Mittelfeld
+2.72,Thomas M?ller,31,20,Bayern Munich,Mittelfeld
+2.28,Franck Ribery,13,2,Bayern Munich,Mittelfeld
+2.82,Arjen Robben,15,4,Bayern Munich,Mittelfeld
+3.00,Sebastian Rode,15,1,Bayern Munich,Mittelfeld
+3.13,Thiago,27,2,Bayern Munich,Mittelfeld
+2.98,Arturo Vidal,30,4,Bayern Munich,Mittelfeld
+2.72,Xabi Alonso,26,0,Bayern Munich,Mittelfeld
+2.63,Robert Lewandowski,32,30,Bayern Munich,Sturm
+-,Hendrik Bonmann,0,0,Dortmund,Torwart
+3.08,Roman B?rki,33,0,Dortmund,Torwart
+3.00,Roman Weidenfeller,1,0,Dortmund,Torwart
+3.17,Sven Bender,19,0,Dortmund,Abwehr
+3.50,Erik Durm,14,1,Dortmund,Abwehr
+3.18,Matthias Ginter,24,3,Dortmund,Abwehr
+2.86,Mats Hummels,30,2,Dortmund,Abwehr
+4.25,Joo-Ho Park,5,0,Dortmund,Abwehr
+3.22,Lukasz Piszczek,20,0,Dortmund,Abwehr
+3.22,Marcel Schmelzer,26,0,Dortmund,Abwehr
+3.17,Sokratis,25,1,Dortmund,Abwehr
+3.60,Neven Subotic,6,0,Dortmund,Abwehr
+2.95,Gonzalo Castro,25,3,Dortmund,Mittelfeld
+2.92,Ilkay G?ndogan,25,1,Dortmund,Mittelfeld
+3.30,Shinji Kagawa,29,9,Dortmund,Mittelfeld
+3.75,Moritz Leitner,9,0,Dortmund,Mittelfeld
+2.57,Henrikh Mkhitaryan,31,11,Dortmund,Mittelfeld
+3.75,Felix Passlack,3,0,Dortmund,Mittelfeld
+3.00,Christian Pulisic,9,2,Dortmund,Mittelfeld
+3.25,Marco Reus,26,12,Dortmund,Mittelfeld
+3.42,Nuri Sahin,9,0,Dortmund,Mittelfeld
+3.21,Julian Weigl,30,0,Dortmund,Mittelfeld
+3.11,Pierre-Emerick Aubameyang,31,25,Dortmund,Sturm
+3.22,Adrian Ramos,27,9,Dortmund,Sturm
+3.00,Dario Kresic,1,0,Leverkusen,Torwart
+2.80,Bernd Leno,33,0,Leverkusen,Torwart
+3.00,David Yelldell,1,0,Leverkusen,Torwart
+-,Lukas Boeder,0,0,Leverkusen,Abwehr
+3.83,Sebastian Boenisch,8,1,Leverkusen,Abwehr
+3.45,Roberto Hilbert,12,0,Leverkusen,Abwehr
+3.89,Tin Jedvaj,15,0,Leverkusen,Abwehr
+3.95,Kyriakos Papadopoulos,16,0,Leverkusen,Abwehr
+4.00,Andr? Ramalho,19,0,Leverkusen,Abwehr
+3.00,Jonathan Tah,29,0,Leverkusen,Abwehr
+3.12,?mer Toprak,19,1,Leverkusen,Abwehr
+3.76,Wendell,28,0,Leverkusen,Abwehr
+2.40,Charles Aranguiz,7,2,Leverkusen,Mittelfeld
+3.09,Lars Bender,11,1,Leverkusen,Mittelfeld
+3.98,Hakan Calhanoglu,31,3,Leverkusen,Mittelfeld
+3.83,Marlon Frey,9,0,Leverkusen,Mittelfeld
+2.90,Kevin Kampl,22,3,Leverkusen,Mittelfeld
+3.55,Christoph Kramer,28,0,Leverkusen,Mittelfeld
+3.00,Vladlen Yurchenko,7,1,Leverkusen,Mittelfeld
+3.14,Karim Bellarabi,33,6,Leverkusen,Sturm
+3.40,Julian Brandt,29,9,Leverkusen,Sturm
+3.19,Chicharito,28,17,Leverkusen,Sturm
+3.30,Stefan Kie?ling,30,5,Leverkusen,Sturm
+4.25,Robbie Kruse,9,0,Leverkusen,Sturm
+3.75,Admir Mehmedi,28,2,Leverkusen,Sturm
+-,Christofer Heimeroth,0,0,Gladbach,Torwart
+3.00,Tobias Sippel,2,0,Gladbach,Torwart
+2.98,Yann Sommer,32,0,Gladbach,Torwart
+3.10,Alvaro Dominguez,6,0,Gladbach,Abwehr
+4.33,Roel Brouwers,8,0,Gladbach,Abwehr
+3.10,Andreas Christensen,31,3,Gladbach,Abwehr
+3.69,Nico Elvedi,21,0,Gladbach,Abwehr
+3.64,Martin Hinteregger,10,0,Gladbach,Abwehr
+4.11,Tony Jantschke,12,0,Gladbach,Abwehr
+3.47,Julian Korb,17,1,Gladbach,Abwehr
+4.00,Marvin Schulz,8,0,Gladbach,Abwehr
+4.00,Martin Stranzl,4,0,Gladbach,Abwehr
+3.38,Oscar Wendt,30,3,Gladbach,Abwehr
+3.19,Mahmoud Dahoud,32,5,Gladbach,Mittelfeld
+3.35,Thorgan Hazard,29,4,Gladbach,Mittelfeld
+3.42,Patrick Herrmann,18,3,Gladbach,Mittelfeld
+3.25,Jonas Hofmann,8,0,Gladbach,Mittelfeld
+3.36,Fabian Johnson,26,6,Gladbach,Mittelfeld
+3.54,Havard Nordtveit,31,4,Gladbach,Mittelfeld
+-,Nico Schulz,1,0,Gladbach,Mittelfeld
+3.10,Lars Stindl,30,7,Gladbach,Mittelfeld
+3.40,Ibrahima Traor?,24,3,Gladbach,Mittelfeld
+3.02,Granit Xhaka,28,3,Gladbach,Mittelfeld
+2.63,Andr? Hahn,15,8,Gladbach,Sturm
+-,Branimir Hrgota,9,0,Gladbach,Sturm
+3.06,Raffael,31,13,Gladbach,Sturm
+-,Marlon Ritter,0,0,Gladbach,Sturm
+2.74,Ralf F?hrmann,34,0,Schalke,Torwart
+-,Fabian Giefer,0,0,Schalke,Torwart
+-,Michael Gspurning,0,0,Schalke,Torwart
+-,Alexander N?bel,1,0,Schalke,Torwart
+3.95,Dennis Aogo,23,0,Schalke,Abwehr
+-,Marvin Friedrich,2,0,Schalke,Abwehr
+3.60,Benedikt H?wedes,15,1,Schalke,Abwehr
+3.89,Junior Caicara,23,0,Schalke,Abwehr
+-,Thilo Kehrer,1,0,Schalke,Abwehr
+3.67,Sead Kolasinac,23,1,Schalke,Abwehr
+3.32,Joel Matip,34,3,Schalke,Abwehr
+-,Matija Nastasic,1,0,Schalke,Abwehr
+3.96,Roman Neust?dter,30,0,Schalke,Abwehr
+3.73,Sascha Riether,17,0,Schalke,Abwehr
+-,Atsuto Uchida,0,0,Schalke,Abwehr
+3.56,Younes Belhanda,15,2,Schalke,Mittelfeld
+3.57,Johannes Geis,28,2,Schalke,Mittelfeld
+3.30,Leon Goretzka,25,1,Schalke,Mittelfeld
+4.00,Marco H?ger,5,0,Schalke,Mittelfeld
+4.04,Pierre-Emile H?jbjerg,23,0,Schalke,Mittelfeld
+3.48,Max Meyer,32,5,Schalke,Mittelfeld
+3.60,Alessandro Sch?pf,13,3,Schalke,Mittelfeld
+3.55,Eric Maxim Choupo-Moting,28,6,Schalke,Sturm
+4.79,Franco di Santo,25,2,Schalke,Sturm
+3.74,Klaas Jan Huntelaar,31,12,Schalke,Sturm
+-,Sidney Sam,2,0,Schalke,Sturm
+3.02,Leroy San?,33,8,Schalke,Sturm
+-,Gianluca Curci,0,0,Mainz,Torwart
+-,Jannik Huth,0,0,Mainz,Torwart
+2.68,Loris Karius,34,0,Mainz,Torwart
+3.35,Leon Balogun,21,1,Mainz,Abwehr
+3.52,Stefan Bell,30,1,Mainz,Abwehr
+3.64,Pierre Bengtsson,16,0,Mainz,Abwehr
+3.78,Daniel Brosinski,30,1,Mainz,Abwehr
+3.45,Niko Bungert,21,0,Mainz,Abwehr
+3.35,Gaetan Bussmann,13,1,Mainz,Abwehr
+3.82,Giulio Donati,11,0,Mainz,Abwehr
+3.71,Alexander Hack,7,0,Mainz,Abwehr
+-,Henrique Sereno,0,0,Mainz,Abwehr
+3.15,Julian Baumgartlinger,31,2,Mainz,Mittelfeld
+3.45,Christian Clemens,28,5,Mainz,Mittelfeld
+3.35,Pablo De Blasis,26,4,Mainz,Mittelfeld
+3.50,Fabian Frei,18,0,Mainz,Mittelfeld
+3.52,Jairo,31,7,Mainz,Mittelfeld
+-,Philipp Klement,2,0,Mainz,Mittelfeld
+3.42,Danny Latza,27,0,Mainz,Mittelfeld
+3.20,Yunus Malli,34,11,Mainz,Mittelfeld
+3.67,Christoph Moritz,8,0,Mainz,Mittelfeld
+-,Devante Parker,1,0,Mainz,Mittelfeld
+3.75,Suat Serdar,12,0,Mainz,Mittelfeld
+-,Elkin Soto,1,0,Mainz,Mittelfeld
+-,Emil Berggreen,0,0,Mainz,Sturm
+3.13,Jhon Cordoba,22,5,Mainz,Sturm
+3.36,Yoshinori Muto,20,7,Mainz,Sturm
+2.67,Karim Onisiwo,9,1,Mainz,Sturm
+-,Sascha Burchert,0,0,hertha bsc,Torwart
+2.90,Rune Jarstein,29,0,hertha bsc,Torwart
+-,Nils-Jonathan K?rber,0,0,hertha bsc,Torwart
+3.17,Thomas Kraft,6,0,hertha bsc,Torwart
+3.30,John Anthony Brooks,23,1,hertha bsc,Abwehr
+3.25,Sebastian Langkamp,22,0,hertha bsc,Abwehr
+3.75,Maximilian Mittelst?dt,3,0,hertha bsc,Abwehr
+3.58,Peter Pekarik,12,0,hertha bsc,Abwehr
+3.35,Marvin Plattenhardt,33,2,hertha bsc,Abwehr
+3.56,Niklas Stark,21,2,hertha bsc,Abwehr
+4.50,Johannes van den Bergh,13,0,hertha bsc,Abwehr
+3.60,Alexander Baumjohann,24,1,hertha bsc,Mittelfeld
+5.00,Roy Beerens,2,0,hertha bsc,Mittelfeld
+3.86,Tolga Cigerci,18,0,hertha bsc,Mittelfeld
+3.45,Vladimir Darida,31,5,hertha bsc,Mittelfeld
+3.78,Genki Haraguchi,32,2,hertha bsc,Mittelfeld
+3.92,Jens Hegeler,16,0,hertha bsc,Mittelfeld
+-,Florian Kohls,1,0,hertha bsc,Mittelfeld
+3.40,Fabian Lustenberger,30,1,hertha bsc,Mittelfeld
+-,Ronny,1,0,hertha bsc,Mittelfeld
+3.15,Per Ciljan Skjelbred,31,0,hertha bsc,Mittelfeld
+4.25,Valentin Stocker,22,1,hertha bsc,Mittelfeld
+3.13,Mitchell Weiser,29,2,hertha bsc,Mittelfeld
+-,Sami Allagui,0,0,hertha bsc,Sturm
+3.44,Vedad Ibisevic,26,10,hertha bsc,Sturm
+3.37,Salomon Kalou,32,14,hertha bsc,Sturm
+-,Sinan Kurt,0,0,hertha bsc,Sturm
+4.25,Julian Schieber,6,0,hertha bsc,Sturm
+3.33,Diego Benaglio,21,0,Wolfsburg,Torwart
+2.85,Koen Casteels,13,0,Wolfsburg,Torwart
+-,Max Gr?n,0,0,Wolfsburg,Torwart
+-,Carlos Ascues,1,0,Wolfsburg,Abwehr
+3.65,Dante,23,1,Wolfsburg,Abwehr
+-,Felipe,0,0,Wolfsburg,Abwehr
+4.10,Sebastian Jung,11,0,Wolfsburg,Abwehr
+4.50,Robin Knoche,11,1,Wolfsburg,Abwehr
+3.47,Naldo,29,0,Wolfsburg,Abwehr
+3.63,Ricardo Rodriguez,24,2,Wolfsburg,Abwehr
+3.43,Marcel Sch?fer,21,1,Wolfsburg,Abwehr
+-,Moritz Sprenger,0,0,Wolfsburg,Abwehr
+3.61,Christian Tr?sch,29,0,Wolfsburg,Abwehr
+3.83,Vieirinha,26,1,Wolfsburg,Abwehr
+3.44,Maximilian Arnold,31,3,Wolfsburg,Mittelfeld
+-,Ismail Azzaoui,2,0,Wolfsburg,Mittelfeld
+3.81,Daniel Caligiuri,29,2,Wolfsburg,Mittelfeld
+3.64,Julian Draxler,21,5,Wolfsburg,Mittelfeld
+3.84,Josuha Guilavogui,30,2,Wolfsburg,Mittelfeld
+3.41,Luiz Gustavo,22,1,Wolfsburg,Mittelfeld
+3.95,Andr? Sch?rrle,29,9,Wolfsburg,Mittelfeld
+3.50,Paul Seguin,4,0,Wolfsburg,Mittelfeld
+4.17,Bruno Henrique,7,0,Wolfsburg,Sturm
+3.61,Bas Dost,22,8,Wolfsburg,Sturm
+3.88,Max Kruse,32,6,Wolfsburg,Sturm
+-,Sebastian Stolze,0,0,Wolfsburg,Sturm
+2.77,Timo Horn,33,0,Cologne,Torwart
+4.50,Thomas Kessler,1,0,Cologne,Torwart
+-,Daniel Mesenh?ler,0,0,Cologne,Torwart
+3.34,Jonas Hector,32,0,Cologne,Abwehr
+3.26,Dominique Heintz,33,2,Cologne,Abwehr
+3.23,Dominic Maroh,25,2,Cologne,Abwehr
+3.32,Mergim Mavraj,12,0,Cologne,Abwehr
+3.82,Filip Mladenovic,14,0,Cologne,Abwehr
+3.93,Pawel Olkowski,19,0,Cologne,Abwehr
+3.39,Frederik S?rensen,22,0,Cologne,Abwehr
+3.29,Leonardo Bittencourt,29,3,Cologne,Mittelfeld
+3.35,Yannick Gerhardt,29,2,Cologne,Mittelfeld
+3.50,Milos Jojic,15,2,Cologne,Mittelfeld
+3.53,Matthias Lehmann,32,0,Cologne,Mittelfeld
+3.41,Marcel Risse,33,3,Cologne,Mittelfeld
+3.25,Dusan Svento,7,1,Cologne,Mittelfeld
+3.50,Kevin Vogt,23,0,Cologne,Mittelfeld
+4.14,Philipp Hosiner,15,1,Cologne,Sturm
+3.32,Anthony Modeste,34,15,Cologne,Sturm
+3.68,Yuya Osako,25,1,Cologne,Sturm
+3.84,Simon Zoller,24,6,Cologne,Sturm
+2.65,Ren? Adler,24,0,Hamburg,Torwart
+3.35,Jaroslav Drobny,10,0,Hamburg,Torwart
+3.00,Andreas Hirzel,1,0,Hamburg,Torwart
+4.24,Cleber,23,1,Hamburg,Abwehr
+3.63,Dennis Diekmeier,22,0,Hamburg,Abwehr
+3.69,Johan Djourou,26,2,Hamburg,Abwehr
+-,Dren Feka,0,0,Hamburg,Abwehr
+-,Ashton-Phillip G?tz,0,0,Hamburg,Abwehr
+4.04,Gideon Jung,19,0,Hamburg,Abwehr
+4.20,Matthias Ostrzolek,32,0,Hamburg,Abwehr
+3.91,Gotoku Sakai,22,0,Hamburg,Abwehr
+3.58,Emir Spahic,26,0,Hamburg,Abwehr
+4.25,Nabil Bahoui,6,0,Hamburg,Mittelfeld
+3.96,Albin Ekdal,14,0,Hamburg,Mittelfeld
+3.74,Lewis Holtby,34,3,Hamburg,Mittelfeld
+3.97,Aaron Hunt,21,2,Hamburg,Mittelfeld
+4.10,Ivo Ilicevic,31,4,Hamburg,Mittelfeld
+3.93,Gojko Kacar,19,1,Hamburg,Mittelfeld
+3.61,Nicolai M?ller,29,9,Hamburg,Mittelfeld
+-,Batuhan Altintas,1,0,Hamburg,Sturm
+4.70,Josip Drmic,6,1,Hamburg,Sturm
+4.10,Michael Gregoritsch,25,5,Hamburg,Sturm
+3.93,Pierre-Michel Lasogga,30,8,Hamburg,Sturm
+-,Philipp M?ller,0,0,Hamburg,Sturm
+5.00,Ivica Olic,9,0,Hamburg,Sturm
+3.93,Artjoms Rudnevs,11,2,Hamburg,Sturm
+4.21,Sven Schipplock,20,0,Hamburg,Sturm
+2.83,?rjan Nyland,6,0,Ingolstadt,Torwart
+-,Christian Ortag,0,0,Ingolstadt,Torwart
+2.93,Ramazan ?zcan,28,0,Ingolstadt,Torwart
+3.65,Romain Bregerie,22,0,Ingolstadt,Abwehr
+3.33,Danny da Costa,20,0,Ingolstadt,Abwehr
+4.00,Danilo,1,0,Ingolstadt,Abwehr
+4.25,Konstantin Engel,4,0,Ingolstadt,Abwehr
+3.10,Benjamin H?bner,30,1,Ingolstadt,Abwehr
+3.53,Tobias Levels,16,1,Ingolstadt,Abwehr
+2.97,Marvin Matip,33,2,Ingolstadt,Abwehr
+3.57,Markus Suttner,18,0,Ingolstadt,Abwehr
+3.79,Robert Bauer,24,1,Ingolstadt,Mittelfeld
+3.58,Max Christiansen,19,0,Ingolstadt,Mittelfeld
+3.83,Almog Cohen,20,0,Ingolstadt,Mittelfeld
+3.34,Pascal Gro?,32,1,Ingolstadt,Mittelfeld
+3.63,Alfredo Morales,24,1,Ingolstadt,Mittelfeld
+5.00,Maurice Multhaup,4,0,Ingolstadt,Mittelfeld
+3.16,Roger,29,1,Ingolstadt,Mittelfeld
+3.65,Moritz Hartmann,30,12,Ingolstadt,Sturm
+3.80,Lukas Hinterseer,28,6,Ingolstadt,Sturm
+4.67,Elias Kachunga,10,0,Ingolstadt,Sturm
+3.66,Mathew Leckie,32,3,Ingolstadt,Sturm
+3.80,Stefan Lex,21,2,Ingolstadt,Sturm
+3.47,Dario Lezcano,17,2,Ingolstadt,Sturm
+-,Ioannis Gelios,0,0,Augsburg,Torwart
+2.67,Marwin Hitz,33,0,Augsburg,Torwart
+3.00,Alexander Manninger,2,0,Augsburg,Torwart
+-,Yannik Oettl,0,0,Augsburg,Torwart
+3.75,Jan-Ingwer Callsen-Bracker,10,1,Augsburg,Abwehr
+-,Raphael Framberger,0,0,Augsburg,Abwehr
+3.86,Jeffrey Gouweleeuw,11,0,Augsburg,Abwehr
+3.75,Jeong-Ho Hong,23,2,Augsburg,Abwehr
+4.25,Christoph Janker,12,0,Augsburg,Abwehr
+3.56,Ragnar Klavan,31,0,Augsburg,Abwehr
+-,Bastian Kurz,0,0,Augsburg,Abwehr
+3.81,Philipp Max,26,0,Augsburg,Abwehr
+4.25,Daniel Opare,4,0,Augsburg,Abwehr
+-,Tim Rieder,0,0,Augsburg,Abwehr
+4.25,Konstantinos Stafylidis,11,1,Augsburg,Abwehr
+-,Maik Uhde,0,0,Augsburg,Abwehr
+3.30,Paul Verhaegh,25,6,Augsburg,Abwehr
+3.93,Halil Altintop,19,1,Augsburg,Mittelfeld
+3.54,Daniel Baier,28,1,Augsburg,Mittelfeld
+3.29,Caiuby,26,4,Augsburg,Mittelfeld
+-,Arif Ekin,0,0,Augsburg,Mittelfeld
+3.67,Alexander Esswein,29,3,Augsburg,Mittelfeld
+3.70,Markus Feulner,19,1,Augsburg,Mittelfeld
+3.88,Dominik Kohr,31,0,Augsburg,Mittelfeld
+3.56,Ja-Cheol Koo,27,8,Augsburg,Mittelfeld
+4.25,Jan Moravek,11,1,Augsburg,Mittelfeld
+-,Shawn Parker,0,0,Augsburg,Mittelfeld
+-,Max Reinthaler,0,0,Augsburg,Mittelfeld
+-,Marco Schuster,0,0,Augsburg,Mittelfeld
+-,Erik Thommy,0,0,Augsburg,Mittelfeld
+4.67,Piotr Trochowski,6,0,Augsburg,Mittelfeld
+4.13,Tobias Werner,13,0,Augsburg,Mittelfeld
+4.00,Albian Ajeti,1,0,Augsburg,Sturm
+3.63,Raul Bobadilla,27,4,Augsburg,Sturm
+3.08,Alfred Finnbogason,14,7,Augsburg,Sturm
+4.06,Dong-Won Ji,21,0,Augsburg,Sturm
+-,Raif Husic,0,0,Bremen,Torwart
+-,Eric Oelschl?gel,0,0,Bremen,Torwart
+-,Gerhard Tremmel,0,0,Bremen,Torwart
+3.09,Felix Wiedwald,34,0,Bremen,Torwart
+-,Raphael Wolf,0,0,Bremen,Torwart
+-,Michael Zetterer,0,0,Bremen,Torwart
+-,Marnon Busch,0,0,Bremen,Abwehr
+3.64,Papy Djilobodji,14,2,Bremen,Abwehr
+4.30,Alejandro Galvez,21,1,Bremen,Abwehr
+3.79,Santiago Garcia,29,0,Bremen,Abwehr
+3.93,Ulisses Garcia,11,0,Bremen,Abwehr
+3.86,Theodor Gebre Selassie,33,1,Bremen,Abwehr
+-,Oliver H?sing,1,0,Bremen,Abwehr
+-,Mateo Pavlovic,0,0,Bremen,Abwehr
+4.00,Janek Sternberg,9,0,Bremen,Abwehr
+5.00,Milos Veljkovic,3,0,Bremen,Abwehr
+3.33,Jannik Vestergaard,33,2,Bremen,Abwehr
+5.25,Luca-Milan Zander,2,0,Bremen,Abwehr
+3.75,Philipp Bargfrede,14,0,Bremen,Mittelfeld
+3.65,Fin Bartels,30,8,Bremen,Mittelfeld
+4.50,Maximilian Eggestein,7,0,Bremen,Mittelfeld
+3.29,Clemens Fritz,29,1,Bremen,Mittelfeld
+5.50,Lukas Fr?de,8,0,Bremen,Mittelfeld
+3.75,Florian Grillitsch,25,1,Bremen,Mittelfeld
+3.30,Zlatko Junuzovic,30,4,Bremen,Mittelfeld
+4.50,Laszlo Kleinheisler,6,0,Bremen,Mittelfeld
+4.20,Levin ?ztunali,25,1,Bremen,Mittelfeld
+-,Julian von Haacke,0,0,Bremen,Mittelfeld
+3.50,Sambou Yatabar?,8,1,Bremen,Mittelfeld
+-,?zkan Yildirim,1,0,Bremen,Mittelfeld
+3.67,Aron Johannsson,6,2,Bremen,Sturm
+4.50,Melvyn Lorenzen,9,0,Bremen,Sturm
+3.43,Claudio Pizarro,28,14,Bremen,Sturm
+3.66,Anthony Ujah,32,11,Bremen,Sturm
+2.98,Christian Mathenia,33,0,Darmstadt,Torwart
+-,Patrick Platins,0,0,Darmstadt,Torwart
+3.00,Lukasz Zaluska,1,0,Darmstadt,Torwart
+3.54,Luca Caldirola,34,0,Darmstadt,Abwehr
+3.85,Gy?rgy Garics,21,0,Darmstadt,Abwehr
+-,Benjamin Gorka,4,0,Darmstadt,Abwehr
+3.79,Fabian Holland,18,0,Darmstadt,Abwehr
+4.15,Junior Diaz,12,0,Darmstadt,Abwehr
+3.27,Slobodan Rajkovic,15,1,Darmstadt,Abwehr
+2.50,Sandro Sirigu,6,0,Darmstadt,Abwehr
+-,Michael Stegmayer,0,0,Darmstadt,Abwehr
+3.14,Aytac Sulu,33,7,Darmstadt,Abwehr
+-,Noel Wembacher,0,0,Darmstadt,Abwehr
+-,Jan Finger,0,0,Darmstadt,Mittelfeld
+3.64,Jerome Gondorf,33,3,Darmstadt,Mittelfeld
+3.52,Marcel Heller,33,6,Darmstadt,Mittelfeld
+-,Milan Ivana,1,0,Darmstadt,Mittelfeld
+3.88,Florian Jungwirth,19,0,Darmstadt,Mittelfeld
+-,Ali Kazimi,0,0,Darmstadt,Mittelfeld
+3.97,Tobias Kempe,31,0,Darmstadt,Mittelfeld
+3.65,Peter Niemeyer,31,2,Darmstadt,Mittelfeld
+3.72,Konstantin Rausch,31,2,Darmstadt,Mittelfeld
+3.76,Jan Rosenthal,23,0,Darmstadt,Mittelfeld
+-,Yannick Stark,0,0,Darmstadt,Mittelfeld
+-,Nick Volk,0,0,Darmstadt,Mittelfeld
+3.82,Mario Vrancic,22,2,Darmstadt,Mittelfeld
+5.00,Felix Platte,11,0,Darmstadt,Sturm
+3.75,Marco Sailer,14,1,Darmstadt,Sturm
+4.42,Dominik Stroh-Engel,15,0,Darmstadt,Sturm
+3.13,Sandro Wagner,32,14,Darmstadt,Sturm
+2.67,Oliver Baumann,33,0,Hoffenheim,Torwart
+4.00,Jens Grahl,1,0,Hoffenheim,Torwart
+-,Alexander Stolz,0,0,Hoffenheim,Torwart
+3.78,Ermin Bicakcic,21,0,Hoffenheim,Abwehr
+-,Benedikt Gimber,0,0,Hoffenheim,Abwehr
+3.68,Pavel Kaderabek,28,0,Hoffenheim,Abwehr
+4.10,Jin-Su Kim,15,0,Hoffenheim,Abwehr
+3.95,Fabian Sch?r,24,1,Hoffenheim,Abwehr
+3.54,Tobias Strobl,26,0,Hoffenheim,Abwehr
+3.14,Niklas S?le,33,0,Hoffenheim,Abwehr
+3.91,Jeremy Toljan,18,1,Hoffenheim,Abwehr
+3.16,Nadiem Amiri,25,4,Hoffenheim,Mittelfeld
+4.00,Tarik Elyounoussi,6,0,Hoffenheim,Mittelfeld
+4.25,Jiloan Hamad,7,1,Hoffenheim,Mittelfeld
+-,Kai Herdling,0,0,Hoffenheim,Mittelfeld
+3.81,Philipp Ochs,13,0,Hoffenheim,Mittelfeld
+3.76,Eugen Polanski,27,1,Hoffenheim,Mittelfeld
+3.93,Sebastian Rudy,24,2,Hoffenheim,Mittelfeld
+3.94,Jonathan Schmid,23,4,Hoffenheim,Mittelfeld
+3.59,Pirmin Schwegler,21,0,Hoffenheim,Mittelfeld
+3.84,Eduardo Vargas,24,2,Hoffenheim,Mittelfeld
+3.50,Steven Zuber,12,2,Hoffenheim,Mittelfeld
+-,Joelinton,1,0,Hoffenheim,Sturm
+2.85,Andrej Kramaric,15,5,Hoffenheim,Sturm
+4.29,Kevin Kuranyi,14,0,Hoffenheim,Sturm
+3.56,Mark Uth,25,8,Hoffenheim,Sturm
+3.33,Kevin Volland,33,8,Hoffenheim,Sturm
+-,Emil Balayev,0,0,Frankfurt,Torwart
+2.91,Lukas Hradecky,34,0,Frankfurt,Torwart
+-,Heinz Lindner,0,0,Frankfurt,Torwart
+-,Yannick Zummack,0,0,Frankfurt,Torwart
+3.52,David Abraham,31,0,Frankfurt,Abwehr
+-,Anderson,0,0,Frankfurt,Abwehr
+5.00,Kaan Ayhan,2,0,Frankfurt,Abwehr
+4.23,Timothy Chandler,12,0,Frankfurt,Abwehr
+4.28,Constant Djakpa,12,0,Frankfurt,Abwehr
+3.80,Aleksandar Ignjovski,18,0,Frankfurt,Abwehr
+3.83,Bastian Oczipka,30,0,Frankfurt,Abwehr
+3.78,Yanni Reg?sel,10,0,Frankfurt,Abwehr
+3.48,Marco Russ,28,3,Frankfurt,Abwehr
+3.48,Carlos Zambrano,24,0,Frankfurt,Abwehr
+3.98,Stefan Aigner,31,3,Frankfurt,Mittelfeld
+3.88,?nis Ben-Hatira,9,1,Frankfurt,Mittelfeld
+3.90,Marco Fabian,11,0,Frankfurt,Mittelfeld
+4.25,Johannes Flum,5,0,Frankfurt,Mittelfeld
+4.30,Mijat Gacinovic,7,0,Frankfurt,Mittelfeld
+3.89,Makoto Hasebe,32,1,Frankfurt,Mittelfeld
+4.27,Szabolcs Huszti,15,1,Frankfurt,Mittelfeld
+4.25,Sonny Kittel,8,0,Frankfurt,Mittelfeld
+4.21,Slobodan Medojevic,14,1,Frankfurt,Mittelfeld
+3.58,Alexander Meier,19,12,Frankfurt,Mittelfeld
+3.70,Marc Stendera,26,2,Frankfurt,Mittelfeld
+-,Enis Bunjaki,0,0,Frankfurt,Sturm
+3.96,Luc Castaignos,19,4,Frankfurt,Sturm
+4.08,Haris Seferovic,29,3,Frankfurt,Sturm
+3.67,Luca Waldschmidt,12,0,Frankfurt,Sturm
+2.50,Mitchell Langerak,2,0,Stuttgart,Torwart
+3.25,Przemyslaw Tyton,30,0,Stuttgart,Torwart
+5.25,Federico Barba,2,1,Stuttgart,Abwehr
+4.56,Timo Baumgartl,19,0,Stuttgart,Abwehr
+4.00,Philip Heise,5,0,Stuttgart,Abwehr
+3.88,Emiliano Insua,33,0,Stuttgart,Abwehr
+4.13,Florian Klein,22,0,Stuttgart,Abwehr
+3.56,Georg Niedermeier,18,3,Stuttgart,Abwehr
+4.04,Daniel Schwaab,29,0,Stuttgart,Abwehr
+4.26,Toni Sunjic,19,1,Stuttgart,Abwehr
+3.43,Daniel Didavi,31,13,Stuttgart,Mittelfeld
+4.00,Arianit Ferati,3,0,Stuttgart,Mittelfeld
+3.38,Christian Gentner,29,5,Stuttgart,Mittelfeld
+3.80,Kevin Gro?kreutz,10,0,Stuttgart,Mittelfeld
+3.47,Filip Kostic,30,5,Stuttgart,Mittelfeld
+3.75,Alexandru Maxim,25,1,Stuttgart,Mittelfeld
+-,Mart Ristl,3,0,Stuttgart,Mittelfeld
+3.37,Lukas Rupp,29,5,Stuttgart,Mittelfeld
+3.59,Serey Di?,23,1,Stuttgart,Mittelfeld
+-,Marvin Wanitzek,1,0,Stuttgart,Mittelfeld
+3.64,Daniel Ginczek,7,3,Stuttgart,Sturm
+4.17,Martin Harnik,19,2,Stuttgart,Sturm
+-,Jerome Kiesewetter,0,0,Stuttgart,Sturm
+5.00,Jan Kliment,8,1,Stuttgart,Sturm
+4.71,Artem Kravets,15,1,Stuttgart,Sturm
+5.50,Borys Tashchy,9,0,Stuttgart,Sturm
+-,Timo K?nigsmann,0,0,Hannover,Torwart
+-,Samuel Radlinger,0,0,Hannover,Torwart
+-,Philipp Tschauner,0,0,Hannover,Torwart
+2.71,Ron-Robert Zieler,34,0,Hannover,Torwart
+4.17,Miiko Albornoz,23,0,Hannover,Abwehr
+3.50,Waldemar Anton,8,1,Hannover,Abwehr
+6.00,Felipe,8,0,Hannover,Abwehr
+3.86,Andre Hoffmann,8,0,Hannover,Abwehr
+3.90,Alexander Milosevic,10,0,Hannover,Abwehr
+-,Vladimir Rankovic,0,0,Hannover,Abwehr
+4.06,Hiroki Sakai,26,1,Hannover,Abwehr
+3.88,Christian Schulz,25,2,Hannover,Abwehr
+4.34,Oliver Sorg,20,0,Hannover,Abwehr
+4.12,Leon Andreasen,15,2,Hannover,Mittelfeld
+3.72,Uffe Bech,11,1,Hannover,Mittelfeld
+-,Tim Dier?en,1,0,Hannover,Mittelfeld
+4.06,Iver Fossum,9,0,Hannover,Mittelfeld
+4.28,Ceyhun G?lselam,13,0,Hannover,Mittelfeld
+3.33,Hiroshi Kiyotake,21,5,Hannover,Mittelfeld
+4.35,Felix Klaus,18,1,Hannover,Mittelfeld
+4.50,Edgar Prib,20,0,Hannover,Mittelfeld
+3.45,Salif San?,31,2,Hannover,Mittelfeld
+3.77,Manuel Schmiedebach,22,1,Hannover,Mittelfeld
+4.50,Valmir Sulejmani,4,0,Hannover,Mittelfeld
+5.33,Hotaru Yamaguchi,6,0,Hannover,Mittelfeld
+4.40,Charlison Benschop,9,1,Hannover,Sturm
+4.57,Hugo Almeida,7,1,Hannover,Sturm
+4.05,Kenan Karaman,23,3,Hannover,Sturm
+4.10,Allan Saint-Maximin,16,1,Hannover,Sturm
+4.00,Artur Sobiech,25,7,Hannover,Sturm
+4.81,Adam Szalai,12,0,Hannover,Sturm
+5.00,Marius Wolf,2,0,Hannover,Sturm

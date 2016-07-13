@@ -43,3 +43,5 @@ def search_dicts(inList, key, value, returnIndex = False):
     else:
         return [entry for entry in inList if entry[key] == value]
     
+def search_entry(column, term, data):
+    return [dic for dic in data if dic[column] == term]

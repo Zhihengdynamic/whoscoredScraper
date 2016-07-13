@@ -13,11 +13,15 @@ from selenium import webdriver
 
 # change wd
 import os
-with open('python-wd.txt', 'r') as f:
-    wdPath = f.read()
-f.closed
 
-os.chdir(wdPath)
+try:
+    with open('python-wd.txt', 'r') as f:
+        wdPath = f.read()
+    f.closed
+    
+    os.chdir(wdPath)
+except:
+    pass
 
 # import local functions
 from file_helpers import write_to_disk
@@ -30,25 +34,50 @@ from scraper_helpers import extract_teams
 
 
 # Main
-seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336',
+seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/5870',
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336',
             'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/3863',
             'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/3424',
             'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2949',
             'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/2520',
-            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/1903']
-#seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/4336']
+            'https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/1903',
+            ]
+seed_urls = ['https://www.whoscored.com/Regions/81/Tournaments/3/Seasons/5870']
             
-            
-path = 'player_stats.csv'
-phantomscrape = True
+ending = '_complete'
+path = 'player_stats' + ending + '.csv'
+
+scrapedPath = 'scrapedMatchIdInfo' + ending +'.txt'
+scrapedDateFile = 'scrapedMatchIdInfo' + ending
+
+phantomscrape = False
 phantomscrapeTables = True
 allMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
              'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 
-matchIdTeamLink = []
+matchIdTeamLink = open_from_disk('matchIdTeamLink' + ending)
+matchIdsSaved = list(set(open_from_disk('matchIdsSaved' + ending)))
 
-#sync_lists('scrapedDates', 'matchIdsSaved')
+# get all saved match (saved in payer_stats.csv file) ids
+teamLinkIds = [entry.split('_')[0] for entry in matchIdTeamLink]
+
+missingDates = []
+for match in matchIdsSaved:
+    curID = match.split('-')[0]
+    if curID not in teamLinkIds:
+        missingDates.append(match.split('-')[1])
+        
+missingDates = list(set(missingDates))
+# check file
+checkIds = open_from_disk(scrapedDateFile)
+# remove missing dates
+try:
+    [checkIds.remove(date) for date in missingDates]
+except:
+    pass
+write_to_disk(checkIds, scrapedDateFile)
+
 
 for seed_url in seed_urls:
     startseason = time.time()
@@ -73,8 +102,8 @@ for seed_url in seed_urls:
     
     
     years = [firstyear, str(int(firstyear) + 1)]
-    if os.path.isfile('scrapedDates.txt'):
-        scrapedDays = open_from_disk("scrapedDates")
+    if os.path.isfile(scrapedPath):
+        scrapedDays = open_from_disk(scrapedDateFile)
     else:
         scrapedDays = []
     if len(scrapedDays) > 0:
@@ -111,10 +140,10 @@ for seed_url in seed_urls:
                     print 'Not correct month!'
                     time.sleep(4)
             for day in selectables:
-                scrapedDays = open_from_disk("scrapedDates")
+                scrapedDays = open_from_disk(scrapedDateFile)
                 if month + ' ' + day.text + ' ' + year in scrapedDays:
                     continue
-                write_to_disk(scrapedDays, 'scrapedDates')
+                write_to_disk(scrapedDays, scrapedDateFile)
                 browser.find_element_by_xpath("//table[@class='days']//tbody//tr//td[@data-value=" + day.attrs["data-value"] + "]").click()
                 time.sleep(3)
                 contentDay = browser.page_source
@@ -126,30 +155,39 @@ for seed_url in seed_urls:
                 
                 fixTable = soupDay.findAll("table", {"id": "tournament-fixture"})[0].findAll('tr')
                                 
-                
                 scraper = False
                 counter = 0
                 matchdayIds = []
                 for entry in fixTable:
                     if entry.attrs['class'][0] == 'rowgroupheader':
-                        scrapedDays = open_from_disk("scrapedDates")
+                        scrapedDays = open_from_disk(scrapedDateFile)
                         if entry.text.split(', ')[1] not in scrapedDays:
                             currentDate = entry.text.split(', ')[1]
                             scrapedDays.append(currentDate)
                             print 'Day ' + entry.text + ' has been scraped.'
                             scraper = True
-                            write_to_disk(scrapedDays, 'scrapedDates')
+                            write_to_disk(scrapedDays, scrapedDateFile)
                         else:
                             scraper = False
                     else:
                         if scraper:
-                            matchIdDate = [get_match_ids(entry)[0] + '-' + currentDate]
-                            matchIdTeam = [get_match_ids(entry)[0] + '_' +
-                                extract_teams(entry)[0] + '-' + extract_teams(entry)[1] 
-                                + '_' + currentDate]
-
-                            matchIdTeamLink.extend(matchIdTeam)
-                            matchdayIds.extend(matchIdDate)
+                            try:
+                                report = entry.find("td", {"class": "toolbar right"}).find('a').contents[0]
+                            except:
+                                report = ''
+                            if report == 'Match Report':
+                                matchIdDate = [get_match_ids(entry)[0] + '-' + currentDate]
+                                matchIdTeam = [get_match_ids(entry)[0] + '_' +
+                                    extract_teams(entry)[0] + '-' + extract_teams(entry)[1] 
+                                    + '_' + currentDate]
+    
+                                matchIdTeamLink.extend(matchIdTeam)
+                                matchdayIds.extend(matchIdDate)
                     #matchIds.extend(get_match_ids(entry))
+                                
+    endseason = time.time()
+    print 'Match Id check of season '+ years[0] + '-' + years[1] +' took ' + str(round((endseason - startseason) / 60, 2)) + " minutes."
+    browser.quit()
+    write_to_disk(matchIdTeamLink, 'matchIdTeamLink' + ending)
                             
-write_to_disk(matchIdTeamLink, 'matchIdTeamLink')               
+              
